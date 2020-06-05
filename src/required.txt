@@ -1,0 +1,3 @@
+npm i redux react-redux
+
+npm i redux-logger redux-thunk
