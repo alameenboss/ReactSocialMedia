@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Header from './component/Shared/Header/Header';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import Home from './component/Home/Home';
 import Companies from './component/Companies/Companies';
 import CompanyProfile from './component/CompanyProfile/CompanyProfile';

@@ -21,7 +21,7 @@ const fnRenderMessageList = function (messages) {
 
 const Messages = (props) => {
     const messages = useSelector(state => state.messages);
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
    
 
     return (
