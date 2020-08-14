@@ -35,8 +35,8 @@ export default function Home() {
                             <div className="col-lg-3 pd-right-none no-pd">
                                 <div className="right-sidebar">
                                     <HomeWidgetAbout />
-                                    <HomeWidgetJobs />
-                                    <HomeWidgetJobs />
+                                    <HomeWidgetJobs title ="Top Jobs"/>
+                                    <HomeWidgetJobs title ="Most Viewed This Week"/>
                                     <HomeSuggestions />
                                 </div>
                             </div>

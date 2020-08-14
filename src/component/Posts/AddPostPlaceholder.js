@@ -1,9 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+const postTopbarStyle = {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+};
+
 const AddPostPlaceholder = () => {
     return (
-        <div className="post-topbar">
+        <div className="post-topbar" style={postTopbarStyle}> 
             <div className="user-picy">
                 <img src="assets/images/resources/user-pic.png" alt="" />
             </div>
