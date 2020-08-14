@@ -22,13 +22,14 @@ function App() {
         <div className="App">
           <Switch>
               <Route exact path="/Home" component={Home}></Route>
-              <Route exact path="/Companies" component={Example}></Route>
+              <Route exact path="/Companies" component={Companies}></Route>
               <Route exact path="/CompanyProfile" component={CompanyProfile}></Route>
               <Route exact path="/Project" component={Project}></Route>
               <Route exact path="/Profiles" component={Profiles}></Route>
               <Route exact path="/UserProfile" component={UserProfile}></Route>
               <Route exact path="/MyProfileFeed" component={MyProfileFeed}></Route>
               <Route exact path="/Jobs" component={Jobs}></Route>
+              <Route exact path="/Example" component={Example}></Route>
               <Route exact path="/" component={Home}></Route>
           </Switch>
           
