@@ -1,28 +1,30 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useSelector } from 'react-redux';
 
 const HomeUserData = () => {
+    const myInfo = useSelector(state => state.myInfo);
     return (
         <div className="user-data full-width">
             <div className="user-profile">
                 <div className="username-dt">
                     <div className="usr-pic">
-                        <img src="assets/images/resources/user-pic.png" alt="" />
+                        <img src={myInfo.img} alt="" />
                     </div>
                 </div>
                 <div className="user-specs">
-                    <h3>John Doe</h3>
-                    <span>Graphic Designer at Self Employed</span>
+                    <h3>{myInfo.name}</h3>
+                    <span>{myInfo.work}</span>
                 </div>
             </div>
             <ul className="user-fw-status">
                 <li>
                     <h4>Following</h4>
-                    <span>34</span>
+                    <span>{myInfo.following}</span>
                 </li>
                 <li>
                     <h4>Followers</h4>
-                    <span>155</span>
+                    <span>{myInfo.followers}</span>
                 </li>
                 <li>
                     <Link to="/my-profile"  title="">View Profile</Link>

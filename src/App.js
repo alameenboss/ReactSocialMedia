@@ -12,6 +12,7 @@ import UserProfile from './component/UserProfile/UserProfile';
 import MyProfileFeed from './component/MyProfileFeed/MyProfileFeed';
 import Jobs from './component/Jobs/Jobs';
 import Example from './component/Example/Example';
+import ChatFooter from './component/Shared/ChatFooter';
 
 function App() {
 
@@ -32,7 +33,7 @@ function App() {
               <Route exact path="/Example" component={Example}></Route>
               <Route exact path="/" component={Home}></Route>
           </Switch>
-          
+          <ChatFooter></ChatFooter>
         </div>
       </div>
     </Router>
