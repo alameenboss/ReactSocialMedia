@@ -9,6 +9,7 @@ import postReducer from './postReducer';
 import usersReducer from './usersReducer';
 import jobsReducer from './jobsReducer';
 import myInfoReducer from './myInfoReducer';
+import companiesReducer from './companiesReducer';
 
 const allReducer = combineReducers({
     counter: counterReducer,
@@ -20,7 +21,8 @@ const allReducer = combineReducers({
     posts : postReducer,
     users : usersReducer,
     jobs : jobsReducer,
-    myInfo : myInfoReducer
+    myInfo : myInfoReducer,
+    companies : companiesReducer
 })
 
 export default allReducer; 

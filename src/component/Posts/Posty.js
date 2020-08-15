@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import PostyComments from './PostyComments'
 
 const Posty = (props) => {
-    console.log(JSON.stringify(props));
     return (
         <div className="posty" style={{marginBottom:'20px'}} >
             <div className="post-bar no-margin">

@@ -17,7 +17,7 @@ const subMenu = function (smenu) {
 const mainMenu = function (menu, dispatch) {
     return menu.map((value) =>
         <li key={value.name}>
-            {value.name == "Messages" || value.name === "Notification" ?
+            {value.name === "Messages" || value.name === "Notification" ?
                 <div onClick={() => dispatch(menuClick(value))}>
                     <Link to={value.navigateTo}>
                         <span>
@@ -38,7 +38,7 @@ const mainMenu = function (menu, dispatch) {
                 </div>
             }
             {
-                value.submenu != undefined ?
+                value.submenu !== undefined ?
                     <ul> {subMenu(value.submenu)} </ul>
                     : ""
             }

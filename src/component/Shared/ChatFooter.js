@@ -1,13 +1,13 @@
 import React from "react";
-
+import { Link } from 'react-router-dom'
 export default function ChatFooter() {
   return (
-    <div className="chatbox-list" style={{right: '104.5px'}}>
+    <div className="chatbox-list">
       <div className="chatbox">
         <div className="chat-mg">
-          <a href="#" title="">
+          <Link to="#" title="">
             <img src="assets/images/resources/usr-img1.png" alt="" />
-          </a>
+          </Link>
           <span>2</span>
         </div>
         <div className="conversation-box">
@@ -19,15 +19,15 @@ export default function ChatFooter() {
               </h3>
             </div>
             <div className="st-icons">
-              <a href="#" title="">
+              <Link to="#" title="">
                 <i className="la la-cog"></i>
-              </a>
-              <a href="#" title="" className="close-chat">
+              </Link>
+              <Link to="#" title="" className="close-chat">
                 <i className="la la-minus-square"></i>
-              </a>
-              <a href="#" title="" className="close-chat">
+              </Link>
+              <Link to="#" title="" className="close-chat">
                 <i className="la la-close"></i>
-              </a>
+              </Link>
             </div>
           </div>
           <div
@@ -38,7 +38,7 @@ export default function ChatFooter() {
               id="mCSB_1"
               className="mCustomScrollBox mCS-dark mCSB_vertical mCSB_inside"
               style={{maxHeight:'none'}}
-              tabindex="0"
+              tabIndex="0"
             >
               <div
                 id="mCSB_1_container"
@@ -104,19 +104,19 @@ export default function ChatFooter() {
             </form>
             <ul className="ft-options">
               <li>
-                <a href="#" title="">
+                <Link to="#" title="">
                   <i className="la la-smile-o"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" title="">
+                <Link to="#" title="">
                   <i className="la la-camera"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" title="">
+                <Link to="#" title="">
                   <i className="fa fa-paperclip"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -124,9 +124,9 @@ export default function ChatFooter() {
       </div>
       <div className="chatbox">
         <div className="chat-mg">
-          <a href="#" title="">
+          <Link to="#" title="">
             <img src="assets/images/resources/usr-img2.png" alt="" />
-          </a>
+          </Link>
         </div>
         <div className="conversation-box">
           <div className="con-title mg-3">
@@ -137,15 +137,15 @@ export default function ChatFooter() {
               </h3>
             </div>
             <div className="st-icons">
-              <a href="#" title="">
+              <Link to="#" title="">
                 <i className="la la-cog"></i>
-              </a>
-              <a href="#" title="" className="close-chat">
+              </Link>
+              <Link to="#" title="" className="close-chat">
                 <i className="la la-minus-square"></i>
-              </a>
-              <a href="#" title="" className="close-chat">
+              </Link>
+              <Link to="#" title="" className="close-chat">
                 <i className="la la-close"></i>
-              </a>
+              </Link>
             </div>
           </div>
           <div
@@ -155,7 +155,7 @@ export default function ChatFooter() {
             <div
               id="mCSB_2"
               className="mCustomScrollBox mCS-dark mCSB_vertical mCSB_inside"
-              tabindex="0"
+              tabIndex="0"
               style={{maxHeight: 'none'}}
             >
               <div
@@ -223,19 +223,19 @@ export default function ChatFooter() {
             </form>
             <ul className="ft-options">
               <li>
-                <a href="#" title="">
+                <Link to="#" title="">
                   <i className="la la-smile-o"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" title="">
+                <Link to="#" title="">
                   <i className="la la-camera"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" title="">
+                <Link to="#" title="">
                   <i className="fa fa-paperclip"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -243,17 +243,17 @@ export default function ChatFooter() {
       </div>
       <div className="chatbox">
         <div className="chat-mg bx">
-          <a href="#" title="">
+          <Link to="#" title="">
             <img src="assets/images/chat.png" alt="" />
-          </a>
+          </Link>
           <span>2</span>
         </div>
         <div className="conversation-box">
           <div className="con-title">
             <h3>Messages</h3>
-            <a href="#" title="" className="close-chat">
+            <Link to="#" title="" className="close-chat">
               <i className="la la-minus-square"></i>
-            </a>
+            </Link>
           </div>
           <div className="chat-list">
             <div className="conv-list active">
