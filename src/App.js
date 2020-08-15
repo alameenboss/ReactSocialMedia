@@ -13,6 +13,8 @@ import MyProfileFeed from './component/MyProfileFeed/MyProfileFeed';
 import Jobs from './component/Jobs/Jobs';
 import Example from './component/Example/Example';
 import ChatFooter from './component/Shared/ChatFooter';
+import AddProject from './component/Posts/AddProject';
+import AddJobs from './component/Posts/AddJobs';
 
 function App() {
 
@@ -35,6 +37,8 @@ function App() {
           </Switch>
           <ChatFooter></ChatFooter>
         </div>
+        <AddProject/>
+        <AddJobs/>
       </div>
     </Router>
 

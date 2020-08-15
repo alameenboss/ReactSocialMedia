@@ -12,7 +12,7 @@ const posts = [{
 },
 {
   ImageUrl: 'assets/images/resources/us-pic.png',
-  Name : 'Alameen',
+  Name : 'John Deo',
   PostedTime :'3 min ago',
   Tags:[{Icon:'assets/images/icon8.png' ,Text : 'Epic Coder'},
   {Icon:'assets/images/icon9.png' ,Text : 'India'}],
@@ -24,7 +24,7 @@ const posts = [{
 },
 {
   ImageUrl: 'assets/images/resources/us-pic.png',
-  Name : 'Hasina',
+  Name : 'John Deo',
   PostedTime :'5 min ago',
   Tags:[{Icon:'assets/images/icon8.png' ,Text : 'Epic Coder'},
   {Icon:'assets/images/icon9.png' ,Text : 'India'}],
