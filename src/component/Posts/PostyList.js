@@ -3,13 +3,13 @@ import React from 'react'
 import { useSelector } from 'react-redux';
 import Posty from './Posty';
 
-const PostyList = () => {
+const PostyList = (props) => {
 
     const postList = useSelector(state => state.posts);
     return (
         <>
         {
-            postList.map((value, index) =>  <Posty key={index} post={value}></Posty> )
+            postList.map((value, index) =>  <Posty key={index} name={props.name} img={props.img} post={value}></Posty> )
         }
         </>
     )

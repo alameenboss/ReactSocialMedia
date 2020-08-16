@@ -9,9 +9,9 @@ const Posty = (props) => {
             <div className="post-bar no-margin">
                 <div className="post_topbar">
                     <div className="usy-dt">
-                        <img src={props.post.ImageUrl} alt="" />
+                        <img src={props.img} alt="" />
                         <div className="usy-name">
-                            <h3>{props.post.Name}</h3>
+                            <h3>{props.name}</h3>
                             <span><img src="assets/images/clock.png" alt="" />{props.post.PostedTime}</span>
                         </div>
                     </div>

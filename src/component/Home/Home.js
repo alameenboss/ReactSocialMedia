@@ -27,7 +27,7 @@ export default function Home() {
                                 <div className="main-ws-sec">
                                     <AddPostPlaceholder />
                                     <div className="posts-section">
-                                        <PostyList />
+                                        <PostyList name="John Deo" img="assets/images/resources/us-pic.png"/>
                                         <LoadingIndicator />
                                     </div>
                                 </div>
