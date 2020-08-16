@@ -7,7 +7,7 @@ function EstablishDialog() {
 				<h3>Establish Since</h3>
 				<form>
 					<div className="daty">
-						<input  type="text" name="establish" placeholder="Select Date" className="datepicker flatpickr-input" readonly="readonly"/>
+						<input  type="text" name="establish" placeholder="Select Date" className="datepicker flatpickr-input" readOnly="readonly"/>
 						<i className="fa fa-calendar"></i>
 					</div>
 					<button type="submit" className="save">Save</button>

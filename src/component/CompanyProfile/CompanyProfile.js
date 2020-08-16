@@ -44,19 +44,19 @@ export default function CompanyProfile() {
 												<ul>
 													<li data-tab="feed-dd" className="active">
 														<Link to="#" title="">
-															<img src="assets/images/ic1.png" alt="" />
+															<img src="reactsocialmedia/assets/images/ic1.png" alt="" />
 															<span>Feed</span>
 														</Link>
 													</li>
 													<li data-tab="info-dd">
 														<Link to="#" title="">
-															<img src="assets/images/ic2.png" alt="" />
+															<img src="reactsocialmedia/assets/images/ic2.png" alt="" />
 															<span>Info</span>
 														</Link>
 													</li>
 													<li data-tab="portfolio-dd">
 														<Link to="#" title="">
-															<img src="assets/images/ic3.png" alt="" />
+															<img src="reactsocialmedia/assets/images/ic3.png" alt="" />
 															<span>Portfolio</span>
 														</Link>
 													</li>
@@ -65,7 +65,7 @@ export default function CompanyProfile() {
 										</div>
 										<div className="product-feed-tab current" id="feed-dd">
 											<div className="posts-section">
-												<PostyList name="Facebook Inc." img="assets/images/resources/company-pic.png" />
+												<PostyList name="Facebook Inc." img="reactsocialmedia/assets/images/resources/company-pic.png" />
 												<LoadingIndicator />
 											</div>
 										</div>
@@ -85,22 +85,22 @@ export default function CompanyProfile() {
 										<div className="widget widget-portfolio">
 											<div className="wd-heady">
 												<h3>Portfolio</h3>
-												<img src="assets/images/photo-icon.png" alt="" />
+												<img src="reactsocialmedia/assets/images/photo-icon.png" alt="" />
 											</div>
 											<div className="pf-gallery">
 												<ul>
-													<li><Link to="#" title=""><img src="assets/images/resources/pf-gallery1.png" alt="" /></Link></li>
-													<li><Link to="#" title=""><img src="assets/images/resources/pf-gallery2.png" alt="" /></Link></li>
-													<li><Link to="#" title=""><img src="assets/images/resources/pf-gallery3.png" alt="" /></Link></li>
-													<li><Link to="#" title=""><img src="assets/images/resources/pf-gallery4.png" alt="" /></Link></li>
-													<li><Link to="#" title=""><img src="assets/images/resources/pf-gallery5.png" alt="" /></Link></li>
-													<li><Link to="#" title=""><img src="assets/images/resources/pf-gallery6.png" alt="" /></Link></li>
-													<li><Link to="#" title=""><img src="assets/images/resources/pf-gallery7.png" alt="" /></Link></li>
-													<li><Link to="#" title=""><img src="assets/images/resources/pf-gallery8.png" alt="" /></Link></li>
-													<li><Link to="#" title=""><img src="assets/images/resources/pf-gallery9.png" alt="" /></Link></li>
-													<li><Link to="#" title=""><img src="assets/images/resources/pf-gallery10.png" alt="" /></Link></li>
-													<li><Link to="#" title=""><img src="assets/images/resources/pf-gallery11.png" alt="" /></Link></li>
-													<li><Link to="#" title=""><img src="assets/images/resources/pf-gallery12.png" alt="" /></Link></li>
+													<li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery1.png" alt="" /></Link></li>
+													<li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery2.png" alt="" /></Link></li>
+													<li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery3.png" alt="" /></Link></li>
+													<li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery4.png" alt="" /></Link></li>
+													<li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery5.png" alt="" /></Link></li>
+													<li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery6.png" alt="" /></Link></li>
+													<li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery7.png" alt="" /></Link></li>
+													<li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery8.png" alt="" /></Link></li>
+													<li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery9.png" alt="" /></Link></li>
+													<li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery10.png" alt="" /></Link></li>
+													<li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery11.png" alt="" /></Link></li>
+													<li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery12.png" alt="" /></Link></li>
 												</ul>
 											</div>
 										</div>

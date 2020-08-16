@@ -7,7 +7,7 @@ const NavUserInfo = () => {
     return (
         <div className="user-account">
             <div className="user-info" onClick={() => toggleshow(!show)}>
-                <img src="assets/images/resources/user.png" alt="" />
+                <img src="reactsocialmedia/assets/images/resources/user.png" alt="" />
                 <Link to="/"  title="">John</Link>
                 <i className="la la-sort-down"></i>
             </div>

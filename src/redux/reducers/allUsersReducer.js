@@ -2,62 +2,62 @@ const users = [
   {
     name:"Jessica William", 
     work:"Graphic Designer",
-    img:"assets/images/resources/pf-icon1.png"
+    img:"reactsocialmedia/assets/images/resources/pf-icon1.png"
   },
   {
   name:"John Doe", 
   work:"PHP Developer",
-  img:"assets/images/resources/pf-icon2.png"
+  img:"reactsocialmedia/assets/images/resources/pf-icon2.png"
 },
 {
   name:"Poonam", 
   work:"Wordpress Developer",
-  img:"assets/images/resources/pf-icon3.png"
+  img:"reactsocialmedia/assets/images/resources/pf-icon3.png"
 },
 {
   name:"Bill Gates", 
   work:"C & C++ Developer",
-  img:"assets/images/resources/pf-icon4.png"
+  img:"reactsocialmedia/assets/images/resources/pf-icon4.png"
 },
 {
   name:"Jessica William", 
   work:"Graphic Designer",
-  img:"assets/images/resources/pf-icon5.png"
+  img:"reactsocialmedia/assets/images/resources/pf-icon5.png"
 },
 {
   name:"John Doe", 
   work:"PHP Developer",
-  img:"assets/images/resources/pf-icon6.png"
+  img:"reactsocialmedia/assets/images/resources/pf-icon6.png"
 },
 {
   name:"Jessica William", 
   work:"Graphic Designer",
-  img:"assets/images/resources/pf-icon7.png"
+  img:"reactsocialmedia/assets/images/resources/pf-icon7.png"
 },
 {
 name:"John Doe", 
 work:"PHP Developer",
-img:"assets/images/resources/pf-icon8.png"
+img:"reactsocialmedia/assets/images/resources/pf-icon8.png"
 },
 {
 name:"Poonam", 
 work:"Wordpress Developer",
-img:"assets/images/resources/pf-icon9.png"
+img:"reactsocialmedia/assets/images/resources/pf-icon9.png"
 },
 {
 name:"Bill Gates", 
 work:"C & C++ Developer",
-img:"assets/images/resources/pf-icon10.png"
+img:"reactsocialmedia/assets/images/resources/pf-icon10.png"
 },
 {
 name:"Jessica William", 
 work:"Graphic Designer",
-img:"assets/images/resources/pf-icon11.png"
+img:"reactsocialmedia/assets/images/resources/pf-icon11.png"
 },
 {
 name:"John Doe", 
 work:"PHP Developer",
-img:"assets/images/resources/pf-icon12.png"
+img:"reactsocialmedia/assets/images/resources/pf-icon12.png"
 }]
 
   const allUsersReducer = (state = users, action) => {

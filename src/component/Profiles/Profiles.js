@@ -6,13 +6,13 @@ import LoadingIndicator from './../Shared/LoadingIndicator';
 export default function Profiles() {
   const allUsers = useSelector(state => state.allUsers);
   return (
-    <section class="companies-info">
-      <div class="container">
-        <div class="company-title">
+    <section className="companies-info">
+      <div className="container">
+        <div className="company-title">
           <h3>All Users</h3>
         </div>
-        <div class="companies-list">
-          <div class="row">
+        <div className="companies-list">
+          <div className="row">
               {
                 allUsers.map((value,index)=> <UserCard key={index} value={value}/> )
               }

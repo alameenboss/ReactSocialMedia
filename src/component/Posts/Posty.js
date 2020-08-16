@@ -12,7 +12,7 @@ const Posty = (props) => {
                         <img src={props.img} alt="" />
                         <div className="usy-name">
                             <h3>{props.name}</h3>
-                            <span><img src="assets/images/clock.png" alt="" />{props.post.PostedTime}</span>
+                            <span><img src="reactsocialmedia/assets/images/clock.png" alt="" />{props.post.PostedTime}</span>
                         </div>
                     </div>
                     <div className="ed-opts">
@@ -65,7 +65,7 @@ const Posty = (props) => {
                     <ul className="like-com">
                         <li>
                             <Link to="/"><i className="fas fa-heart"></i> Like</Link>
-                            <img src="assets/images/liked-img.png" alt="" />
+                            <img src="reactsocialmedia/assets/images/liked-img.png" alt="" />
                             <span>25</span>
                         </li>
                         <li>

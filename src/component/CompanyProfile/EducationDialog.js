@@ -11,13 +11,13 @@ function EducationDialog() {
 						<div className="row">
 							<div className="col-lg-6 no-left-pd">
 								<div className="datefm">
-									<input  type="text" name="from" placeholder="From" className="datepicker flatpickr-input" readonly="readonly"/>	
+									<input  type="text" name="from" placeholder="From" className="datepicker flatpickr-input" readOnly="readonly"/>	
 									<i className="fa fa-calendar"></i>
 								</div>
 							</div>
 							<div className="col-lg-6 no-righ-pd">
 								<div className="datefm">
-									<input  type="text" name="to" placeholder="To" className="datepicker flatpickr-input" readonly="readonly"/>
+									<input  type="text" name="to" placeholder="To" className="datepicker flatpickr-input" readOnly="readonly"/>
 									<i className="fa fa-calendar"></i>
 								</div>
 							</div>

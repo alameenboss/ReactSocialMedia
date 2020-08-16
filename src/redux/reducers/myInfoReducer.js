@@ -3,7 +3,7 @@ const myInfo = {
     work:"Graphic Designer at Self Employed",
     following:34,
     followers:155,
-    img:"assets/images/resources/user-pic.png"
+    img:"reactsocialmedia/assets/images/resources/user-pic.png"
   }
 
   const myInfoReducer = (state = myInfo, action) => {

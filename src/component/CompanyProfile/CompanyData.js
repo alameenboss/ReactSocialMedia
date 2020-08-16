@@ -5,7 +5,7 @@ function CompanyData() {
     return (
         <div className="user_profile">
             <div className="user-pro-img">
-                <img src="assets/images/resources/company-profile.png" alt="" />
+                <img src="reactsocialmedia/assets/images/resources/company-profile.png" alt="" />
             </div>
             <div className="user_pro_status">
                 <ul className="flw-hr">

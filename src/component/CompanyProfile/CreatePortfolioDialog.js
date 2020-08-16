@@ -11,7 +11,7 @@ function CreatePortfolioDialog() {
 						<input  type="file" name="file"/>
 					</div>
 					<div className="pf-img">
-						<img src="assets/images/resources/np.png" alt="" />
+						<img src="reactsocialmedia/assets/images/resources/np.png" alt="" />
 					</div>
 					<input  type="text" name="website-url" placeholder="htp://www.example.com"/>
 					<button type="submit" className="save">Save</button>
