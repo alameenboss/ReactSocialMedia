@@ -1,7 +1,7 @@
 const companies = [
   {
     name: "Facebook Inc.",
-    establish: "",
+    establish: "Establish Feb, 2004",
     img: "reactsocialmedia/assets/images/resources/cmp-icon.png"
   },
   {

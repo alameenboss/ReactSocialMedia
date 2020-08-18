@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Cover() {
+function Cover({coverImg}) {
     return (
         <section className="cover-sec">
-			<img src="reactsocialmedia/assets/images/resources/company-cover.jpg" alt=""/>
+			<img src={coverImg} alt=""/>
 		</section>
     )
 }

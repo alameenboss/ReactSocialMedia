@@ -11,6 +11,7 @@ import jobsReducer from './jobsReducer';
 import myInfoReducer from './myInfoReducer';
 import companiesReducer from './companiesReducer';
 import allUsersReducer from './allUsersReducer';
+import companyProfileReducer from './companyProfileReducer';
 
 const allReducer = combineReducers({
     counter: counterReducer,
@@ -24,7 +25,8 @@ const allReducer = combineReducers({
     allUsers: allUsersReducer,
     jobs : jobsReducer,
     myInfo : myInfoReducer,
-    companies : companiesReducer
+    companies : companiesReducer,
+    company: companyProfileReducer
 })
 
 export default allReducer; 
