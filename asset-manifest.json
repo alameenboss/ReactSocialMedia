@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/reactsocialmedia/static/css/main.3f4af784.chunk.css",
-    "main.js": "/reactsocialmedia/static/js/main.f5f2fee9.chunk.js",
-    "main.js.map": "/reactsocialmedia/static/js/main.f5f2fee9.chunk.js.map",
-    "runtime-main.js": "/reactsocialmedia/static/js/runtime-main.16010304.js",
-    "runtime-main.js.map": "/reactsocialmedia/static/js/runtime-main.16010304.js.map",
+    "main.js": "/reactsocialmedia/static/js/main.6028b7c5.chunk.js",
+    "main.js.map": "/reactsocialmedia/static/js/main.6028b7c5.chunk.js.map",
+    "runtime-main.js": "/reactsocialmedia/static/js/runtime-main.cd7ab45c.js",
+    "runtime-main.js.map": "/reactsocialmedia/static/js/runtime-main.cd7ab45c.js.map",
     "static/css/2.3ec71761.chunk.css": "/reactsocialmedia/static/css/2.3ec71761.chunk.css",
-    "static/js/2.1756c5ef.chunk.js": "/reactsocialmedia/static/js/2.1756c5ef.chunk.js",
-    "static/js/2.1756c5ef.chunk.js.map": "/reactsocialmedia/static/js/2.1756c5ef.chunk.js.map",
+    "static/js/2.10de219f.chunk.js": "/reactsocialmedia/static/js/2.10de219f.chunk.js",
+    "static/js/2.10de219f.chunk.js.map": "/reactsocialmedia/static/js/2.10de219f.chunk.js.map",
     "index.html": "/reactsocialmedia/index.html",
-    "precache-manifest.858b48d04bf3a61f1be839f5b7896c85.js": "/reactsocialmedia/precache-manifest.858b48d04bf3a61f1be839f5b7896c85.js",
+    "precache-manifest.cb68a90d59cc32d81a528c80127a39b0.js": "/reactsocialmedia/precache-manifest.cb68a90d59cc32d81a528c80127a39b0.js",
     "service-worker.js": "/reactsocialmedia/service-worker.js",
     "static/css/2.3ec71761.chunk.css.map": "/reactsocialmedia/static/css/2.3ec71761.chunk.css.map",
     "static/css/main.3f4af784.chunk.css.map": "/reactsocialmedia/static/css/main.3f4af784.chunk.css.map",
-    "static/js/2.1756c5ef.chunk.js.LICENSE.txt": "/reactsocialmedia/static/js/2.1756c5ef.chunk.js.LICENSE.txt",
+    "static/js/2.10de219f.chunk.js.LICENSE.txt": "/reactsocialmedia/static/js/2.10de219f.chunk.js.LICENSE.txt",
     "static/media/all.min.css": "/reactsocialmedia/static/media/fa-solid-900.e944d257.eot",
     "static/media/line-awesome.min.css": "/reactsocialmedia/static/media/la-solid-900.bb49393b.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.16010304.js",
+    "static/js/runtime-main.cd7ab45c.js",
     "static/css/2.3ec71761.chunk.css",
-    "static/js/2.1756c5ef.chunk.js",
+    "static/js/2.10de219f.chunk.js",
     "static/css/main.3f4af784.chunk.css",
-    "static/js/main.f5f2fee9.chunk.js"
+    "static/js/main.6028b7c5.chunk.js"
   ]
 }
