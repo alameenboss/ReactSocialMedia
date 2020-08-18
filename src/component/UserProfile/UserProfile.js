@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function UserProfile() {
     return (
         <>
@@ -19,8 +19,8 @@ export default function UserProfile() {
                                             </div>{/*user-pro-img end*/}
                                             <div className="user_pro_status">
                                                 <ul className="flw-hr">
-                                                    <li><a href="#" title className="flww"><i className="la la-plus" /> Follow</a></li>
-                                                    <li><a href="#" title className="hre">Hire</a></li>
+                                                    <li><Link to="#" title className="flww"><i className="la la-plus" /> Follow</Link></li>
+                                                    <li><Link to="#" title className="hre">Hire</Link></li>
                                                 </ul>
                                                 <ul className="flw-status">
                                                     <li>
@@ -34,14 +34,14 @@ export default function UserProfile() {
                                                 </ul>
                                             </div>{/*user_pro_status end*/}
                                             <ul className="social_links">
-                                                <li><a href="#" title><i className="la la-globe" /> www.example.com</a></li>
-                                                <li><a href="#" title><i className="fa fa-facebook-square" /> Http://www.facebook.com/john...</a></li>
-                                                <li><a href="#" title><i className="fa fa-twitter" /> Http://www.Twitter.com/john...</a></li>
-                                                <li><a href="#" title><i className="fa fa-google-plus-square" /> Http://www.googleplus.com/john...</a></li>
-                                                <li><a href="#" title><i className="fa fa-behance-square" /> Http://www.behance.com/john...</a></li>
-                                                <li><a href="#" title><i className="fa fa-pinterest" /> Http://www.pinterest.com/john...</a></li>
-                                                <li><a href="#" title><i className="fa fa-instagram" /> Http://www.instagram.com/john...</a></li>
-                                                <li><a href="#" title><i className="fa fa-youtube" /> Http://www.youtube.com/john...</a></li>
+                                                <li><Link to="#" title><i className="la la-globe" /> www.example.com</Link></li>
+                                                <li><Link to="#" title><i className="fa fa-facebook-square" /> Http://www.facebook.com/john...</Link></li>
+                                                <li><Link to="#" title><i className="fa fa-twitter" /> Http://www.Twitter.com/john...</Link></li>
+                                                <li><Link to="#" title><i className="fa fa-google-plus-square" /> Http://www.googleplus.com/john...</Link></li>
+                                                <li><Link to="#" title><i className="fa fa-behance-square" /> Http://www.behance.com/john...</Link></li>
+                                                <li><Link to="#" title><i className="fa fa-pinterest" /> Http://www.pinterest.com/john...</Link></li>
+                                                <li><Link to="#" title><i className="fa fa-instagram" /> Http://www.instagram.com/john...</Link></li>
+                                                <li><Link to="#" title><i className="fa fa-youtube" /> Http://www.youtube.com/john...</Link></li>
                                             </ul>
                                         </div>{/*user_profile end*/}
                                         <div className="suggestions full-width">
@@ -99,7 +99,7 @@ export default function UserProfile() {
                                                     <span><i className="la la-plus" /></span>
                                                 </div>
                                                 <div className="view-more">
-                                                    <a href="#" title>View More</a>
+                                                    <Link to="#" title>View More</Link>
                                                 </div>
                                             </div>{/*suggestions-list end*/}
                                         </div>{/*suggestions end*/}
@@ -122,22 +122,22 @@ export default function UserProfile() {
                                             <div className="tab-feed">
                                                 <ul>
                                                     <li data-tab="feed-dd" className="active">
-                                                        <a href="#" title>
+                                                        <Link to="#" title>
                                                             <img src="/reactsocialmedia/assets/images/ic1.png" alt="" />
                                                             <span>Feed</span>
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li data-tab="info-dd">
-                                                        <a href="#" title>
+                                                        <Link to="#" title>
                                                             <img src="/reactsocialmedia/assets/images/ic2.png" alt="" />
                                                             <span>Info</span>
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li data-tab="portfolio-dd">
-                                                        <a href="#" title>
+                                                        <Link to="#" title>
                                                             <img src="/reactsocialmedia/assets/images/ic3.png" alt="" />
                                                             <span>Portfolio</span>
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                 </ul>
                                             </div>{/* tab-feed end*/}
@@ -154,13 +154,13 @@ export default function UserProfile() {
                                                             </div>
                                                         </div>
                                                         <div className="ed-opts">
-                                                            <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                                            <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                                             <ul className="ed-options">
-                                                                <li><a href="#" title>Edit Post</a></li>
-                                                                <li><a href="#" title>Unsaved</a></li>
-                                                                <li><a href="#" title>Unbid</a></li>
-                                                                <li><a href="#" title>Close</a></li>
-                                                                <li><a href="#" title>Hide</a></li>
+                                                                <li><Link to="#" title>Edit Post</Link></li>
+                                                                <li><Link to="#" title>Unsaved</Link></li>
+                                                                <li><Link to="#" title>Unbid</Link></li>
+                                                                <li><Link to="#" title>Close</Link></li>
+                                                                <li><Link to="#" title>Hide</Link></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -170,35 +170,35 @@ export default function UserProfile() {
                                                             <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                                                         </ul>
                                                         <ul className="bk-links">
-                                                            <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                                            <li><a href="#" title><i className="la la-envelope" /></a></li>
+                                                            <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                                            <li><Link to="#" title><i className="la la-envelope" /></Link></li>
                                                         </ul>
                                                     </div>
                                                     <div className="job_descp">
                                                         <h3>Senior Wordpress Developer</h3>
                                                         <ul className="job-dt">
-                                                            <li><a href="#" title>Full Time</a></li>
+                                                            <li><Link to="#" title>Full Time</Link></li>
                                                             <li><span>$30 / hr</span></li>
                                                         </ul>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                                                         <ul className="skill-tags">
-                                                            <li><a href="#" title>HTML</a></li>
-                                                            <li><a href="#" title>PHP</a></li>
-                                                            <li><a href="#" title>CSS</a></li>
-                                                            <li><a href="#" title>Javascript</a></li>
-                                                            <li><a href="#" title>Wordpress</a></li>
+                                                            <li><Link to="#" title>HTML</Link></li>
+                                                            <li><Link to="#" title>PHP</Link></li>
+                                                            <li><Link to="#" title>CSS</Link></li>
+                                                            <li><Link to="#" title>Javascript</Link></li>
+                                                            <li><Link to="#" title>Wordpress</Link></li>
                                                         </ul>
                                                     </div>
                                                     <div className="job-status-bar">
                                                         <ul className="like-com">
                                                             <li>
-                                                                <a href="#"><i className="fas fa-heart" /> Like</a>
+                                                                <Link to="#"><i className="fas fa-heart" /> Like</Link>
                                                                 <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                                                 <span>25</span>
                                                             </li>
-                                                            <li><a href="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</a></li>
+                                                            <li><Link to="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</Link></li>
                                                         </ul>
-                                                        <a href="#"><i className="fas fa-eye" />Views 50</a>
+                                                        <Link to="#"><i className="fas fa-eye" />Views 50</Link>
                                                     </div>
                                                 </div>{/*post-bar end*/}
                                                 <div className="post-bar">
@@ -211,13 +211,13 @@ export default function UserProfile() {
                                                             </div>
                                                         </div>
                                                         <div className="ed-opts">
-                                                            <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                                            <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                                             <ul className="ed-options">
-                                                                <li><a href="#" title>Edit Post</a></li>
-                                                                <li><a href="#" title>Unsaved</a></li>
-                                                                <li><a href="#" title>Unbid</a></li>
-                                                                <li><a href="#" title>Close</a></li>
-                                                                <li><a href="#" title>Hide</a></li>
+                                                                <li><Link to="#" title>Edit Post</Link></li>
+                                                                <li><Link to="#" title>Unsaved</Link></li>
+                                                                <li><Link to="#" title>Unbid</Link></li>
+                                                                <li><Link to="#" title>Close</Link></li>
+                                                                <li><Link to="#" title>Hide</Link></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -227,9 +227,9 @@ export default function UserProfile() {
                                                             <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                                                         </ul>
                                                         <ul className="bk-links">
-                                                            <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                                            <li><a href="#" title><i className="la la-envelope" /></a></li>
-                                                            <li><a href="#" title className="bid_now">Bid Now</a></li>
+                                                            <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                                            <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                                                            <li><Link to="#" title className="bid_now">Bid Now</Link></li>
                                                         </ul>
                                                     </div>
                                                     <div className="job_descp">
@@ -237,25 +237,25 @@ export default function UserProfile() {
                                                         <ul className="job-dt">
                                                             <li><span>$300 - $350</span></li>
                                                         </ul>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                                                         <ul className="skill-tags">
-                                                            <li><a href="#" title>HTML</a></li>
-                                                            <li><a href="#" title>PHP</a></li>
-                                                            <li><a href="#" title>CSS</a></li>
-                                                            <li><a href="#" title>Javascript</a></li>
-                                                            <li><a href="#" title>Wordpress</a></li>
+                                                            <li><Link to="#" title>HTML</Link></li>
+                                                            <li><Link to="#" title>PHP</Link></li>
+                                                            <li><Link to="#" title>CSS</Link></li>
+                                                            <li><Link to="#" title>Javascript</Link></li>
+                                                            <li><Link to="#" title>Wordpress</Link></li>
                                                         </ul>
                                                     </div>
                                                     <div className="job-status-bar">
                                                         <ul className="like-com">
                                                             <li>
-                                                                <a href="#"><i className="fas fa-heart" /> Like</a>
+                                                                <Link to="#"><i className="fas fa-heart" /> Like</Link>
                                                                 <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                                                 <span>25</span>
                                                             </li>
-                                                            <li><a href="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</a></li>
+                                                            <li><Link to="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</Link></li>
                                                         </ul>
-                                                        <a href="#"><i className="fas fa-eye" />Views 50</a>
+                                                        <Link to="#"><i className="fas fa-eye" />Views 50</Link>
                                                     </div>
                                                 </div>{/*post-bar end*/}
                                                 <div className="post-bar">
@@ -268,13 +268,13 @@ export default function UserProfile() {
                                                             </div>
                                                         </div>
                                                         <div className="ed-opts">
-                                                            <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                                            <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                                             <ul className="ed-options">
-                                                                <li><a href="#" title>Edit Post</a></li>
-                                                                <li><a href="#" title>Unsaved</a></li>
-                                                                <li><a href="#" title>Unbid</a></li>
-                                                                <li><a href="#" title>Close</a></li>
-                                                                <li><a href="#" title>Hide</a></li>
+                                                                <li><Link to="#" title>Edit Post</Link></li>
+                                                                <li><Link to="#" title>Unsaved</Link></li>
+                                                                <li><Link to="#" title>Unbid</Link></li>
+                                                                <li><Link to="#" title>Close</Link></li>
+                                                                <li><Link to="#" title>Hide</Link></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -284,35 +284,35 @@ export default function UserProfile() {
                                                             <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                                                         </ul>
                                                         <ul className="bk-links">
-                                                            <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                                            <li><a href="#" title><i className="la la-envelope" /></a></li>
+                                                            <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                                            <li><Link to="#" title><i className="la la-envelope" /></Link></li>
                                                         </ul>
                                                     </div>
                                                     <div className="job_descp">
                                                         <h3>Senior UI / UX designer</h3>
                                                         <ul className="job-dt">
-                                                            <li><a href="#" title>Par Time</a></li>
+                                                            <li><Link to="#" title>Par Time</Link></li>
                                                             <li><span>$10 / hr</span></li>
                                                         </ul>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                                                         <ul className="skill-tags">
-                                                            <li><a href="#" title>HTML</a></li>
-                                                            <li><a href="#" title>PHP</a></li>
-                                                            <li><a href="#" title>CSS</a></li>
-                                                            <li><a href="#" title>Javascript</a></li>
-                                                            <li><a href="#" title>Wordpress</a></li>
+                                                            <li><Link to="#" title>HTML</Link></li>
+                                                            <li><Link to="#" title>PHP</Link></li>
+                                                            <li><Link to="#" title>CSS</Link></li>
+                                                            <li><Link to="#" title>Javascript</Link></li>
+                                                            <li><Link to="#" title>Wordpress</Link></li>
                                                         </ul>
                                                     </div>
                                                     <div className="job-status-bar">
                                                         <ul className="like-com">
                                                             <li>
-                                                                <a href="#"><i className="fas fa-heart" /> Like</a>
+                                                                <Link to="#"><i className="fas fa-heart" /> Like</Link>
                                                                 <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                                                 <span>25</span>
                                                             </li>
-                                                            <li><a href="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</a></li>
+                                                            <li><Link to="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</Link></li>
                                                         </ul>
-                                                        <a href="#"><i className="fas fa-eye" />Views 50</a>
+                                                        <Link to="#"><i className="fas fa-eye" />Views 50</Link>
                                                     </div>
                                                 </div>{/*post-bar end*/}
                                                 <div className="post-bar">
@@ -325,13 +325,13 @@ export default function UserProfile() {
                                                             </div>
                                                         </div>
                                                         <div className="ed-opts">
-                                                            <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                                            <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                                             <ul className="ed-options">
-                                                                <li><a href="#" title>Edit Post</a></li>
-                                                                <li><a href="#" title>Unsaved</a></li>
-                                                                <li><a href="#" title>Unbid</a></li>
-                                                                <li><a href="#" title>Close</a></li>
-                                                                <li><a href="#" title>Hide</a></li>
+                                                                <li><Link to="#" title>Edit Post</Link></li>
+                                                                <li><Link to="#" title>Unsaved</Link></li>
+                                                                <li><Link to="#" title>Unbid</Link></li>
+                                                                <li><Link to="#" title>Close</Link></li>
+                                                                <li><Link to="#" title>Hide</Link></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -341,9 +341,9 @@ export default function UserProfile() {
                                                             <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                                                         </ul>
                                                         <ul className="bk-links">
-                                                            <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                                            <li><a href="#" title><i className="la la-envelope" /></a></li>
-                                                            <li><a href="#" title className="bid_now">Bid Now</a></li>
+                                                            <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                                            <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                                                            <li><Link to="#" title className="bid_now">Bid Now</Link></li>
                                                         </ul>
                                                     </div>
                                                     <div className="job_descp">
@@ -351,25 +351,25 @@ export default function UserProfile() {
                                                         <ul className="job-dt">
                                                             <li><span>$300 - $350</span></li>
                                                         </ul>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                                                         <ul className="skill-tags">
-                                                            <li><a href="#" title>HTML</a></li>
-                                                            <li><a href="#" title>PHP</a></li>
-                                                            <li><a href="#" title>CSS</a></li>
-                                                            <li><a href="#" title>Javascript</a></li>
-                                                            <li><a href="#" title>Wordpress</a></li>
+                                                            <li><Link to="#" title>HTML</Link></li>
+                                                            <li><Link to="#" title>PHP</Link></li>
+                                                            <li><Link to="#" title>CSS</Link></li>
+                                                            <li><Link to="#" title>Javascript</Link></li>
+                                                            <li><Link to="#" title>Wordpress</Link></li>
                                                         </ul>
                                                     </div>
                                                     <div className="job-status-bar">
                                                         <ul className="like-com">
                                                             <li>
-                                                                <a href="#"><i className="fas fa-heart" /> Like</a>
+                                                                <Link to="#"><i className="fas fa-heart" /> Like</Link>
                                                                 <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                                                 <span>25</span>
                                                             </li>
-                                                            <li><a href="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</a></li>
+                                                            <li><Link to="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</Link></li>
                                                         </ul>
-                                                        <a href="#"><i className="fas fa-eye" />Views 50</a>
+                                                        <Link to="#"><i className="fas fa-eye" />Views 50</Link>
                                                     </div>
                                                 </div>{/*post-bar end*/}
                                                 <div className="process-comm">
@@ -409,14 +409,14 @@ export default function UserProfile() {
                                             <div className="user-profile-ov">
                                                 <h3>Skills</h3>
                                                 <ul>
-                                                    <li><a href="#" title>HTML</a></li>
-                                                    <li><a href="#" title>PHP</a></li>
-                                                    <li><a href="#" title>CSS</a></li>
-                                                    <li><a href="#" title>Javascript</a></li>
-                                                    <li><a href="#" title>Wordpress</a></li>
-                                                    <li><a href="#" title>Photoshop</a></li>
-                                                    <li><a href="#" title>Illustrator</a></li>
-                                                    <li><a href="#" title>Corel Draw</a></li>
+                                                    <li><Link to="#" title>HTML</Link></li>
+                                                    <li><Link to="#" title>PHP</Link></li>
+                                                    <li><Link to="#" title>CSS</Link></li>
+                                                    <li><Link to="#" title>Javascript</Link></li>
+                                                    <li><Link to="#" title>Wordpress</Link></li>
+                                                    <li><Link to="#" title>Photoshop</Link></li>
+                                                    <li><Link to="#" title>Illustrator</Link></li>
+                                                    <li><Link to="#" title>Corel Draw</Link></li>
                                                 </ul>
                                             </div>{/*user-profile-ov end*/}
                                         </div>{/*product-feed-tab end*/}
@@ -428,61 +428,61 @@ export default function UserProfile() {
                                                         <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                                             <div className="gallery_pt">
                                                                 <img src="/reactsocialmedia/assets/images/resources/pf-img1.jpg" alt="" />
-                                                                <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                                                <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                                             </div>{/*gallery_pt end*/}
                                                         </div>
                                                         <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                                             <div className="gallery_pt">
                                                                 <img src="/reactsocialmedia/assets/images/resources/pf-img2.jpg" alt="" />
-                                                                <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                                                <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                                             </div>{/*gallery_pt end*/}
                                                         </div>
                                                         <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                                             <div className="gallery_pt">
                                                                 <img src="/reactsocialmedia/assets/images/resources/pf-img3.jpg" alt="" />
-                                                                <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                                                <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                                             </div>{/*gallery_pt end*/}
                                                         </div>
                                                         <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                                             <div className="gallery_pt">
                                                                 <img src="/reactsocialmedia/assets/images/resources/pf-img4.jpg" alt="" />
-                                                                <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                                                <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                                             </div>{/*gallery_pt end*/}
                                                         </div>
                                                         <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                                             <div className="gallery_pt">
                                                                 <img src="/reactsocialmedia/assets/images/resources/pf-img5.jpg" alt="" />
-                                                                <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                                                <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                                             </div>{/*gallery_pt end*/}
                                                         </div>
                                                         <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                                             <div className="gallery_pt">
                                                                 <img src="/reactsocialmedia/assets/images/resources/pf-img6.jpg" alt="" />
-                                                                <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                                                <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                                             </div>{/*gallery_pt end*/}
                                                         </div>
                                                         <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                                             <div className="gallery_pt">
                                                                 <img src="/reactsocialmedia/assets/images/resources/pf-img7.jpg" alt="" />
-                                                                <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                                                <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                                             </div>{/*gallery_pt end*/}
                                                         </div>
                                                         <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                                             <div className="gallery_pt">
                                                                 <img src="/reactsocialmedia/assets/images/resources/pf-img8.jpg" alt="" />
-                                                                <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                                                <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                                             </div>{/*gallery_pt end*/}
                                                         </div>
                                                         <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                                             <div className="gallery_pt">
                                                                 <img src="/reactsocialmedia/assets/images/resources/pf-img9.jpg" alt="" />
-                                                                <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                                                <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                                             </div>{/*gallery_pt end*/}
                                                         </div>
                                                         <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                                             <div className="gallery_pt">
                                                                 <img src="/reactsocialmedia/assets/images/resources/pf-img10.jpg" alt="" />
-                                                                <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                                                <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                                             </div>{/*gallery_pt end*/}
                                                         </div>
                                                     </div>
@@ -494,7 +494,7 @@ export default function UserProfile() {
                                 <div className="col-lg-3">
                                     <div className="right-sidebar">
                                         <div className="message-btn">
-                                            <a href="#" title><i className="fa fa-envelope" /> Message</a>
+                                            <Link to="#" title><i className="fa fa-envelope" /> Message</Link>
                                         </div>
                                         <div className="widget widget-portfolio">
                                             <div className="wd-heady">
@@ -503,18 +503,18 @@ export default function UserProfile() {
                                             </div>
                                             <div className="pf-gallery">
                                                 <ul>
-                                                    <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery1.png" alt="" /></a></li>
-                                                    <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery2.png" alt="" /></a></li>
-                                                    <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery3.png" alt="" /></a></li>
-                                                    <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery4.png" alt="" /></a></li>
-                                                    <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery5.png" alt="" /></a></li>
-                                                    <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery6.png" alt="" /></a></li>
-                                                    <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery7.png" alt="" /></a></li>
-                                                    <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery8.png" alt="" /></a></li>
-                                                    <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery9.png" alt="" /></a></li>
-                                                    <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery10.png" alt="" /></a></li>
-                                                    <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery11.png" alt="" /></a></li>
-                                                    <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery12.png" alt="" /></a></li>
+                                                    <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery1.png" alt="" /></Link></li>
+                                                    <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery2.png" alt="" /></Link></li>
+                                                    <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery3.png" alt="" /></Link></li>
+                                                    <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery4.png" alt="" /></Link></li>
+                                                    <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery5.png" alt="" /></Link></li>
+                                                    <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery6.png" alt="" /></Link></li>
+                                                    <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery7.png" alt="" /></Link></li>
+                                                    <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery8.png" alt="" /></Link></li>
+                                                    <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery9.png" alt="" /></Link></li>
+                                                    <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery10.png" alt="" /></Link></li>
+                                                    <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery11.png" alt="" /></Link></li>
+                                                    <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery12.png" alt="" /></Link></li>
                                                 </ul>
                                             </div>{/*pf-gallery end*/}
                                         </div>{/*widget-portfolio end*/}

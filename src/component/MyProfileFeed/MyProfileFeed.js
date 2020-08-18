@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function MyProfileFeed() {
     return (
         <>
@@ -44,14 +44,14 @@ export default function MyProfileFeed() {
                           </ul>
                         </div>{/*user_pro_status end*/}
                         <ul className="social_links">
-                          <li><a href="#" title><i className="la la-globe" /> www.example.com</a></li>
-                          <li><a href="#" title><i className="fa fa-facebook-square" /> Http://www.facebook.com/john...</a></li>
-                          <li><a href="#" title><i className="fa fa-twitter" /> Http://www.Twitter.com/john...</a></li>
-                          <li><a href="#" title><i className="fa fa-google-plus-square" /> Http://www.googleplus.com/john...</a></li>
-                          <li><a href="#" title><i className="fa fa-behance-square" /> Http://www.behance.com/john...</a></li>
-                          <li><a href="#" title><i className="fa fa-pinterest" /> Http://www.pinterest.com/john...</a></li>
-                          <li><a href="#" title><i className="fa fa-instagram" /> Http://www.instagram.com/john...</a></li>
-                          <li><a href="#" title><i className="fa fa-youtube" /> Http://www.youtube.com/john...</a></li>
+                          <li><Link to="#" title><i className="la la-globe" /> www.example.com</Link></li>
+                          <li><Link to="#" title><i className="fa fa-facebook-square" /> Http://www.facebook.com/john...</Link></li>
+                          <li><Link to="#" title><i className="fa fa-twitter" /> Http://www.Twitter.com/john...</Link></li>
+                          <li><Link to="#" title><i className="fa fa-google-plus-square" /> Http://www.googleplus.com/john...</Link></li>
+                          <li><Link to="#" title><i className="fa fa-behance-square" /> Http://www.behance.com/john...</Link></li>
+                          <li><Link to="#" title><i className="fa fa-pinterest" /> Http://www.pinterest.com/john...</Link></li>
+                          <li><Link to="#" title><i className="fa fa-instagram" /> Http://www.instagram.com/john...</Link></li>
+                          <li><Link to="#" title><i className="fa fa-youtube" /> Http://www.youtube.com/john...</Link></li>
                         </ul>
                       </div>{/*user_profile end*/}
                       <div className="suggestions full-width">
@@ -109,7 +109,7 @@ export default function MyProfileFeed() {
                             <span><i className="la la-plus" /></span>
                           </div>
                           <div className="view-more">
-                            <a href="#" title>View More</a>
+                            <Link to="#" title>View More</Link>
                           </div>
                         </div>{/*suggestions-list end*/}
                       </div>{/*suggestions end*/}
@@ -128,51 +128,51 @@ export default function MyProfileFeed() {
                             <li><i className="fa fa-star" /></li>
                             <li><i className="fa fa-star-half-o" /></li>
                           </ul>
-                          <a href="#" title>Status</a>
+                          <Link to="#" title>Status</Link>
                         </div>{/*star-descp end*/}
                         <div className="tab-feed st2 settingjb">
                           <ul>
                             <li data-tab="feed-dd" className="active">
-                              <a href="#" title>
+                              <Link to="#" title>
                                 <img src="/reactsocialmedia/assets/images/ic1.png" alt="" />
                                 <span>Feed</span>
-                              </a>
+                              </Link>
                             </li>
                             <li data-tab="info-dd">
-                              <a href="#" title>
+                              <Link to="#" title>
                                 <img src="/reactsocialmedia/assets/images/ic2.png" alt="" />
                                 <span>Info</span>
-                              </a>
+                              </Link>
                             </li>
                             <li data-tab="saved-jobs">
-                              <a href="#" title>
+                              <Link to="#" title>
                                 <img src="/reactsocialmedia/assets/images/ic4.png" alt="" />
                                 <span>Jobs</span>
-                              </a>
+                              </Link>
                             </li>
                             <li data-tab="my-bids">
-                              <a href="#" title>
+                              <Link to="#" title>
                                 <img src="/reactsocialmedia/assets/images/ic5.png" alt="" />
                                 <span>Bids</span>
-                              </a>
+                              </Link>
                             </li>
                             <li data-tab="portfolio-dd">
-                              <a href="#" title>
+                              <Link to="#" title>
                                 <img src="/reactsocialmedia/assets/images/ic3.png" alt="" />
                                 <span>Portfolio</span>
-                              </a>
+                              </Link>
                             </li>
                             <li data-tab="rewivewdata">
-                              <a href="#" title>
+                              <Link to="#" title>
                                 <img src="/reactsocialmedia/assets/images/review.png" alt="" />
                                 <span>Reviews</span>
-                              </a>
+                              </Link>
                             </li>
                             <li data-tab="payment-dd">
-                              <a href="#" title>
+                              <Link to="#" title>
                                 <img src="/reactsocialmedia/assets/images/ic6.png" alt="" />
                                 <span>Payment</span>
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>{/* tab-feed end*/}
@@ -180,16 +180,16 @@ export default function MyProfileFeed() {
                       <div className="product-feed-tab" id="saved-jobs">
                         <ul className="nav nav-tabs" id="myTab" role="tablist">
                           <li className="nav-item">
-                            <a className="nav-link active" id="mange-tab" data-toggle="tab" href="#mange" role="tab" aria-controls="home" aria-selected="true">Manage Jobs</a>
+                            <Link className="nav-link active" id="mange-tab" data-toggle="tab" to="#mange" role="tab" aria-controls="home" aria-selected="true">Manage Jobs</Link>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" id="saved-tab" data-toggle="tab" href="#saved" role="tab" aria-controls="profile" aria-selected="false">Saved Jobs</a>
+                            <Link className="nav-link" id="saved-tab" data-toggle="tab" to="#saved" role="tab" aria-controls="profile" aria-selected="false">Saved Jobs</Link>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" id="contact-tab" data-toggle="tab" href="#applied" role="tab" aria-controls="applied" aria-selected="false">Applied Jobs</a>
+                            <Link className="nav-link" id="contact-tab" data-toggle="tab" to="#applied" role="tab" aria-controls="applied" aria-selected="false">Applied Jobs</Link>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" id="cadidates-tab" data-toggle="tab" href="#cadidates" role="tab" aria-controls="contact" aria-selected="false">Applied cadidates</a>
+                            <Link className="nav-link" id="cadidates-tab" data-toggle="tab" to="#cadidates" role="tab" aria-controls="contact" aria-selected="false">Applied cadidates</Link>
                           </li>
                         </ul>
                         <div className="tab-content" id="myTabContent">
@@ -207,18 +207,18 @@ export default function MyProfileFeed() {
                                       <button type="button" className="btn btn-primary">
                                         <span className="badge badge-light">3</span>Candidates
                                       </button>
-                                      <a href="#">
+                                      <Link to="#">
                                         <i className="far fa-edit" />
-                                      </a>
-                                      <a href="#">
+                                      </Link>
+                                      <Link to="#">
                                         <i className="far fa-trash-alt" />
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="col-md-6 col-sm-12">
                                     <ul className="bk-links bklink">
-                                      <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                      <li><a href="#" title><i className="la la-envelope" /></a></li>
+                                      <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                      <li><Link to="#" title><i className="la la-envelope" /></Link></li>
                                     </ul>
                                   </div>
                                 </div>
@@ -237,18 +237,18 @@ export default function MyProfileFeed() {
                                       <button type="button" className="btn btn-primary">
                                         <span className="badge badge-light">3</span>Candidates
                                       </button>
-                                      <a href="#">
+                                      <Link to="#">
                                         <i className="far fa-edit" />
-                                      </a>
-                                      <a href="#">
+                                      </Link>
+                                      <Link to="#">
                                         <i className="far fa-trash-alt" />
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="col-md-6 col-sm-12">
                                     <ul className="bk-links bklink">
-                                      <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                      <li><a href="#" title><i className="la la-envelope" /></a></li>
+                                      <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                      <li><Link to="#" title><i className="la la-envelope" /></Link></li>
                                     </ul>
                                   </div>
                                 </div>
@@ -274,15 +274,15 @@ export default function MyProfileFeed() {
                                       <button type="button" className="btn btn-primary">
                                         <span className="badge badge-light">3</span>Candidates
                                       </button>																	
-                                      <a href="#">
+                                      <Link to="#">
                                         <i className="far fa-trash-alt" />
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="col-md-6 col-sm-12">
                                     <ul className="bk-links bklink">
-                                      <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                      <li><a href="#" title><i className="la la-envelope" /></a></li>
+                                      <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                      <li><Link to="#" title><i className="la la-envelope" /></Link></li>
                                     </ul>
                                   </div>
                                 </div>
@@ -299,13 +299,13 @@ export default function MyProfileFeed() {
                                   </div>
                                 </div>
                                 <div className="ed-opts">
-                                  <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                  <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                   <ul className="ed-options">
-                                    <li><a href="#" title>Edit Post</a></li>
-                                    <li><a href="#" title>Unsaved</a></li>
-                                    <li><a href="#" title>Unbid</a></li>
-                                    <li><a href="#" title>Close</a></li>
-                                    <li><a href="#" title>Hide</a></li>
+                                    <li><Link to="#" title>Edit Post</Link></li>
+                                    <li><Link to="#" title>Unsaved</Link></li>
+                                    <li><Link to="#" title>Unbid</Link></li>
+                                    <li><Link to="#" title>Close</Link></li>
+                                    <li><Link to="#" title>Hide</Link></li>
                                   </ul>
                                 </div>
                               </div>
@@ -327,8 +327,8 @@ export default function MyProfileFeed() {
                                   <p>Open</p>
                                 </li>
                                 <div className="devepbtn saved-btn">
-                                  <a className="clrbtn" href="#">Unsaved</a>
-                                  <a className="clrbtn" href="#">Message</a>
+                                  <Link className="clrbtn" to="#">Unsaved</Link>
+                                  <Link className="clrbtn" to="#">Message</Link>
                                 </div>
                               </ul>
                             </div>
@@ -341,13 +341,13 @@ export default function MyProfileFeed() {
                                   </div>
                                 </div>
                                 <div className="ed-opts">
-                                  <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                  <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                   <ul className="ed-options">
-                                    <li><a href="#" title>Edit Post</a></li>
-                                    <li><a href="#" title>Unsaved</a></li>
-                                    <li><a href="#" title>Unbid</a></li>
-                                    <li><a href="#" title>Close</a></li>
-                                    <li><a href="#" title>Hide</a></li>
+                                    <li><Link to="#" title>Edit Post</Link></li>
+                                    <li><Link to="#" title>Unsaved</Link></li>
+                                    <li><Link to="#" title>Unbid</Link></li>
+                                    <li><Link to="#" title>Close</Link></li>
+                                    <li><Link to="#" title>Hide</Link></li>
                                   </ul>
                                 </div>
                               </div>
@@ -369,8 +369,8 @@ export default function MyProfileFeed() {
                                   <p>Open</p>
                                 </li>
                                 <div className="devepbtn saved-btn">
-                                  <a className="clrbtn" href="#">Unsaved</a>
-                                  <a className="clrbtn" href="#">Message</a>
+                                  <Link className="clrbtn" to="#">Unsaved</Link>
+                                  <Link className="clrbtn" to="#">Message</Link>
                                 </div>
                               </ul>
                             </div>
@@ -383,13 +383,13 @@ export default function MyProfileFeed() {
                                   </div>
                                 </div>
                                 <div className="ed-opts">
-                                  <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                  <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                   <ul className="ed-options">
-                                    <li><a href="#" title>Edit Post</a></li>
-                                    <li><a href="#" title>Unsaved</a></li>
-                                    <li><a href="#" title>Unbid</a></li>
-                                    <li><a href="#" title>Close</a></li>
-                                    <li><a href="#" title>Hide</a></li>
+                                    <li><Link to="#" title>Edit Post</Link></li>
+                                    <li><Link to="#" title>Unsaved</Link></li>
+                                    <li><Link to="#" title>Unbid</Link></li>
+                                    <li><Link to="#" title>Close</Link></li>
+                                    <li><Link to="#" title>Hide</Link></li>
                                   </ul>
                                 </div>
                               </div>
@@ -411,8 +411,8 @@ export default function MyProfileFeed() {
                                   <p>Open</p>
                                 </li>
                                 <div className="devepbtn saved-btn">
-                                  <a className="clrbtn" href="#">Unsaved</a>
-                                  <a className="clrbtn" href="#">Message</a>
+                                  <Link className="clrbtn" to="#">Unsaved</Link>
+                                  <Link className="clrbtn" to="#">Message</Link>
                                 </div>
                               </ul>
                             </div>
@@ -427,13 +427,13 @@ export default function MyProfileFeed() {
                                   </div>
                                 </div>
                                 <div className="ed-opts">
-                                  <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                  <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                   <ul className="ed-options">
-                                    <li><a href="#" title>Edit Post</a></li>
-                                    <li><a href="#" title>Unsaved</a></li>
-                                    <li><a href="#" title>Unbid</a></li>
-                                    <li><a href="#" title>Close</a></li>
-                                    <li><a href="#" title>Hide</a></li>
+                                    <li><Link to="#" title>Edit Post</Link></li>
+                                    <li><Link to="#" title>Unsaved</Link></li>
+                                    <li><Link to="#" title>Unbid</Link></li>
+                                    <li><Link to="#" title>Close</Link></li>
+                                    <li><Link to="#" title>Hide</Link></li>
                                   </ul>
                                 </div>
                               </div>
@@ -455,11 +455,11 @@ export default function MyProfileFeed() {
                                   <p>Open</p>
                                 </li>
                                 <div className="devepbtn saved-btn">
-                                  <a className="clrbtn" href="#">Applied</a>
-                                  <a className="clrbtn" href="#">Message</a>
-                                  <a href="#">
+                                  <Link className="clrbtn" to="#">Applied</Link>
+                                  <Link className="clrbtn" to="#">Message</Link>
+                                  <Link to="#">
                                     <i className="far fa-trash-alt" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </ul>
                             </div>
@@ -472,13 +472,13 @@ export default function MyProfileFeed() {
                                   </div>
                                 </div>
                                 <div className="ed-opts">
-                                  <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                  <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                   <ul className="ed-options">
-                                    <li><a href="#" title>Edit Post</a></li>
-                                    <li><a href="#" title>Unsaved</a></li>
-                                    <li><a href="#" title>Unbid</a></li>
-                                    <li><a href="#" title>Close</a></li>
-                                    <li><a href="#" title>Hide</a></li>
+                                    <li><Link to="#" title>Edit Post</Link></li>
+                                    <li><Link to="#" title>Unsaved</Link></li>
+                                    <li><Link to="#" title>Unbid</Link></li>
+                                    <li><Link to="#" title>Close</Link></li>
+                                    <li><Link to="#" title>Hide</Link></li>
                                   </ul>
                                 </div>
                               </div>
@@ -500,11 +500,11 @@ export default function MyProfileFeed() {
                                   <p>Open</p>
                                 </li>
                                 <div className="devepbtn saved-btn">
-                                  <a className="clrbtn" href="#">Applied</a>
-                                  <a className="clrbtn" href="#">Message</a>
-                                  <a href="#">
+                                  <Link className="clrbtn" to="#">Applied</Link>
+                                  <Link className="clrbtn" to="#">Message</Link>
+                                  <Link to="#">
                                     <i className="far fa-trash-alt" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </ul>
                             </div>
@@ -517,13 +517,13 @@ export default function MyProfileFeed() {
                                   </div>
                                 </div>
                                 <div className="ed-opts">
-                                  <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                  <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                   <ul className="ed-options">
-                                    <li><a href="#" title>Edit Post</a></li>
-                                    <li><a href="#" title>Unsaved</a></li>
-                                    <li><a href="#" title>Unbid</a></li>
-                                    <li><a href="#" title>Close</a></li>
-                                    <li><a href="#" title>Hide</a></li>
+                                    <li><Link to="#" title>Edit Post</Link></li>
+                                    <li><Link to="#" title>Unsaved</Link></li>
+                                    <li><Link to="#" title>Unbid</Link></li>
+                                    <li><Link to="#" title>Close</Link></li>
+                                    <li><Link to="#" title>Hide</Link></li>
                                   </ul>
                                 </div>
                               </div>
@@ -545,11 +545,11 @@ export default function MyProfileFeed() {
                                   <p>Open</p>
                                 </li>
                                 <div className="devepbtn saved-btn">
-                                  <a className="clrbtn" href="#">Applied</a>
-                                  <a className="clrbtn" href="#">Message</a>
-                                  <a href="#">
+                                  <Link className="clrbtn" to="#">Applied</Link>
+                                  <Link className="clrbtn" to="#">Message</Link>
+                                  <Link to="#">
                                     <i className="far fa-trash-alt" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </ul>
                             </div>
@@ -570,13 +570,13 @@ export default function MyProfileFeed() {
                                   </div>
                                 </div>
                                 <div className="ed-opts">
-                                  <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                  <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                   <ul className="ed-options">
-                                    <li><a href="#" title>Edit Post</a></li>
-                                    <li><a href="#" title>Accept</a></li>
-                                    <li><a href="#" title>Unbid</a></li>
-                                    <li><a href="#" title>Close</a></li>
-                                    <li><a href="#" title>Hide</a></li>
+                                    <li><Link to="#" title>Edit Post</Link></li>
+                                    <li><Link to="#" title>Accept</Link></li>
+                                    <li><Link to="#" title>Unbid</Link></li>
+                                    <li><Link to="#" title>Close</Link></li>
+                                    <li><Link to="#" title>Hide</Link></li>
                                   </ul>
                                 </div>
                                 <div className="job_descp noborder">
@@ -587,16 +587,16 @@ export default function MyProfileFeed() {
                                       <li><i className="fa fa-star" /></li>
                                       <li><i className="fa fa-star" /></li>
                                       <li><i className="fa fa-star-half-o" /></li>
-                                      <a href="#" title>5.0 of 5 Reviews</a>
+                                      <Link to="#" title>5.0 of 5 Reviews</Link>
                                     </ul>
                                   </div>
                                   <div className="devepbtn appliedinfo noreply">
-                                    <a className="clrbtn" href="#">Accept</a>
-                                    <a className="clrbtn" href="#">View Profile</a>
-                                    <a className="clrbtn" href="#">Message</a>
-                                    <a href="#">
+                                    <Link className="clrbtn" to="#">Accept</Link>
+                                    <Link className="clrbtn" to="#">View Profile</Link>
+                                    <Link className="clrbtn" to="#">Message</Link>
+                                    <Link to="#">
                                       <i className="far fa-trash-alt" />
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </div>
@@ -616,13 +616,13 @@ export default function MyProfileFeed() {
                                   </div>
                                 </div>
                                 <div className="ed-opts">
-                                  <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                  <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                   <ul className="ed-options">
-                                    <li><a href="#" title>Edit Post</a></li>
-                                    <li><a href="#" title>Accept</a></li>
-                                    <li><a href="#" title>Unbid</a></li>
-                                    <li><a href="#" title>Close</a></li>
-                                    <li><a href="#" title>Hide</a></li>
+                                    <li><Link to="#" title>Edit Post</Link></li>
+                                    <li><Link to="#" title>Accept</Link></li>
+                                    <li><Link to="#" title>Unbid</Link></li>
+                                    <li><Link to="#" title>Close</Link></li>
+                                    <li><Link to="#" title>Hide</Link></li>
                                   </ul>
                                 </div>
                                 <div className="job_descp noborder">
@@ -633,16 +633,16 @@ export default function MyProfileFeed() {
                                       <li><i className="fa fa-star" /></li>
                                       <li><i className="fa fa-star" /></li>
                                       <li><i className="fa fa-star-half-o" /></li>
-                                      <a href="#" title>5.0 of 5 Reviews</a>
+                                      <Link to="#" title>5.0 of 5 Reviews</Link>
                                     </ul>
                                   </div>
                                   <div className="devepbtn appliedinfo noreply">
-                                    <a className="clrbtn" href="#">Accept</a>
-                                    <a className="clrbtn" href="#">View Profile</a>
-                                    <a className="clrbtn" href="#">Message</a>
-                                    <a href="#">
+                                    <Link className="clrbtn" to="#">Accept</Link>
+                                    <Link className="clrbtn" to="#">View Profile</Link>
+                                    <Link className="clrbtn" to="#">Message</Link>
+                                    <Link to="#">
                                       <i className="far fa-trash-alt" />
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </div>
@@ -662,13 +662,13 @@ export default function MyProfileFeed() {
                                   </div>
                                 </div>
                                 <div className="ed-opts">
-                                  <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                  <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                   <ul className="ed-options">
-                                    <li><a href="#" title>Edit Post</a></li>
-                                    <li><a href="#" title>Accept</a></li>
-                                    <li><a href="#" title>Unbid</a></li>
-                                    <li><a href="#" title>Close</a></li>
-                                    <li><a href="#" title>Hide</a></li>
+                                    <li><Link to="#" title>Edit Post</Link></li>
+                                    <li><Link to="#" title>Accept</Link></li>
+                                    <li><Link to="#" title>Unbid</Link></li>
+                                    <li><Link to="#" title>Close</Link></li>
+                                    <li><Link to="#" title>Hide</Link></li>
                                   </ul>
                                 </div>
                                 <div className="job_descp noborder">
@@ -679,16 +679,16 @@ export default function MyProfileFeed() {
                                       <li><i className="fa fa-star" /></li>
                                       <li><i className="fa fa-star" /></li>
                                       <li><i className="fa fa-star-half-o" /></li>
-                                      <a href="#" title>5.0 of 5 Reviews</a>
+                                      <Link to="#" title>5.0 of 5 Reviews</Link>
                                     </ul>
                                   </div>
                                   <div className="devepbtn appliedinfo noreply">
-                                    <a className="clrbtn" href="#">Accept</a>
-                                    <a className="clrbtn" href="#">View Profile</a>
-                                    <a className="clrbtn" href="#">Message</a>
-                                    <a href="#">
+                                    <Link className="clrbtn" to="#">Accept</Link>
+                                    <Link className="clrbtn" to="#">View Profile</Link>
+                                    <Link className="clrbtn" to="#">Message</Link>
+                                    <Link to="#">
                                       <i className="far fa-trash-alt" />
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </div>
@@ -708,13 +708,13 @@ export default function MyProfileFeed() {
                                 </div>
                               </div>
                               <div className="ed-opts">
-                                <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                 <ul className="ed-options">
-                                  <li><a href="#" title>Edit Post</a></li>
-                                  <li><a href="#" title>Unsaved</a></li>
-                                  <li><a href="#" title>Unbid</a></li>
-                                  <li><a href="#" title>Close</a></li>
-                                  <li><a href="#" title>Hide</a></li>
+                                  <li><Link to="#" title>Edit Post</Link></li>
+                                  <li><Link to="#" title>Unsaved</Link></li>
+                                  <li><Link to="#" title>Unbid</Link></li>
+                                  <li><Link to="#" title>Close</Link></li>
+                                  <li><Link to="#" title>Hide</Link></li>
                                 </ul>
                               </div>
                             </div>
@@ -724,35 +724,35 @@ export default function MyProfileFeed() {
                                 <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                               </ul>
                               <ul className="bk-links">
-                                <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                <li><a href="#" title><i className="la la-envelope" /></a></li>
+                                <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                <li><Link to="#" title><i className="la la-envelope" /></Link></li>
                               </ul>
                             </div>
                             <div className="job_descp">
                               <h3>Senior Wordpress Developer</h3>
                               <ul className="job-dt">
-                                <li><a href="#" title>Full Time</a></li>
+                                <li><Link to="#" title>Full Time</Link></li>
                                 <li><span>$30 / hr</span></li>
                               </ul>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                               <ul className="skill-tags">
-                                <li><a href="#" title>HTML</a></li>
-                                <li><a href="#" title>PHP</a></li>
-                                <li><a href="#" title>CSS</a></li>
-                                <li><a href="#" title>Javascript</a></li>
-                                <li><a href="#" title>Wordpress</a></li> 	
+                                <li><Link to="#" title>HTML</Link></li>
+                                <li><Link to="#" title>PHP</Link></li>
+                                <li><Link to="#" title>CSS</Link></li>
+                                <li><Link to="#" title>Javascript</Link></li>
+                                <li><Link to="#" title>Wordpress</Link></li> 	
                               </ul>
                             </div>
                             <div className="job-status-bar">
                               <ul className="like-com">
                                 <li>
-                                  <a href="#"><i className="fas fa-heart" /> Like</a>
+                                  <Link to="#"><i className="fas fa-heart" /> Like</Link>
                                   <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                   <span>25</span>
                                 </li> 
-                                <li><a href="#" className="com"><i className="fas fa-comment-alt" /> Comment 15</a></li>
+                                <li><Link to="#" className="com"><i className="fas fa-comment-alt" /> Comment 15</Link></li>
                               </ul>
-                              <a href="#"><i className="fas fa-eye" />Views 50</a>
+                              <Link to="#"><i className="fas fa-eye" />Views 50</Link>
                             </div>
                           </div>{/*post-bar end*/}
                           <div className="post-bar">
@@ -765,13 +765,13 @@ export default function MyProfileFeed() {
                                 </div>
                               </div>
                               <div className="ed-opts">
-                                <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                 <ul className="ed-options">
-                                  <li><a href="#" title>Edit Post</a></li>
-                                  <li><a href="#" title>Unsaved</a></li>
-                                  <li><a href="#" title>Unbid</a></li>
-                                  <li><a href="#" title>Close</a></li>
-                                  <li><a href="#" title>Hide</a></li>
+                                  <li><Link to="#" title>Edit Post</Link></li>
+                                  <li><Link to="#" title>Unsaved</Link></li>
+                                  <li><Link to="#" title>Unbid</Link></li>
+                                  <li><Link to="#" title>Close</Link></li>
+                                  <li><Link to="#" title>Hide</Link></li>
                                 </ul>
                               </div>
                             </div>
@@ -781,9 +781,9 @@ export default function MyProfileFeed() {
                                 <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                               </ul>
                               <ul className="bk-links">
-                                <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                <li><a href="#" title><i className="la la-envelope" /></a></li>
-                                <li><a href="#" title className="bid_now">Bid Now</a></li>
+                                <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                                <li><Link to="#" title className="bid_now">Bid Now</Link></li>
                               </ul>
                             </div>
                             <div className="job_descp">
@@ -791,25 +791,25 @@ export default function MyProfileFeed() {
                               <ul className="job-dt">
                                 <li><span>$300 - $350</span></li>
                               </ul>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                               <ul className="skill-tags">
-                                <li><a href="#" title>HTML</a></li>
-                                <li><a href="#" title>PHP</a></li>
-                                <li><a href="#" title>CSS</a></li>
-                                <li><a href="#" title>Javascript</a></li>
-                                <li><a href="#" title>Wordpress</a></li> 	
+                                <li><Link to="#" title>HTML</Link></li>
+                                <li><Link to="#" title>PHP</Link></li>
+                                <li><Link to="#" title>CSS</Link></li>
+                                <li><Link to="#" title>Javascript</Link></li>
+                                <li><Link to="#" title>Wordpress</Link></li> 	
                               </ul>
                             </div>
                             <div className="job-status-bar">
                               <ul className="like-com">
                                 <li>
-                                  <a href="#"><i className="fas fa-heart" /> Like</a>
+                                  <Link to="#"><i className="fas fa-heart" /> Like</Link>
                                   <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                   <span>25</span>
                                 </li> 
-                                <li><a href="#" className="com"><i className="fas fa-comment-alt" /> Comment 15</a></li>
+                                <li><Link to="#" className="com"><i className="fas fa-comment-alt" /> Comment 15</Link></li>
                               </ul>
-                              <a href="#"><i className="fas fa-eye" />Views 50</a>
+                              <Link to="#"><i className="fas fa-eye" />Views 50</Link>
                             </div>
                           </div>{/*post-bar end*/}
                           <div className="post-bar">
@@ -822,13 +822,13 @@ export default function MyProfileFeed() {
                                 </div>
                               </div>
                               <div className="ed-opts">
-                                <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                 <ul className="ed-options">
-                                  <li><a href="#" title>Edit Post</a></li>
-                                  <li><a href="#" title>Unsaved</a></li>
-                                  <li><a href="#" title>Unbid</a></li>
-                                  <li><a href="#" title>Close</a></li>
-                                  <li><a href="#" title>Hide</a></li>
+                                  <li><Link to="#" title>Edit Post</Link></li>
+                                  <li><Link to="#" title>Unsaved</Link></li>
+                                  <li><Link to="#" title>Unbid</Link></li>
+                                  <li><Link to="#" title>Close</Link></li>
+                                  <li><Link to="#" title>Hide</Link></li>
                                 </ul>
                               </div>
                             </div>
@@ -838,35 +838,35 @@ export default function MyProfileFeed() {
                                 <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                               </ul>
                               <ul className="bk-links">
-                                <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                <li><a href="#" title><i className="la la-envelope" /></a></li>
+                                <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                <li><Link to="#" title><i className="la la-envelope" /></Link></li>
                               </ul>
                             </div>
                             <div className="job_descp">
                               <h3>Senior UI / UX designer</h3>
                               <ul className="job-dt">
-                                <li><a href="#" title>Par Time</a></li>
+                                <li><Link to="#" title>Par Time</Link></li>
                                 <li><span>$10 / hr</span></li>
                               </ul>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                               <ul className="skill-tags">
-                                <li><a href="#" title>HTML</a></li>
-                                <li><a href="#" title>PHP</a></li>
-                                <li><a href="#" title>CSS</a></li>
-                                <li><a href="#" title>Javascript</a></li>
-                                <li><a href="#" title>Wordpress</a></li> 	
+                                <li><Link to="#" title>HTML</Link></li>
+                                <li><Link to="#" title>PHP</Link></li>
+                                <li><Link to="#" title>CSS</Link></li>
+                                <li><Link to="#" title>Javascript</Link></li>
+                                <li><Link to="#" title>Wordpress</Link></li> 	
                               </ul>
                             </div>
                             <div className="job-status-bar">
                               <ul className="like-com">
                                 <li>
-                                  <a href="#"><i className="fas fa-heart" /> Like</a>
+                                  <Link to="#"><i className="fas fa-heart" /> Like</Link>
                                   <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                   <span>25</span>
                                 </li> 
-                                <li><a href="#" className="com"><i className="fas fa-comment-alt" /> Comment 15</a></li>
+                                <li><Link to="#" className="com"><i className="fas fa-comment-alt" /> Comment 15</Link></li>
                               </ul>
-                              <a href="#"><i className="fas fa-eye" />Views 50</a>
+                              <Link to="#"><i className="fas fa-eye" />Views 50</Link>
                             </div>
                           </div>{/*post-bar end*/}
                           <div className="post-bar">
@@ -879,13 +879,13 @@ export default function MyProfileFeed() {
                                 </div>
                               </div>
                               <div className="ed-opts">
-                                <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                 <ul className="ed-options">
-                                  <li><a href="#" title>Edit Post</a></li>
-                                  <li><a href="#" title>Unsaved</a></li>
-                                  <li><a href="#" title>Unbid</a></li>
-                                  <li><a href="#" title>Close</a></li>
-                                  <li><a href="#" title>Hide</a></li>
+                                  <li><Link to="#" title>Edit Post</Link></li>
+                                  <li><Link to="#" title>Unsaved</Link></li>
+                                  <li><Link to="#" title>Unbid</Link></li>
+                                  <li><Link to="#" title>Close</Link></li>
+                                  <li><Link to="#" title>Hide</Link></li>
                                 </ul>
                               </div>
                             </div>
@@ -895,9 +895,9 @@ export default function MyProfileFeed() {
                                 <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                               </ul>
                               <ul className="bk-links">
-                                <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                <li><a href="#" title><i className="la la-envelope" /></a></li>
-                                <li><a href="#" title className="bid_now">Bid Now</a></li>
+                                <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                                <li><Link to="#" title className="bid_now">Bid Now</Link></li>
                               </ul>
                             </div>
                             <div className="job_descp">
@@ -905,25 +905,25 @@ export default function MyProfileFeed() {
                               <ul className="job-dt">
                                 <li><span>$300 - $350</span></li>
                               </ul>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                               <ul className="skill-tags">
-                                <li><a href="#" title>HTML</a></li>
-                                <li><a href="#" title>PHP</a></li>
-                                <li><a href="#" title>CSS</a></li>
-                                <li><a href="#" title>Javascript</a></li>
-                                <li><a href="#" title>Wordpress</a></li> 	
+                                <li><Link to="#" title>HTML</Link></li>
+                                <li><Link to="#" title>PHP</Link></li>
+                                <li><Link to="#" title>CSS</Link></li>
+                                <li><Link to="#" title>Javascript</Link></li>
+                                <li><Link to="#" title>Wordpress</Link></li> 	
                               </ul>
                             </div>
                             <div className="job-status-bar">
                               <ul className="like-com">
                                 <li>
-                                  <a href="#"><i className="fas fa-heart" /> Like</a>
+                                  <Link to="#"><i className="fas fa-heart" /> Like</Link>
                                   <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                   <span>25</span>
                                 </li> 
-                                <li><a href="#" className="com"><i className="fas fa-comment-alt" /> Comment 15</a></li>
+                                <li><Link to="#" className="com"><i className="fas fa-comment-alt" /> Comment 15</Link></li>
                               </ul>
-                              <a href="#"><i className="fas fa-eye" />Views 50</a>
+                              <Link to="#"><i className="fas fa-eye" />Views 50</Link>
                             </div>
                           </div>{/*post-bar end*/}
                           <div className="process-comm">
@@ -938,13 +938,13 @@ export default function MyProfileFeed() {
                       <div className="product-feed-tab" id="my-bids">
                         <ul className="nav nav-tabs bid-tab" id="myTab" role="tablist">
                           <li className="nav-item">
-                            <a className="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Manage Bids</a>
+                            <Link className="nav-link active" id="home-tab" data-toggle="tab" to="#home" role="tab" aria-controls="home" aria-selected="true">Manage Bids</Link>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" id="bidders-tab" data-toggle="tab" href="#bidders" role="tab" aria-controls="contact" aria-selected="false">Manage Bidders</a>
+                            <Link className="nav-link" id="bidders-tab" data-toggle="tab" to="#bidders" role="tab" aria-controls="contact" aria-selected="false">Manage Bidders</Link>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">My Active Bids</a>
+                            <Link className="nav-link" id="profile-tab" data-toggle="tab" to="#profile" role="tab" aria-controls="profile" aria-selected="false">My Active Bids</Link>
                           </li>
                         </ul>
                         <div className="tab-content" id="myTabContent">
@@ -969,8 +969,8 @@ export default function MyProfileFeed() {
                                     <p>$500 - $600</p>
                                   </li>
                                   <ul className="bk-links bklink">
-                                    <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                    <li><a href="#" title><i className="la la-envelope" /></a></li>
+                                    <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                    <li><Link to="#" title><i className="la la-envelope" /></Link></li>
                                   </ul>
                                 </ul>
                                 <br />
@@ -978,12 +978,12 @@ export default function MyProfileFeed() {
                                   <button type="button" className="btn btn-primary">
                                     <span className="badge badge-light">3</span>Candidates 
                                   </button>
-                                  <a href="#">
+                                  <Link to="#">
                                     <i className="far fa-edit" />
-                                  </a>
-                                  <a href="#">
+                                  </Link>
+                                  <Link to="#">
                                     <i className="far fa-trash-alt" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </div>
                             </div>
@@ -1007,8 +1007,8 @@ export default function MyProfileFeed() {
                                     <p>$500 - $600</p>
                                   </li>
                                   <ul className="bk-links bklink">
-                                    <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                    <li><a href="#" title><i className="la la-envelope" /></a></li>
+                                    <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                    <li><Link to="#" title><i className="la la-envelope" /></Link></li>
                                   </ul>
                                 </ul>
                                 <br />
@@ -1016,12 +1016,12 @@ export default function MyProfileFeed() {
                                   <button type="button" className="btn btn-primary">
                                     <span className="badge badge-light">3</span>Candidates 
                                   </button>
-                                  <a href="#">
+                                  <Link to="#">
                                     <i className="far fa-edit" />
-                                  </a>
-                                  <a href="#">
+                                  </Link>
+                                  <Link to="#">
                                     <i className="far fa-trash-alt" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </div>
                             </div>
@@ -1045,8 +1045,8 @@ export default function MyProfileFeed() {
                                     <p>$500 - $600</p>
                                   </li>
                                   <ul className="bk-links bklink">
-                                    <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                    <li><a href="#" title><i className="la la-envelope" /></a></li>
+                                    <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                    <li><Link to="#" title><i className="la la-envelope" /></Link></li>
                                   </ul>
                                 </ul>
                                 <br />
@@ -1054,12 +1054,12 @@ export default function MyProfileFeed() {
                                   <button type="button" className="btn btn-primary">
                                     <span className="badge badge-light">3</span>Candidates 
                                   </button>
-                                  <a href="#">
+                                  <Link to="#">
                                     <i className="far fa-edit" />
-                                  </a>
-                                  <a href="#">
+                                  </Link>
+                                  <Link to="#">
                                     <i className="far fa-trash-alt" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </div>
                             </div>	
@@ -1083,12 +1083,12 @@ export default function MyProfileFeed() {
                                   <p>8 Days</p>
                                 </li>
                                 <div className="devepbtn activebtn">
-                                  <a href="#">
+                                  <Link to="#">
                                     <i className="far fa-edit" />
-                                  </a>
-                                  <a href="#">
+                                  </Link>
+                                  <Link to="#">
                                     <i className="far fa-trash-alt" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </ul>
                             </div>
@@ -1110,12 +1110,12 @@ export default function MyProfileFeed() {
                                   <p>15 Days</p>
                                 </li>
                                 <div className="devepbtn activebtn">
-                                  <a href="#">
+                                  <Link to="#">
                                     <i className="far fa-edit" />
-                                  </a>
-                                  <a href="#">
+                                  </Link>
+                                  <Link to="#">
                                     <i className="far fa-trash-alt" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </ul>
                             </div>
@@ -1137,12 +1137,12 @@ export default function MyProfileFeed() {
                                   <p>15 Days</p>
                                 </li>
                                 <div className="devepbtn activebtn">
-                                  <a href="#">
+                                  <Link to="#">
                                     <i className="far fa-edit" />
-                                  </a>
-                                  <a href="#">
+                                  </Link>
+                                  <Link to="#">
                                     <i className="far fa-trash-alt" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </ul>
                             </div>
@@ -1158,13 +1158,13 @@ export default function MyProfileFeed() {
                                   </div>
                                 </div>
                                 <div className="ed-opts">
-                                  <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                  <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                   <ul className="ed-options">
-                                    <li><a href="#" title>Edit Post</a></li>
-                                    <li><a href="#" title>Unsaved</a></li>
-                                    <li><a href="#" title>Unbid</a></li>
-                                    <li><a href="#" title>Close</a></li>
-                                    <li><a href="#" title>Hide</a></li>
+                                    <li><Link to="#" title>Edit Post</Link></li>
+                                    <li><Link to="#" title>Unsaved</Link></li>
+                                    <li><Link to="#" title>Unbid</Link></li>
+                                    <li><Link to="#" title>Close</Link></li>
+                                    <li><Link to="#" title>Hide</Link></li>
                                   </ul>
                                 </div>
                               </div>
@@ -1186,11 +1186,11 @@ export default function MyProfileFeed() {
                                   <p>Open</p>
                                 </li>
                                 <div className="devepbtn">
-                                  <a className="clrbtn" href="#">Applied</a>
-                                  <a className="clrbtn" href="#">Message</a>
-                                  <a href="#">
+                                  <Link className="clrbtn" to="#">Applied</Link>
+                                  <Link className="clrbtn" to="#">Message</Link>
+                                  <Link to="#">
                                     <i className="far fa-trash-alt" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </ul>
                             </div>
@@ -1204,13 +1204,13 @@ export default function MyProfileFeed() {
                                   </div>
                                 </div>
                                 <div className="ed-opts">
-                                  <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                  <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                   <ul className="ed-options">
-                                    <li><a href="#" title>Edit Post</a></li>
-                                    <li><a href="#" title>Unsaved</a></li>
-                                    <li><a href="#" title>Unbid</a></li>
-                                    <li><a href="#" title>Close</a></li>
-                                    <li><a href="#" title>Hide</a></li>
+                                    <li><Link to="#" title>Edit Post</Link></li>
+                                    <li><Link to="#" title>Unsaved</Link></li>
+                                    <li><Link to="#" title>Unbid</Link></li>
+                                    <li><Link to="#" title>Close</Link></li>
+                                    <li><Link to="#" title>Hide</Link></li>
                                   </ul>
                                 </div>
                               </div>
@@ -1232,11 +1232,11 @@ export default function MyProfileFeed() {
                                   <p>Open</p>
                                 </li>
                                 <div className="devepbtn">
-                                  <a className="clrbtn" href="#">Applied</a>
-                                  <a className="clrbtn" href="#">Message</a>
-                                  <a href="#">
+                                  <Link className="clrbtn" to="#">Applied</Link>
+                                  <Link className="clrbtn" to="#">Message</Link>
+                                  <Link to="#">
                                     <i className="far fa-trash-alt" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </ul>
                             </div>
@@ -1250,13 +1250,13 @@ export default function MyProfileFeed() {
                                   </div>
                                 </div>
                                 <div className="ed-opts">
-                                  <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                  <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                   <ul className="ed-options">
-                                    <li><a href="#" title>Edit Post</a></li>
-                                    <li><a href="#" title>Unsaved</a></li>
-                                    <li><a href="#" title>Unbid</a></li>
-                                    <li><a href="#" title>Close</a></li>
-                                    <li><a href="#" title>Hide</a></li>
+                                    <li><Link to="#" title>Edit Post</Link></li>
+                                    <li><Link to="#" title>Unsaved</Link></li>
+                                    <li><Link to="#" title>Unbid</Link></li>
+                                    <li><Link to="#" title>Close</Link></li>
+                                    <li><Link to="#" title>Hide</Link></li>
                                   </ul>
                                 </div>
                               </div>
@@ -1278,11 +1278,11 @@ export default function MyProfileFeed() {
                                   <p>Open</p>
                                 </li>
                                 <div className="devepbtn">
-                                  <a className="clrbtn" href="#">Applied</a>
-                                  <a className="clrbtn" href="#">Message</a>
-                                  <a href="#">
+                                  <Link className="clrbtn" to="#">Applied</Link>
+                                  <Link className="clrbtn" to="#">Message</Link>
+                                  <Link to="#">
                                     <i className="far fa-trash-alt" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </ul>
                             </div>
@@ -1303,13 +1303,13 @@ export default function MyProfileFeed() {
                                   </div>
                                 </div>
                                 <div className="ed-opts">
-                                  <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                  <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                   <ul className="ed-options">
-                                    <li><a href="#" title>Edit Post</a></li>
-                                    <li><a href="#" title>Accept</a></li>
-                                    <li><a href="#" title>Unbid</a></li>
-                                    <li><a href="#" title>Close</a></li>
-                                    <li><a href="#" title>Hide</a></li>
+                                    <li><Link to="#" title>Edit Post</Link></li>
+                                    <li><Link to="#" title>Accept</Link></li>
+                                    <li><Link to="#" title>Unbid</Link></li>
+                                    <li><Link to="#" title>Close</Link></li>
+                                    <li><Link to="#" title>Hide</Link></li>
                                   </ul>
                                 </div>
                                 <div className="job_descp noborder">
@@ -1320,7 +1320,7 @@ export default function MyProfileFeed() {
                                       <li><i className="fa fa-star" /></li>
                                       <li><i className="fa fa-star" /></li>
                                       <li><i className="fa fa-star-half-o" /></li>
-                                      <a href="#" title>5.0 of 5 Reviews</a>
+                                      <Link to="#" title>5.0 of 5 Reviews</Link>
                                     </ul>
                                   </div>
                                   <ul className="savedjob-info biddersinfo">
@@ -1334,12 +1334,12 @@ export default function MyProfileFeed() {
                                     </li>
                                   </ul>
                                   <div className="devepbtn appliedinfo bidsbtn">
-                                    <a className="clrbtn" href="#">Accept</a>
-                                    <a className="clrbtn" href="#">View Profile</a>
-                                    <a className="clrbtn" href="#">Message</a>
-                                    <a href="#">
+                                    <Link className="clrbtn" to="#">Accept</Link>
+                                    <Link className="clrbtn" to="#">View Profile</Link>
+                                    <Link className="clrbtn" to="#">Message</Link>
+                                    <Link to="#">
                                       <i className="far fa-trash-alt" />
-                                    </a>    
+                                    </Link>    
                                   </div>
                                 </div>
                               </div>
@@ -1359,13 +1359,13 @@ export default function MyProfileFeed() {
                                   </div>
                                 </div>
                                 <div className="ed-opts">
-                                  <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                  <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                   <ul className="ed-options">
-                                    <li><a href="#" title>Edit Post</a></li>
-                                    <li><a href="#" title>Accept</a></li>
-                                    <li><a href="#" title>Unbid</a></li>
-                                    <li><a href="#" title>Close</a></li>
-                                    <li><a href="#" title>Hide</a></li>
+                                    <li><Link to="#" title>Edit Post</Link></li>
+                                    <li><Link to="#" title>Accept</Link></li>
+                                    <li><Link to="#" title>Unbid</Link></li>
+                                    <li><Link to="#" title>Close</Link></li>
+                                    <li><Link to="#" title>Hide</Link></li>
                                   </ul>
                                 </div>
                                 <div className="job_descp noborder">
@@ -1376,7 +1376,7 @@ export default function MyProfileFeed() {
                                       <li><i className="fa fa-star" /></li>
                                       <li><i className="fa fa-star" /></li>
                                       <li><i className="fa fa-star-half-o" /></li>
-                                      <a href="#" title>5.0 of 5 Reviews</a>
+                                      <Link to="#" title>5.0 of 5 Reviews</Link>
                                     </ul>
                                   </div>
                                   <ul className="savedjob-info biddersinfo">
@@ -1390,12 +1390,12 @@ export default function MyProfileFeed() {
                                     </li>
                                   </ul>
                                   <div className="devepbtn appliedinfo bidsbtn">
-                                    <a className="clrbtn" href="#">Accept</a>
-                                    <a className="clrbtn" href="#">View Profile</a>
-                                    <a className="clrbtn" href="#">Message</a>
-                                    <a href="#">
+                                    <Link className="clrbtn" to="#">Accept</Link>
+                                    <Link className="clrbtn" to="#">View Profile</Link>
+                                    <Link className="clrbtn" to="#">Message</Link>
+                                    <Link to="#">
                                       <i className="far fa-trash-alt" />
-                                    </a>    
+                                    </Link>    
                                   </div>
                                 </div>
                               </div>
@@ -1415,13 +1415,13 @@ export default function MyProfileFeed() {
                                   </div>
                                 </div>
                                 <div className="ed-opts">
-                                  <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                  <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                   <ul className="ed-options">
-                                    <li><a href="#" title>Edit Post</a></li>
-                                    <li><a href="#" title>Accept</a></li>
-                                    <li><a href="#" title>Unbid</a></li>
-                                    <li><a href="#" title>Close</a></li>
-                                    <li><a href="#" title>Hide</a></li>
+                                    <li><Link to="#" title>Edit Post</Link></li>
+                                    <li><Link to="#" title>Accept</Link></li>
+                                    <li><Link to="#" title>Unbid</Link></li>
+                                    <li><Link to="#" title>Close</Link></li>
+                                    <li><Link to="#" title>Hide</Link></li>
                                   </ul>
                                 </div>
                                 <div className="job_descp noborder">
@@ -1432,7 +1432,7 @@ export default function MyProfileFeed() {
                                       <li><i className="fa fa-star" /></li>
                                       <li><i className="fa fa-star" /></li>
                                       <li><i className="fa fa-star-half-o" /></li>
-                                      <a href="#" title>5.0 of 5 Reviews</a>
+                                      <Link to="#" title>5.0 of 5 Reviews</Link>
                                     </ul>
                                   </div>
                                   <ul className="savedjob-info biddersinfo">
@@ -1446,12 +1446,12 @@ export default function MyProfileFeed() {
                                     </li>
                                   </ul>
                                   <div className="devepbtn appliedinfo bidsbtn">
-                                    <a className="clrbtn" href="#">Accept</a>
-                                    <a className="clrbtn" href="#">View Profile</a>
-                                    <a className="clrbtn" href="#">Message</a>
-                                    <a href="#">
+                                    <Link className="clrbtn" to="#">Accept</Link>
+                                    <Link className="clrbtn" to="#">View Profile</Link>
+                                    <Link className="clrbtn" to="#">Message</Link>
+                                    <Link to="#">
                                       <i className="far fa-trash-alt" />
-                                    </a>    
+                                    </Link>    
                                   </div>
                                 </div>
                               </div>
@@ -1461,40 +1461,40 @@ export default function MyProfileFeed() {
                       </div>{/*product-feed-tab end*/}
                       <div className="product-feed-tab" id="info-dd">
                         <div className="user-profile-ov">
-                          <h3><a href="#" title className="overview-open">Overview</a> <a href="#" title className="overview-open"><i className="fa fa-pencil" /></a></h3>
+                          <h3><Link to="#" title className="overview-open">Overview</Link> <Link to="#" title className="overview-open"><i className="fa fa-pencil" /></Link></h3>
                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor aliquam felis, nec condimentum ipsum commodo id. Vivamus sit amet augue nec urna efficitur tincidunt. Vivamus consectetur aliquam lectus commodo viverra. Nunc eu augue nec arcu efficitur faucibus. Aliquam accumsan ac magna convallis bibendum. Quisque laoreet augue eget augue fermentum scelerisque. Vivamus dignissim mollis est dictum blandit. Nam porta auctor neque sed congue. Nullam rutrum eget ex at maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget vestibulum lorem.</p>
                         </div>{/*user-profile-ov end*/}
                         <div className="user-profile-ov st2">
-                          <h3><a href="#" title className="exp-bx-open">Experience </a><a href="#" title className="exp-bx-open"><i className="fa fa-pencil" /></a> <a href="#" title className="exp-bx-open"><i className="fa fa-plus-square" /></a></h3>
-                          <h4>Web designer <a href="#" title><i className="fa fa-pencil" /></a></h4>
+                          <h3><Link to="#" title className="exp-bx-open">Experience </Link><Link to="#" title className="exp-bx-open"><i className="fa fa-pencil" /></Link> <Link to="#" title className="exp-bx-open"><i className="fa fa-plus-square" /></Link></h3>
+                          <h4>Web designer <Link to="#" title><i className="fa fa-pencil" /></Link></h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor aliquam felis, nec condimentum ipsum commodo id. Vivamus sit amet augue nec urna efficitur tincidunt. Vivamus consectetur aliquam lectus commodo viverra. </p>
-                          <h4>UI / UX Designer <a href="#" title><i className="fa fa-pencil" /></a></h4>
+                          <h4>UI / UX Designer <Link to="#" title><i className="fa fa-pencil" /></Link></h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor aliquam felis, nec condimentum ipsum commodo id.</p>
-                          <h4>PHP developer <a href="#" title><i className="fa fa-pencil" /></a></h4>
+                          <h4>PHP developer <Link to="#" title><i className="fa fa-pencil" /></Link></h4>
                           <p className="no-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor aliquam felis, nec condimentum ipsum commodo id. Vivamus sit amet augue nec urna efficitur tincidunt. Vivamus consectetur aliquam lectus commodo viverra. </p>
                         </div>{/*user-profile-ov end*/}
                         <div className="user-profile-ov">
-                          <h3><a href="#" title className="ed-box-open">Education</a> <a href="#" title className="ed-box-open"><i className="fa fa-pencil" /></a> <a href="#" title><i className="fa fa-plus-square" /></a></h3>
+                          <h3><Link to="#" title className="ed-box-open">Education</Link> <Link to="#" title className="ed-box-open"><i className="fa fa-pencil" /></Link> <Link to="#" title><i className="fa fa-plus-square" /></Link></h3>
                           <h4>Master of Computer Science</h4>
                           <span>2015 - 2018</span>
                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor aliquam felis, nec condimentum ipsum commodo id. Vivamus sit amet augue nec urna efficitur tincidunt. Vivamus consectetur aliquam lectus commodo viverra. </p>
                         </div>{/*user-profile-ov end*/}
                         <div className="user-profile-ov">
-                          <h3><a href="#" title className="lct-box-open">Location</a> <a href="#" title className="lct-box-open"><i className="fa fa-pencil" /></a> <a href="#" title><i className="fa fa-plus-square" /></a></h3>
+                          <h3><Link to="#" title className="lct-box-open">Location</Link> <Link to="#" title className="lct-box-open"><i className="fa fa-pencil" /></Link> <Link to="#" title><i className="fa fa-plus-square" /></Link></h3>
                           <h4>India</h4>
                           <p>151/4 BT Chownk, Delhi </p>
                         </div>{/*user-profile-ov end*/}
                         <div className="user-profile-ov">
-                          <h3><a href="#" title className="skills-open">Skills</a> <a href="#" title className="skills-open"><i className="fa fa-pencil" /></a> <a href="#"><i className="fa fa-plus-square" /></a></h3>
+                          <h3><Link to="#" title className="skills-open">Skills</Link> <Link to="#" title className="skills-open"><i className="fa fa-pencil" /></Link> <Link to="#"><i className="fa fa-plus-square" /></Link></h3>
                           <ul>
-                            <li><a href="#" title>HTML</a></li>
-                            <li><a href="#" title>PHP</a></li>
-                            <li><a href="#" title>CSS</a></li>
-                            <li><a href="#" title>Javascript</a></li>
-                            <li><a href="#" title>Wordpress</a></li>
-                            <li><a href="#" title>Photoshop</a></li>
-                            <li><a href="#" title>Illustrator</a></li>
-                            <li><a href="#" title>Corel Draw</a></li>
+                            <li><Link to="#" title>HTML</Link></li>
+                            <li><Link to="#" title>PHP</Link></li>
+                            <li><Link to="#" title>CSS</Link></li>
+                            <li><Link to="#" title>Javascript</Link></li>
+                            <li><Link to="#" title>Wordpress</Link></li>
+                            <li><Link to="#" title>Photoshop</Link></li>
+                            <li><Link to="#" title>Illustrator</Link></li>
+                            <li><Link to="#" title>Corel Draw</Link></li>
                           </ul>
                         </div>{/*user-profile-ov end*/}
                       </div>{/*product-feed-tab end*/}
@@ -1528,7 +1528,7 @@ export default function MyProfileFeed() {
                                   <li><i className="fa fa-star" /></li>
                                   <li><i className="fa fa-star-half-o" /></li>
                                 </ul>
-                                <a href="#" title>5.0 of 5 Reviews</a>
+                                <Link to="#" title>5.0 of 5 Reviews</Link>
                               </div>
                               <div className="reviewtext">
                                 <p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla luctus mi et porttitor ultrices</p>
@@ -1551,7 +1551,7 @@ export default function MyProfileFeed() {
                                 <div className="usy-dt">
                                   <img src="/reactsocialmedia/assets/images/resources/bg-img4.png" alt="" />														
                                   <input className="reply" type="text" placeholder="Reply" />
-                                  <a className="replybtn" href="#">Send</a>
+                                  <Link className="replybtn" to="#">Send</Link>
                                 </div>
                               </div>
                             </div>
@@ -1571,13 +1571,13 @@ export default function MyProfileFeed() {
                                 </div>
                               </div>
                               <div className="ed-opts">
-                                <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                 <ul className="ed-options">
-                                  <li><a href="#" title>Edit Post</a></li>
-                                  <li><a href="#" title>Unsaved</a></li>
-                                  <li><a href="#" title>Unbid</a></li>
-                                  <li><a href="#" title>Close</a></li>
-                                  <li><a href="#" title>Hide</a></li>
+                                  <li><Link to="#" title>Edit Post</Link></li>
+                                  <li><Link to="#" title>Unsaved</Link></li>
+                                  <li><Link to="#" title>Unbid</Link></li>
+                                  <li><Link to="#" title>Close</Link></li>
+                                  <li><Link to="#" title>Hide</Link></li>
                                 </ul>
                               </div>
                             </div>
@@ -1590,7 +1590,7 @@ export default function MyProfileFeed() {
                                   <li><i className="fa fa-star" /></li>
                                   <li><i className="fa fa-star-half-o" /></li>
                                 </ul>
-                                <a href="#" title>5.0 of 5 Reviews</a><br /><br />
+                                <Link to="#" title>5.0 of 5 Reviews</Link><br /><br />
                                 <p>Awesome Work, Thanks John!</p>
                                 <hr />
                               </div>
@@ -1598,7 +1598,7 @@ export default function MyProfileFeed() {
                                 <div className="usy-dt">
                                   <img src="/reactsocialmedia/assets/images/resources/bg-img4.png" alt="" />
                                   <input className="reply" type="text" placeholder="Reply" />
-                                  <a className="replybtn" href="#">Send</a>
+                                  <Link className="replybtn" to="#">Send</Link>
                                 </div>
                               </div>
                             </div>
@@ -1617,13 +1617,13 @@ export default function MyProfileFeed() {
                                 </div>
                               </div>
                               <div className="ed-opts">
-                                <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                 <ul className="ed-options">
-                                  <li><a href="#" title>Edit Post</a></li>
-                                  <li><a href="#" title>Unsaved</a></li>
-                                  <li><a href="#" title>Unbid</a></li>
-                                  <li><a href="#" title>Close</a></li>
-                                  <li><a href="#" title>Hide</a></li>
+                                  <li><Link to="#" title>Edit Post</Link></li>
+                                  <li><Link to="#" title>Unsaved</Link></li>
+                                  <li><Link to="#" title>Unbid</Link></li>
+                                  <li><Link to="#" title>Close</Link></li>
+                                  <li><Link to="#" title>Hide</Link></li>
                                 </ul>
                               </div>
                             </div>
@@ -1633,9 +1633,9 @@ export default function MyProfileFeed() {
                                 <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                               </ul>
                               <ul className="bk-links">
-                                <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                <li><a href="#" title><i className="la la-envelope" /></a></li>
-                                <li><a href="#" title className="bid_now">Bid Now</a></li>
+                                <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                                <li><Link to="#" title className="bid_now">Bid Now</Link></li>
                               </ul>
                             </div>
                             <div className="job_descp">
@@ -1643,28 +1643,28 @@ export default function MyProfileFeed() {
                               <ul className="job-dt">
                                 <li><span>$300 - $350</span></li>
                               </ul>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                               <ul className="skill-tags">
-                                <li><a href="#" title>HTML</a></li>
-                                <li><a href="#" title>PHP</a></li>
-                                <li><a href="#" title>CSS</a></li>
-                                <li><a href="#" title>Javascript</a></li>
-                                <li><a href="#" title>Wordpress</a></li> 	
-                                <li><a href="#" title>Photoshop</a></li> 	
-                                <li><a href="#" title>Illustrator</a></li> 	
-                                <li><a href="#" title>Corel Draw</a></li> 	
+                                <li><Link to="#" title>HTML</Link></li>
+                                <li><Link to="#" title>PHP</Link></li>
+                                <li><Link to="#" title>CSS</Link></li>
+                                <li><Link to="#" title>Javascript</Link></li>
+                                <li><Link to="#" title>Wordpress</Link></li> 	
+                                <li><Link to="#" title>Photoshop</Link></li> 	
+                                <li><Link to="#" title>Illustrator</Link></li> 	
+                                <li><Link to="#" title>Corel Draw</Link></li> 	
                               </ul>
                             </div>
                             <div className="job-status-bar">
                               <ul className="like-com">
                                 <li>
-                                  <a href="#"><i className="la la-heart" /> Like</a>
+                                  <Link to="#"><i className="la la-heart" /> Like</Link>
                                   <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                   <span>25</span>
                                 </li> 
-                                <li><a href="#" title className="com"><img src="/reactsocialmedia/assets/images/com.png" alt="" /> Comment 15</a></li>
+                                <li><Link to="#" title className="com"><img src="/reactsocialmedia/assets/images/com.png" alt="" /> Comment 15</Link></li>
                               </ul>
-                              <a><i className="la la-eye" />Views 50</a>
+                              <Link><i className="la la-eye" />Views 50</Link>
                             </div>
                           </div>{/*post-bar end*/}
                           <div className="post-bar">
@@ -1677,13 +1677,13 @@ export default function MyProfileFeed() {
                                 </div>
                               </div>
                               <div className="ed-opts">
-                                <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                 <ul className="ed-options">
-                                  <li><a href="#" title>Edit Post</a></li>
-                                  <li><a href="#" title>Unsaved</a></li>
-                                  <li><a href="#" title>Unbid</a></li>
-                                  <li><a href="#" title>Close</a></li>
-                                  <li><a href="#" title>Hide</a></li>
+                                  <li><Link to="#" title>Edit Post</Link></li>
+                                  <li><Link to="#" title>Unsaved</Link></li>
+                                  <li><Link to="#" title>Unbid</Link></li>
+                                  <li><Link to="#" title>Close</Link></li>
+                                  <li><Link to="#" title>Hide</Link></li>
                                 </ul>
                               </div>
                             </div>
@@ -1693,9 +1693,9 @@ export default function MyProfileFeed() {
                                 <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                               </ul>
                               <ul className="bk-links">
-                                <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                <li><a href="#" title><i className="la la-envelope" /></a></li>
-                                <li><a href="#" title className="bid_now">Bid Now</a></li>
+                                <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                                <li><Link to="#" title className="bid_now">Bid Now</Link></li>
                               </ul>
                             </div>
                             <div className="job_descp">
@@ -1703,28 +1703,28 @@ export default function MyProfileFeed() {
                               <ul className="job-dt">
                                 <li><span>$300 - $350</span></li>
                               </ul>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                               <ul className="skill-tags">
-                                <li><a href="#" title>HTML</a></li>
-                                <li><a href="#" title>PHP</a></li>
-                                <li><a href="#" title>CSS</a></li>
-                                <li><a href="#" title>Javascript</a></li>
-                                <li><a href="#" title>Wordpress</a></li> 	
-                                <li><a href="#" title>Photoshop</a></li> 	
-                                <li><a href="#" title>Illustrator</a></li> 	
-                                <li><a href="#" title>Corel Draw</a></li> 	
+                                <li><Link to="#" title>HTML</Link></li>
+                                <li><Link to="#" title>PHP</Link></li>
+                                <li><Link to="#" title>CSS</Link></li>
+                                <li><Link to="#" title>Javascript</Link></li>
+                                <li><Link to="#" title>Wordpress</Link></li> 	
+                                <li><Link to="#" title>Photoshop</Link></li> 	
+                                <li><Link to="#" title>Illustrator</Link></li> 	
+                                <li><Link to="#" title>Corel Draw</Link></li> 	
                               </ul>
                             </div>
                             <div className="job-status-bar">
                               <ul className="like-com">
                                 <li>
-                                  <a href="#"><i className="la la-heart" /> Like</a>
+                                  <Link to="#"><i className="la la-heart" /> Like</Link>
                                   <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                   <span>25</span>
                                 </li> 
-                                <li><a href="#" title className="com"><img src="/reactsocialmedia/assets/images/com.png" alt="" /> Comment 15</a></li>
+                                <li><Link to="#" title className="com"><img src="/reactsocialmedia/assets/images/com.png" alt="" /> Comment 15</Link></li>
                               </ul>
-                              <a><i className="la la-eye" />Views 50</a>
+                              <Link><i className="la la-eye" />Views 50</Link>
                             </div>
                           </div>{/*post-bar end*/}
                           <div className="post-bar">
@@ -1737,13 +1737,13 @@ export default function MyProfileFeed() {
                                 </div>
                               </div>
                               <div className="ed-opts">
-                                <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                 <ul className="ed-options">
-                                  <li><a href="#" title>Edit Post</a></li>
-                                  <li><a href="#" title>Unsaved</a></li>
-                                  <li><a href="#" title>Unbid</a></li>
-                                  <li><a href="#" title>Close</a></li>
-                                  <li><a href="#" title>Hide</a></li>
+                                  <li><Link to="#" title>Edit Post</Link></li>
+                                  <li><Link to="#" title>Unsaved</Link></li>
+                                  <li><Link to="#" title>Unbid</Link></li>
+                                  <li><Link to="#" title>Close</Link></li>
+                                  <li><Link to="#" title>Hide</Link></li>
                                 </ul>
                               </div>
                             </div>
@@ -1753,9 +1753,9 @@ export default function MyProfileFeed() {
                                 <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                               </ul>
                               <ul className="bk-links">
-                                <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                <li><a href="#" title><i className="la la-envelope" /></a></li>
-                                <li><a href="#" title className="bid_now">Bid Now</a></li>
+                                <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                                <li><Link to="#" title className="bid_now">Bid Now</Link></li>
                               </ul>
                             </div>
                             <div className="job_descp">
@@ -1763,28 +1763,28 @@ export default function MyProfileFeed() {
                               <ul className="job-dt">
                                 <li><span>$300 - $350</span></li>
                               </ul>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                               <ul className="skill-tags">
-                                <li><a href="#" title>HTML</a></li>
-                                <li><a href="#" title>PHP</a></li>
-                                <li><a href="#" title>CSS</a></li>
-                                <li><a href="#" title>Javascript</a></li>
-                                <li><a href="#" title>Wordpress</a></li> 	
-                                <li><a href="#" title>Photoshop</a></li> 	
-                                <li><a href="#" title>Illustrator</a></li> 	
-                                <li><a href="#" title>Corel Draw</a></li> 	
+                                <li><Link to="#" title>HTML</Link></li>
+                                <li><Link to="#" title>PHP</Link></li>
+                                <li><Link to="#" title>CSS</Link></li>
+                                <li><Link to="#" title>Javascript</Link></li>
+                                <li><Link to="#" title>Wordpress</Link></li> 	
+                                <li><Link to="#" title>Photoshop</Link></li> 	
+                                <li><Link to="#" title>Illustrator</Link></li> 	
+                                <li><Link to="#" title>Corel Draw</Link></li> 	
                               </ul>
                             </div>
                             <div className="job-status-bar">
                               <ul className="like-com">
                                 <li>
-                                  <a href="#"><i className="la la-heart" /> Like</a>
+                                  <Link to="#"><i className="la la-heart" /> Like</Link>
                                   <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                   <span>25</span>
                                 </li> 
-                                <li><a href="#" title className="com"><img src="/reactsocialmedia/assets/images/com.png" alt="" /> Comment 15</a></li>
+                                <li><Link to="#" title className="com"><img src="/reactsocialmedia/assets/images/com.png" alt="" /> Comment 15</Link></li>
                               </ul>
-                              <a><i className="la la-eye" />Views 50</a>
+                              <Link><i className="la la-eye" />Views 50</Link>
                             </div>
                           </div>{/*post-bar end*/}
                           <div className="post-bar">
@@ -1797,13 +1797,13 @@ export default function MyProfileFeed() {
                                 </div>
                               </div>
                               <div className="ed-opts">
-                                <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                                <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                                 <ul className="ed-options">
-                                  <li><a href="#" title>Edit Post</a></li>
-                                  <li><a href="#" title>Unsaved</a></li>
-                                  <li><a href="#" title>Unbid</a></li>
-                                  <li><a href="#" title>Close</a></li>
-                                  <li><a href="#" title>Hide</a></li>
+                                  <li><Link to="#" title>Edit Post</Link></li>
+                                  <li><Link to="#" title>Unsaved</Link></li>
+                                  <li><Link to="#" title>Unbid</Link></li>
+                                  <li><Link to="#" title>Close</Link></li>
+                                  <li><Link to="#" title>Hide</Link></li>
                                 </ul>
                               </div>
                             </div>
@@ -1813,9 +1813,9 @@ export default function MyProfileFeed() {
                                 <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                               </ul>
                               <ul className="bk-links">
-                                <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                                <li><a href="#" title><i className="la la-envelope" /></a></li>
-                                <li><a href="#" title className="bid_now">Bid Now</a></li>
+                                <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                                <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                                <li><Link to="#" title className="bid_now">Bid Now</Link></li>
                               </ul>
                             </div>
                             <div className="job_descp">
@@ -1823,32 +1823,32 @@ export default function MyProfileFeed() {
                               <ul className="job-dt">
                                 <li><span>$300 - $350</span></li>
                               </ul>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                               <ul className="skill-tags">
-                                <li><a href="#" title>HTML</a></li>
-                                <li><a href="#" title>PHP</a></li>
-                                <li><a href="#" title>CSS</a></li>
-                                <li><a href="#" title>Javascript</a></li>
-                                <li><a href="#" title>Wordpress</a></li> 	
-                                <li><a href="#" title>Photoshop</a></li> 	
-                                <li><a href="#" title>Illustrator</a></li> 	
-                                <li><a href="#" title>Corel Draw</a></li> 	
+                                <li><Link to="#" title>HTML</Link></li>
+                                <li><Link to="#" title>PHP</Link></li>
+                                <li><Link to="#" title>CSS</Link></li>
+                                <li><Link to="#" title>Javascript</Link></li>
+                                <li><Link to="#" title>Wordpress</Link></li> 	
+                                <li><Link to="#" title>Photoshop</Link></li> 	
+                                <li><Link to="#" title>Illustrator</Link></li> 	
+                                <li><Link to="#" title>Corel Draw</Link></li> 	
                               </ul>
                             </div>
                             <div className="job-status-bar">
                               <ul className="like-com">
                                 <li>
-                                  <a href="#"><i className="la la-heart" /> Like</a>
+                                  <Link to="#"><i className="la la-heart" /> Like</Link>
                                   <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                   <span>25</span>
                                 </li> 
-                                <li><a href="#" title className="com"><img src="/reactsocialmedia/assets/images/com.png" alt="" /> Comment 15</a></li>
+                                <li><Link to="#" title className="com"><img src="/reactsocialmedia/assets/images/com.png" alt="" /> Comment 15</Link></li>
                               </ul>
-                              <a><i className="la la-eye" />Views 50</a>
+                              <Link><i className="la la-eye" />Views 50</Link>
                             </div>
                           </div>{/*post-bar end*/}
                           <div className="process-comm">
-                            <a href="#" title><img src="/reactsocialmedia/assets/images/process-icon.png" alt="" /></a>
+                            <Link to="#" title><img src="/reactsocialmedia/assets/images/process-icon.png" alt="" /></Link>
                           </div>{/*process-comm end*/}
                         </div>{/*posts-section end*/}
                       </div>{/*product-feed-tab end*/}
@@ -1856,68 +1856,68 @@ export default function MyProfileFeed() {
                         <div className="portfolio-gallery-sec">
                           <h3>Portfolio</h3>
                           <div className="portfolio-btn">
-                            <a href="#" title><i className="fas fa-plus-square" /> Add Portfolio</a>
+                            <Link to="#" title><i className="fas fa-plus-square" /> Add Portfolio</Link>
                           </div>
                           <div className="gallery_pf">
                             <div className="row">
                               <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <div className="gallery_pt">
                                   <img src="/reactsocialmedia/assets/images/resources/pf-img1.jpg" alt="" />
-                                  <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                  <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                 </div>{/*gallery_pt end*/}
                               </div>
                               <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <div className="gallery_pt">
                                   <img src="/reactsocialmedia/assets/images/resources/pf-img2.jpg" alt="" />
-                                  <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                  <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                 </div>{/*gallery_pt end*/}
                               </div>
                               <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <div className="gallery_pt">
                                   <img src="/reactsocialmedia/assets/images/resources/pf-img3.jpg" alt="" />
-                                  <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                  <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                 </div>{/*gallery_pt end*/}
                               </div>
                               <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <div className="gallery_pt">
                                   <img src="/reactsocialmedia/assets/images/resources/pf-img4.jpg" alt="" />
-                                  <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                  <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                 </div>{/*gallery_pt end*/}
                               </div>
                               <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <div className="gallery_pt">
                                   <img src="/reactsocialmedia/assets/images/resources/pf-img5.jpg" alt="" />
-                                  <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                  <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                 </div>{/*gallery_pt end*/}
                               </div>
                               <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <div className="gallery_pt">
                                   <img src="/reactsocialmedia/assets/images/resources/pf-img6.jpg" alt="" />
-                                  <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                  <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                 </div>{/*gallery_pt end*/}
                               </div>
                               <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <div className="gallery_pt">
                                   <img src="/reactsocialmedia/assets/images/resources/pf-img7.jpg" alt="" />
-                                  <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                  <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                 </div>{/*gallery_pt end*/}
                               </div>
                               <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <div className="gallery_pt">
                                   <img src="/reactsocialmedia/assets/images/resources/pf-img8.jpg" alt="" />
-                                  <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                  <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                 </div>{/*gallery_pt end*/}
                               </div>
                               <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <div className="gallery_pt">
                                   <img src="/reactsocialmedia/assets/images/resources/pf-img9.jpg" alt="" />
-                                  <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                  <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                 </div>{/*gallery_pt end*/}
                               </div>
                               <div className="col-lg-4 col-md-4 col-sm-6 col-6">
                                 <div className="gallery_pt">
                                   <img src="/reactsocialmedia/assets/images/resources/pf-img10.jpg" alt="" />
-                                  <a href="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></a>
+                                  <Link to="#" title><img src="/reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                                 </div>{/*gallery_pt end*/}
                               </div>
                             </div>
@@ -1929,11 +1929,11 @@ export default function MyProfileFeed() {
                           <ul>
                             <li>
                               <h3>Add Billing Method</h3>
-                              <a href="#" title><i className="fa fa-plus-circle" /></a>
+                              <Link to="#" title><i className="fa fa-plus-circle" /></Link>
                             </li>
                             <li>
                               <h3>See Activity</h3>
-                              <a href="#" title>View All</a>
+                              <Link to="#" title>View All</Link>
                             </li>
                             <li>
                               <h3>Total Money</h3>
@@ -1943,7 +1943,7 @@ export default function MyProfileFeed() {
                           <div className="lt-sec">
                             <img src="/reactsocialmedia/assets/images/lt-icon.png" alt="" />
                             <h4>All your transactions are saved here</h4>
-                            <a href="#" title>Click Here</a>
+                            <Link to="#" title>Click Here</Link>
                           </div>
                         </div>{/*billing-method end*/}
                         <div className="add-billing-method">
@@ -2025,7 +2025,7 @@ export default function MyProfileFeed() {
                   <div className="col-lg-3">
                     <div className="right-sidebar">
                       <div className="message-btn">
-                        <a href="profile-account-setting.html" title><i className="fas fa-cog" /> Setting</a>
+                        <Link to="profile-account-setting.html" title><i className="fas fa-cog" /> Setting</Link>
                       </div>
                       <div className="widget widget-portfolio">
                         <div className="wd-heady">
@@ -2034,18 +2034,18 @@ export default function MyProfileFeed() {
                         </div>
                         <div className="pf-gallery">
                           <ul>
-                            <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery1.png" alt="" /></a></li>
-                            <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery2.png" alt="" /></a></li>
-                            <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery3.png" alt="" /></a></li>
-                            <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery4.png" alt="" /></a></li>
-                            <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery5.png" alt="" /></a></li>
-                            <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery6.png" alt="" /></a></li>
-                            <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery7.png" alt="" /></a></li>
-                            <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery8.png" alt="" /></a></li>
-                            <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery9.png" alt="" /></a></li>
-                            <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery10.png" alt="" /></a></li>
-                            <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery11.png" alt="" /></a></li>
-                            <li><a href="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery12.png" alt="" /></a></li>
+                            <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery1.png" alt="" /></Link></li>
+                            <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery2.png" alt="" /></Link></li>
+                            <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery3.png" alt="" /></Link></li>
+                            <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery4.png" alt="" /></Link></li>
+                            <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery5.png" alt="" /></Link></li>
+                            <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery6.png" alt="" /></Link></li>
+                            <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery7.png" alt="" /></Link></li>
+                            <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery8.png" alt="" /></Link></li>
+                            <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery9.png" alt="" /></Link></li>
+                            <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery10.png" alt="" /></Link></li>
+                            <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery11.png" alt="" /></Link></li>
+                            <li><Link to="#" title><img src="/reactsocialmedia/assets/images/resources/pf-gallery12.png" alt="" /></Link></li>
                           </ul>
                         </div>{/*pf-gallery end*/}
                       </div>{/*widget-portfolio end*/}

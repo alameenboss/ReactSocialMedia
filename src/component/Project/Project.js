@@ -1,9 +1,9 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function Project() {
-    return (
-        <>
-            <div>
+  return (
+    <>
+      <div>
         <div className="search-sec">
           <div className="container">
             <div className="search-box">
@@ -23,13 +23,13 @@ export default function Project() {
                     <div className="filter-secs">
                       <div className="filter-heading">
                         <h3>Filters</h3>
-                        <a href="#" title>Clear all filters</a>
+                        <Link to="#" title>Clear all filters</Link>
                       </div>{/*filter-heading end*/}
                       <div className="paddy">
                         <div className="filter-dd">
                           <div className="filter-ttl">
                             <h3>Skills</h3>
-                            <a href="#" title>Clear</a>
+                            <Link to="#" title>Clear</Link>
                           </div>
                           <form>
                             <input type="text" name="search-skills" placeholder="Search skills" />
@@ -38,7 +38,7 @@ export default function Project() {
                         <div className="filter-dd">
                           <div className="filter-ttl">
                             <h3>Availabilty</h3>
-                            <a href="#" title>Clear</a>
+                            <Link to="#" title>Clear</Link>
                           </div>
                           <ul className="avail-checks">
                             <li>
@@ -67,7 +67,7 @@ export default function Project() {
                         <div className="filter-dd">
                           <div className="filter-ttl">
                             <h3>Job Type</h3>
-                            <a href="#" title>Clear</a>
+                            <Link to="#" title>Clear</Link>
                           </div>
                           <form className="job-tp">
                             <select>
@@ -82,10 +82,10 @@ export default function Project() {
                         <div className="filter-dd">
                           <div className="filter-ttl">
                             <h3>Pay Rate / Hr ($)</h3>
-                            <a href="#" title>Clear</a>
+                            <Link to="#" title>Clear</Link>
                           </div>
                           <div className="rg-slider">
-                            <input className="rn-slider slider-input" type="hidden" defaultValue="5,50" style={{display: 'none'}} /><div className="slider-container theme-green" style={{width: '300px'}}>			<div className="back-bar">                <div className="selected-bar" style={{width: '93px', left: '10.5px'}} />                <div className="pointer low" style={{left: '4px'}} /><div className="pointer-label low" style={{left: '0px'}}>5</div>                <div className="pointer high" style={{left: '97px'}} /><div className="pointer-label high" style={{left: '78px'}}>50</div>                <div className="clickable-dummy" />          </div>            <div className="scale" />		</div>
+                            <input className="rn-slider slider-input" type="hidden" defaultValue="5,50" style={{ display: 'none' }} /><div className="slider-container theme-green" style={{ width: '300px' }}>			<div className="back-bar">                <div className="selected-bar" style={{ width: '93px', left: '10.5px' }} />                <div className="pointer low" style={{ left: '4px' }} /><div className="pointer-label low" style={{ left: '0px' }}>5</div>                <div className="pointer high" style={{ left: '97px' }} /><div className="pointer-label high" style={{ left: '78px' }}>50</div>                <div className="clickable-dummy" />          </div>            <div className="scale" />		</div>
                           </div>
                           <div className="rg-limit">
                             <h4>1</h4>
@@ -95,7 +95,7 @@ export default function Project() {
                         <div className="filter-dd">
                           <div className="filter-ttl">
                             <h3>Experience Level</h3>
-                            <a href="#" title>Clear</a>
+                            <Link to="#" title>Clear</Link>
                           </div>
                           <form className="job-tp">
                             <select>
@@ -110,7 +110,7 @@ export default function Project() {
                         <div className="filter-dd">
                           <div className="filter-ttl">
                             <h3>Countries</h3>
-                            <a href="#" title>Clear</a>
+                            <Link to="#" title>Clear</Link>
                           </div>
                           <form className="job-tp">
                             <select>
@@ -138,13 +138,13 @@ export default function Project() {
                               </div>
                             </div>
                             <div className="ed-opts">
-                              <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                              <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                               <ul className="ed-options">
-                                <li><a href="#" title>Edit Post</a></li>
-                                <li><a href="#" title>Unsaved</a></li>
-                                <li><a href="#" title>Unbid</a></li>
-                                <li><a href="#" title>Close</a></li>
-                                <li><a href="#" title>Hide</a></li>
+                                <li><Link to="#" title>Edit Post</Link></li>
+                                <li><Link to="#" title>Unsaved</Link></li>
+                                <li><Link to="#" title>Unbid</Link></li>
+                                <li><Link to="#" title>Close</Link></li>
+                                <li><Link to="#" title>Hide</Link></li>
                               </ul>
                             </div>
                           </div>
@@ -154,9 +154,9 @@ export default function Project() {
                               <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                             </ul>
                             <ul className="bk-links">
-                              <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                              <li><a href="#" title><i className="la la-envelope" /></a></li>
-                              <li><a href="#" title className="bid_now">Bid Now</a></li>
+                              <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                              <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                              <li><Link to="#" title className="bid_now">Bid Now</Link></li>
                             </ul>
                           </div>
                           <div className="job_descp">
@@ -164,28 +164,28 @@ export default function Project() {
                             <ul className="job-dt">
                               <li><span>$300 - $350</span></li>
                             </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                             <ul className="skill-tags">
-                              <li><a href="#" title>HTML</a></li>
-                              <li><a href="#" title>PHP</a></li>
-                              <li><a href="#" title>CSS</a></li>
-                              <li><a href="#" title>Javascript</a></li>
-                              <li><a href="#" title>Wordpress</a></li> 	
-                              <li><a href="#" title>Photoshop</a></li> 	
-                              <li><a href="#" title>Illustrator</a></li> 	
-                              <li><a href="#" title>Corel Draw</a></li> 	
+                              <li><Link to="#" title>HTML</Link></li>
+                              <li><Link to="#" title>PHP</Link></li>
+                              <li><Link to="#" title>CSS</Link></li>
+                              <li><Link to="#" title>Javascript</Link></li>
+                              <li><Link to="#" title>Wordpress</Link></li>
+                              <li><Link to="#" title>Photoshop</Link></li>
+                              <li><Link to="#" title>Illustrator</Link></li>
+                              <li><Link to="#" title>Corel Draw</Link></li>
                             </ul>
                           </div>
                           <div className="job-status-bar">
                             <ul className="like-com">
                               <li>
-                                <a href="#" className="active"><i className="fas fa-heart" /> Like</a>
+                                <Link to="#" className="active"><i className="fas fa-heart" /> Like</Link>
                                 <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                 <span>25</span>
                               </li>
-                              <li><a href="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</a></li>
+                              <li><Link to="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</Link></li>
                             </ul>
-                            <a href="#"><i className="fas fa-eye" />Views 50</a>
+                            <Link to="#"><i className="fas fa-eye" />Views 50</Link>
                           </div>
                         </div>{/*post-bar end*/}
                         <div className="post-bar">
@@ -198,13 +198,13 @@ export default function Project() {
                               </div>
                             </div>
                             <div className="ed-opts">
-                              <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                              <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                               <ul className="ed-options">
-                                <li><a href="#" title>Edit Post</a></li>
-                                <li><a href="#" title>Unsaved</a></li>
-                                <li><a href="#" title>Unbid</a></li>
-                                <li><a href="#" title>Close</a></li>
-                                <li><a href="#" title>Hide</a></li>
+                                <li><Link to="#" title>Edit Post</Link></li>
+                                <li><Link to="#" title>Unsaved</Link></li>
+                                <li><Link to="#" title>Unbid</Link></li>
+                                <li><Link to="#" title>Close</Link></li>
+                                <li><Link to="#" title>Hide</Link></li>
                               </ul>
                             </div>
                           </div>
@@ -214,9 +214,9 @@ export default function Project() {
                               <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                             </ul>
                             <ul className="bk-links">
-                              <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                              <li><a href="#" title><i className="la la-envelope" /></a></li>
-                              <li><a href="#" title className="bid_now">Bid Now</a></li>
+                              <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                              <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                              <li><Link to="#" title className="bid_now">Bid Now</Link></li>
                             </ul>
                           </div>
                           <div className="job_descp">
@@ -224,28 +224,28 @@ export default function Project() {
                             <ul className="job-dt">
                               <li><span>$300 - $350</span></li>
                             </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                             <ul className="skill-tags">
-                              <li><a href="#" title>HTML</a></li>
-                              <li><a href="#" title>PHP</a></li>
-                              <li><a href="#" title>CSS</a></li>
-                              <li><a href="#" title>Javascript</a></li>
-                              <li><a href="#" title>Wordpress</a></li> 	
-                              <li><a href="#" title>Photoshop</a></li> 	
-                              <li><a href="#" title>Illustrator</a></li> 	
-                              <li><a href="#" title>Corel Draw</a></li> 	
+                              <li><Link to="#" title>HTML</Link></li>
+                              <li><Link to="#" title>PHP</Link></li>
+                              <li><Link to="#" title>CSS</Link></li>
+                              <li><Link to="#" title>Javascript</Link></li>
+                              <li><Link to="#" title>Wordpress</Link></li>
+                              <li><Link to="#" title>Photoshop</Link></li>
+                              <li><Link to="#" title>Illustrator</Link></li>
+                              <li><Link to="#" title>Corel Draw</Link></li>
                             </ul>
                           </div>
                           <div className="job-status-bar">
                             <ul className="like-com">
                               <li>
-                                <a href="#" className="active"><i className="fas fa-heart" /> Like</a>
+                                <Link to="#" className="active"><i className="fas fa-heart" /> Like</Link>
                                 <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                 <span>25</span>
                               </li>
-                              <li><a href="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</a></li>
+                              <li><Link to="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</Link></li>
                             </ul>
-                            <a href="#"><i className="fas fa-eye" />Views 50</a>
+                            <Link to="#"><i className="fas fa-eye" />Views 50</Link>
                           </div>
                         </div>{/*post-bar end*/}
                         <div className="post-bar">
@@ -258,13 +258,13 @@ export default function Project() {
                               </div>
                             </div>
                             <div className="ed-opts">
-                              <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                              <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                               <ul className="ed-options">
-                                <li><a href="#" title>Edit Post</a></li>
-                                <li><a href="#" title>Unsaved</a></li>
-                                <li><a href="#" title>Unbid</a></li>
-                                <li><a href="#" title>Close</a></li>
-                                <li><a href="#" title>Hide</a></li>
+                                <li><Link to="#" title>Edit Post</Link></li>
+                                <li><Link to="#" title>Unsaved</Link></li>
+                                <li><Link to="#" title>Unbid</Link></li>
+                                <li><Link to="#" title>Close</Link></li>
+                                <li><Link to="#" title>Hide</Link></li>
                               </ul>
                             </div>
                           </div>
@@ -274,9 +274,9 @@ export default function Project() {
                               <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                             </ul>
                             <ul className="bk-links">
-                              <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                              <li><a href="#" title><i className="la la-envelope" /></a></li>
-                              <li><a href="#" title className="bid_now">Bid Now</a></li>
+                              <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                              <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                              <li><Link to="#" title className="bid_now">Bid Now</Link></li>
                             </ul>
                           </div>
                           <div className="job_descp">
@@ -284,28 +284,28 @@ export default function Project() {
                             <ul className="job-dt">
                               <li><span>$300 - $350</span></li>
                             </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                             <ul className="skill-tags">
-                              <li><a href="#" title>HTML</a></li>
-                              <li><a href="#" title>PHP</a></li>
-                              <li><a href="#" title>CSS</a></li>
-                              <li><a href="#" title>Javascript</a></li>
-                              <li><a href="#" title>Wordpress</a></li> 	
-                              <li><a href="#" title>Photoshop</a></li> 	
-                              <li><a href="#" title>Illustrator</a></li> 	
-                              <li><a href="#" title>Corel Draw</a></li> 	
+                              <li><Link to="#" title>HTML</Link></li>
+                              <li><Link to="#" title>PHP</Link></li>
+                              <li><Link to="#" title>CSS</Link></li>
+                              <li><Link to="#" title>Javascript</Link></li>
+                              <li><Link to="#" title>Wordpress</Link></li>
+                              <li><Link to="#" title>Photoshop</Link></li>
+                              <li><Link to="#" title>Illustrator</Link></li>
+                              <li><Link to="#" title>Corel Draw</Link></li>
                             </ul>
                           </div>
                           <div className="job-status-bar">
                             <ul className="like-com">
                               <li>
-                                <a href="#" className="active"><i className="fas fa-heart" /> Like</a>
+                                <Link to="#" className="active"><i className="fas fa-heart" /> Like</Link>
                                 <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                 <span>25</span>
                               </li>
-                              <li><a href="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</a></li>
+                              <li><Link to="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</Link></li>
                             </ul>
-                            <a href="#"><i className="fas fa-eye" />Views 50</a>
+                            <Link to="#"><i className="fas fa-eye" />Views 50</Link>
                           </div>
                         </div>{/*post-bar end*/}
                         <div className="post-bar">
@@ -318,13 +318,13 @@ export default function Project() {
                               </div>
                             </div>
                             <div className="ed-opts">
-                              <a href="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></a>
+                              <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                               <ul className="ed-options">
-                                <li><a href="#" title>Edit Post</a></li>
-                                <li><a href="#" title>Unsaved</a></li>
-                                <li><a href="#" title>Unbid</a></li>
-                                <li><a href="#" title>Close</a></li>
-                                <li><a href="#" title>Hide</a></li>
+                                <li><Link to="#" title>Edit Post</Link></li>
+                                <li><Link to="#" title>Unsaved</Link></li>
+                                <li><Link to="#" title>Unbid</Link></li>
+                                <li><Link to="#" title>Close</Link></li>
+                                <li><Link to="#" title>Hide</Link></li>
                               </ul>
                             </div>
                           </div>
@@ -334,9 +334,9 @@ export default function Project() {
                               <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
                             </ul>
                             <ul className="bk-links">
-                              <li><a href="#" title><i className="la la-bookmark" /></a></li>
-                              <li><a href="#" title><i className="la la-envelope" /></a></li>
-                              <li><a href="#" title className="bid_now">Bid Now</a></li>
+                              <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
+                              <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                              <li><Link to="#" title className="bid_now">Bid Now</Link></li>
                             </ul>
                           </div>
                           <div className="job_descp">
@@ -344,28 +344,28 @@ export default function Project() {
                             <ul className="job-dt">
                               <li><span>$300 - $350</span></li>
                             </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <a href="#" title>view more</a></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at. Etiam id magna sit amet... <Link to="#" title>view more</Link></p>
                             <ul className="skill-tags">
-                              <li><a href="#" title>HTML</a></li>
-                              <li><a href="#" title>PHP</a></li>
-                              <li><a href="#" title>CSS</a></li>
-                              <li><a href="#" title>Javascript</a></li>
-                              <li><a href="#" title>Wordpress</a></li> 	
-                              <li><a href="#" title>Photoshop</a></li> 	
-                              <li><a href="#" title>Illustrator</a></li> 	
-                              <li><a href="#" title>Corel Draw</a></li> 	
+                              <li><Link to="#" title>HTML</Link></li>
+                              <li><Link to="#" title>PHP</Link></li>
+                              <li><Link to="#" title>CSS</Link></li>
+                              <li><Link to="#" title>Javascript</Link></li>
+                              <li><Link to="#" title>Wordpress</Link></li>
+                              <li><Link to="#" title>Photoshop</Link></li>
+                              <li><Link to="#" title>Illustrator</Link></li>
+                              <li><Link to="#" title>Corel Draw</Link></li>
                             </ul>
                           </div>
                           <div className="job-status-bar">
                             <ul className="like-com">
                               <li>
-                                <a href="#" className="active"><i className="fas fa-heart" /> Like</a>
+                                <Link to="#" className="active"><i className="fas fa-heart" /> Like</Link>
                                 <img src="/reactsocialmedia/assets/images/liked-img.png" alt="" />
                                 <span>25</span>
                               </li>
-                              <li><a href="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</a></li>
+                              <li><Link to="#" className="com"><i className="fas fa-comment-alt" /> Comments 15</Link></li>
                             </ul>
-                            <a href="#"><i className="fas fa-eye" />Views 50</a>
+                            <Link to="#"><i className="fas fa-eye" />Views 50</Link>
                           </div>
                         </div>{/*post-bar end*/}
                         <div className="process-comm">
@@ -385,8 +385,8 @@ export default function Project() {
                         <h3>Track Time on Workwise</h3>
                         <span>Pay only for the Hours worked</span>
                         <div className="sign_link">
-                          <h3><a href="sign-in.html" title>Sign up</a></h3>
-                          <a href="#" title>Learn More</a>
+                          <h3><Link to="sign-in.html" title>Sign up</Link></h3>
+                          <Link to="#" title>Learn More</Link>
                         </div>
                       </div>{/*widget-about end*/}
                       <div className="widget widget-jobs">
@@ -481,10 +481,10 @@ export default function Project() {
                   </div>
                 </div>
               </div>{/* main-section-data end*/}
-            </div> 
+            </div>
           </div>
         </main>
       </div>
-        </>
-    )
+    </>
+  )
 }
