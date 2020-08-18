@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Cover({coverImg}) {
+function Cover({ coverImg }) {
     return (
         <section className="cover-sec">
-			<img src={coverImg} alt=""/>
-		</section>
+            <img src={coverImg} alt="" />
+        </section>
     )
 }
 

@@ -9,7 +9,9 @@ const CompanyInfo = () => {
                     <Link to="#" title="" className="overview-open">Overview</Link>
                     <Link to="#" title="" className="overview-open"><i className="fa fa-pencil"></i></Link>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor aliquam felis, nec condimentum ipsum commodo id. Vivamus sit amet augue nec urna efficitur tincidunt. Vivamus consectetur aliquam lectus commodo viverra. Nunc eu augue nec arcu efficitur faucibus. Aliquam accumsan ac magna convallis bibendum. Quisque laoreet augue eget augue fermentum scelerisque. Vivamus dignissim mollis est dictum blandit. Nam porta auctor neque sed congue. Nullam rutrum eget ex at maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget vestibulum lorem.</p>
+                <p>
+                    Don’t delay content because you’re struggling to fill in the blanks. Do some research, put something in there, test and get some quick feedback. Iterate until you get it right. There are many ways to get real content, have a look at the tips below
+                </p>
             </div>
             <div className="user-profile-ov st2">
                 <h3>

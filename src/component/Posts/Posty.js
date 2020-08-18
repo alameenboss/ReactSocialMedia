@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 
 import PostyComments from './PostyComments'
 
 const Posty = (props) => {
+
+    const [showComment, toggleComment] = useState(false);
+    const [liked, toggleLike] = useState(false);
+
     return (
-        <div className="posty" style={{marginBottom:'20px'}} >
+        <div className="posty" style={{ marginBottom: '20px' }} >
             <div className="post-bar no-margin">
                 <div className="post_topbar">
                     <div className="usy-dt">
@@ -29,14 +33,14 @@ const Posty = (props) => {
                 <div className="epi-sec">
                     <ul className="descp">
                         {
-                            props.post.Tags.map((value, index) =>  
+                            props.post.Tags.map((value, index) =>
                                 <li key={index}>
                                     <img src={value.Icon} alt="" />
                                     <span>{value.Text}</span>
                                 </li>
                             )
                         }
-                       
+
                     </ul>
                     <ul className="bk-links">
                         <li><Link to="/" title=""><i className="la la-bookmark"></i></Link></li>
@@ -53,7 +57,7 @@ const Posty = (props) => {
                     <p>{props.post.PostText}<Link to="/" title="">view more</Link></p>
                     <ul className="skill-tags">
                         {
-                            props.post.Technology.map((value, index) =>  
+                            props.post.Technology.map((value, index) =>
                                 <li key={index}>
                                     <Link to="/" title={value}>{value}</Link>
                                 </li>
@@ -63,19 +67,22 @@ const Posty = (props) => {
                 </div>
                 <div className="job-status-bar">
                     <ul className="like-com">
-                        <li>
-                            <Link to="/"><i className="fas fa-heart"></i> Like</Link>
+                        <li onClick={() => toggleLike(!liked)}>
+                            <Link to="/" className={liked ? "liked" : ""} ><i className="fas fa-heart"></i>Like</Link>
                             <img src="reactsocialmedia/assets/images/liked-img.png" alt="" />
-                            <span>25</span>
+                            <span>{liked ? 26 : 25}</span>
                         </li>
                         <li>
-                            <Link to="/" className="com"><i className="fas fa-comment-alt"></i> Comment 15</Link>
+                            <Link to="/" className="com" onClick={() => toggleComment(!showComment)}><i className="fas fa-comment-alt"></i> Comment 15</Link>
                         </li>
                     </ul>
                     <Link to="/"><i className="fas fa-eye"></i>Views 50</Link>
                 </div>
             </div>
-            <PostyComments></PostyComments>
+            {
+                showComment ? <PostyComments></PostyComments> : null
+            }
+
             <div ></div>
         </div>
     )

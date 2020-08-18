@@ -1,12 +1,12 @@
-import React,{ useState } from 'react'
+import React, { useState } from 'react'
 import Menu from './Menu'
 import NavUserInfo from './NavUserInfo'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
-    const [show=false, toggleshow] = useState(0);
+    const [show = false, toggleshow] = useState(0);
     return (
-        <header>
+        <header className="sticky-top">
             <div className="container">
                 <div className="header-data">
                     <div className="logo">
@@ -21,7 +21,7 @@ const Header = () => {
                             <button type="submit"><i className="la la-search"></i></button>
                         </form>
                     </div>
-                    <Menu toggleClassName={show ? 'active': null} ></Menu>
+                    <Menu toggleClassName={show ? 'active' : null} ></Menu>
                     <div className="menu-btn" onClick={() => toggleshow(!show)}>
                         <Link to="#" title=""><i className="fa fa-bars"></i></Link>
                     </div>

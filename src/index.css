@@ -1328,6 +1328,10 @@ main {
 .like-com li a:hover {
 	color: #e44d3a;
 }
+.like-com li .liked {
+	color: #e44d3a;
+}
+
 .like-com li a.active {
 	color: #e44d3a;
 }
