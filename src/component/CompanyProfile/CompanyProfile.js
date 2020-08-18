@@ -27,7 +27,7 @@ export default function CompanyProfile() {
 							<div className="row">
 								<Section1 company={company}/>
 								<Section2 company={company}/>
-								<Section3/>
+								<Section3 company={company}/>
 							</div>
 						</div>
 					</div>

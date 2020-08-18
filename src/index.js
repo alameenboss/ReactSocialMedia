@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'line-awesome/dist/line-awesome/css/line-awesome.min.css';
 import 'line-awesome/dist/font-awesome-line-awesome/css/all.min.css'
+import '@fortawesome/fontawesome-free/css/all.css'
 import './index.css';
 import './responsive.css';
 import App from './App';

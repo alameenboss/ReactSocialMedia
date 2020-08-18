@@ -21,6 +21,32 @@ const company =
       {name:'Feed',icon:'reactsocialmedia/assets/images/ic1.png'},
       {name:'Info',icon:'reactsocialmedia/assets/images/ic2.png'},
       {name:'Portfolio',icon:'reactsocialmedia/assets/images/ic3.png'},
+    ],
+    portfolio:[
+      {name:'',img:'reactsocialmedia/assets/images/resources/pf-img1.jpg'},
+      {name:'',img:'reactsocialmedia/assets/images/resources/pf-img2.jpg'},
+      {name:'',img:'reactsocialmedia/assets/images/resources/pf-img3.jpg'},
+      {name:'',img:'reactsocialmedia/assets/images/resources/pf-img4.jpg'},
+      {name:'',img:'reactsocialmedia/assets/images/resources/pf-img5.jpg'},
+      {name:'',img:'reactsocialmedia/assets/images/resources/pf-img6.jpg'},
+      {name:'',img:'reactsocialmedia/assets/images/resources/pf-img7.jpg'},
+      {name:'',img:'reactsocialmedia/assets/images/resources/pf-img8.jpg'},
+      {name:'',img:'reactsocialmedia/assets/images/resources/pf-img9.jpg'},
+      {name:'',img:'reactsocialmedia/assets/images/resources/pf-img10.jpg'},
+    ],
+    gallery:[
+      'reactsocialmedia/assets/images/resources/pf-gallery1.png',
+      'reactsocialmedia/assets/images/resources/pf-gallery2.png',
+      'reactsocialmedia/assets/images/resources/pf-gallery3.png',
+      'reactsocialmedia/assets/images/resources/pf-gallery4.png',
+      'reactsocialmedia/assets/images/resources/pf-gallery5.png',
+      'reactsocialmedia/assets/images/resources/pf-gallery6.png',
+      'reactsocialmedia/assets/images/resources/pf-gallery7.png',
+      'reactsocialmedia/assets/images/resources/pf-gallery8.png',
+      'reactsocialmedia/assets/images/resources/pf-gallery9.png',
+      'reactsocialmedia/assets/images/resources/pf-gallery10.png',
+      'reactsocialmedia/assets/images/resources/pf-gallery11.png',
+      'reactsocialmedia/assets/images/resources/pf-gallery12.png',
     ]
   };
 

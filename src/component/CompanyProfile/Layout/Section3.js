@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-function Section3() {
+function Section3(props) {
     return (
         <div className="col-lg-3">
             <div className="right-sidebar">
@@ -15,18 +15,16 @@ function Section3() {
                     </div>
                     <div className="pf-gallery">
                         <ul>
-                            <li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery1.png" alt="" /></Link></li>
-                            <li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery2.png" alt="" /></Link></li>
-                            <li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery3.png" alt="" /></Link></li>
-                            <li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery4.png" alt="" /></Link></li>
-                            <li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery5.png" alt="" /></Link></li>
-                            <li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery6.png" alt="" /></Link></li>
-                            <li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery7.png" alt="" /></Link></li>
-                            <li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery8.png" alt="" /></Link></li>
-                            <li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery9.png" alt="" /></Link></li>
-                            <li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery10.png" alt="" /></Link></li>
-                            <li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery11.png" alt="" /></Link></li>
-                            <li><Link to="#" title=""><img src="reactsocialmedia/assets/images/resources/pf-gallery12.png" alt="" /></Link></li>
+                            {
+                                props.company.gallery.map((value,index)=>
+                                    <li key={index}>
+                                        <Link to="#" title="">
+                                            <img src={value} alt="" />
+                                        </Link>
+                                    </li>)
+                            }
+                            
+                            
                         </ul>
                     </div>
                 </div>

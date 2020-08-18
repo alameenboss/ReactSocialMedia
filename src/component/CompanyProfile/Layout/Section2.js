@@ -48,7 +48,7 @@ function Section2({ company }) {
                     <CompanyInfo />
                 </div>
                 <div className={section === 'Portfolio'?'product-feed-tab current':'product-feed-tab'} id="portfolio-dd">
-                    <CompanyPortfolio />
+                    <CompanyPortfolio  portfolio={company.portfolio}/>
                 </div>
             </div>
         </div>

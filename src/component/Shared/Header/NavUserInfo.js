@@ -1,14 +1,15 @@
 import React,{ useState } from 'react'
 import { Link } from 'react-router-dom';
-//import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 const NavUserInfo = () => {
+    const myInfo = useSelector(state => state.myInfo);
     const [show=false, toggleshow] = useState(0);
     return (
         <div className="user-account">
             <div className="user-info" onClick={() => toggleshow(!show)}>
-                <img src="reactsocialmedia/assets/images/resources/user.png" alt="" />
-                <Link to="/"  title="">John</Link>
+                <img src={myInfo.img2} alt="" />
+                <Link to="/"  title="">{myInfo.firstName}</Link>
                 <i className="la la-sort-down"></i>
             </div>
             <div className="user-account-settingss" id="users" style={{ display: show ? 'block' : 'none' }}>
