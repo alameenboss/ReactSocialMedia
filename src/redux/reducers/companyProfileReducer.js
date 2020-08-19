@@ -21,6 +21,12 @@ const company =
       {name:'Feed',icon:'reactsocialmedia/assets/images/ic1.png'},
       {name:'Info',icon:'reactsocialmedia/assets/images/ic2.png'},
       {name:'Portfolio',icon:'reactsocialmedia/assets/images/ic3.png'},
+
+      {name:'Jobs',icon:'/reactsocialmedia/assets/images/ic4.png'},
+      {name:'Bids',icon:'/reactsocialmedia/assets/images/ic5.png'},
+      {name:'Reviews',icon:'/reactsocialmedia/assets/images/review.png'},
+      {name:'Payment',icon:'/reactsocialmedia/assets/images/ic6.png'},
+
     ],
     portfolio:[
       {name:'',img:'reactsocialmedia/assets/images/resources/pf-img1.jpg'},

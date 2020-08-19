@@ -7,6 +7,10 @@ function CompanyData({ img, following, followers, sociallinks }) {
         <div className="user_profile">
             <div className="user-pro-img">
                 <img src={img} alt="" />
+                <div className="add-dp" id="OpenImgUpload">
+                    <input type="file" id="file" />
+                    <label htmlFor="file"><i className="fas fa-camera" /></label>
+                </div>
             </div>
             <div className="user_pro_status">
                 <ul className="flw-hr">

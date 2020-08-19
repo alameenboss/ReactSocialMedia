@@ -64,9 +64,6 @@ export default function CompanyProfile() {
                                                             </li>
                                                         )
                                                     }
-
-
-
                                                 </ul>
                                             </div>
                                         </div>
@@ -89,6 +86,7 @@ export default function CompanyProfile() {
                                     <div className="right-sidebar">
                                         <div className="message-btn">
                                             <Link to="#" title=""><i className="fa fa-envelope"></i> Message</Link>
+                                            <Link to="#" title=""><i className="fas fa-cog" /> Setting</Link>
                                         </div>
                                         <div className="widget widget-portfolio">
                                             <div className="wd-heady">

@@ -5,6 +5,11 @@ const CompanyPortfolio = ({ portfolio }) => {
     return (
         <div className="portfolio-gallery-sec">
             <h3>Portfolio</h3>
+            {
+                true && <div className="portfolio-btn">
+                <Link to="#" title><i className="fas fa-plus-square" /> Add Portfolio</Link>
+              </div>
+            }
             <div className="gallery_pf">
                 <div className="row">
                     {portfolio.map((value, index) =>
