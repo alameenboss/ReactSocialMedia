@@ -6,7 +6,7 @@ const UserChat = (props) => {
     return (
         <div className="chatbox">
         <div className="chat-mg" onClick={() => toggleshow(!show)}>
-          <Link to="#" title="">
+          <Link to="#" >
             <img src={props.userinfo.img} alt="" />
           </Link>
           <span>{props.userinfo.count}</span>
@@ -20,13 +20,13 @@ const UserChat = (props) => {
               </h3>
             </div>
             <div className="st-icons">
-              <Link to="#" title="">
+              <Link to="#" >
                 <i className="la la-cog"></i>
               </Link>
-              <Link to="#" title="" className="close-chat">
+              <Link to="#" className="close-chat">
                 <i className="la la-minus-square"></i>
               </Link>
-              <Link to="#" title="" className="close-chat" onClick={() => toggleshow(!show)}>
+              <Link to="#" className="close-chat" onClick={() => toggleshow(!show)}>
                 <i className="la la-close"></i>
               </Link>
             </div>
@@ -65,17 +65,17 @@ const UserChat = (props) => {
             </form>
             <ul className="ft-options">
               <li>
-                <Link to="#" title="">
+                <Link to="#" >
                   <i className="la la-smile-o"></i>
                 </Link>
               </li>
               <li>
-                <Link to="#" title="">
+                <Link to="#" >
                   <i className="la la-camera"></i>
                 </Link>
               </li>
               <li>
-                <Link to="#" title="">
+                <Link to="#" >
                   <i className="la la-paperclip"></i>
                 </Link>
               </li>

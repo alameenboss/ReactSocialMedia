@@ -21,13 +21,13 @@ const Posty = (props) => {
                         </div>
                     </div>
                     <div className="ed-opts">
-                        <Link to="#" title className="ed-opts-open" onClick={() => toggleAction(!show)}><i className="la la-ellipsis-v" /></Link>
+                        <Link to="#" className="ed-opts-open" onClick={() => toggleAction(!show)}><i className="la la-ellipsis-v" /></Link>
                         <ul className={`ed-options ${show === true ? 'active' : ''}`}>
-                            <li onClick={() => toggleAction(!show)}><Link to="/" title="">Edit Post</Link></li>
-                            <li onClick={() => toggleAction(!show)}><Link to="/" title="">Unsaved</Link></li>
-                            <li onClick={() => toggleAction(!show)}><Link to="/" title="">Unbid</Link></li>
-                            <li onClick={() => toggleAction(!show)}><Link to="/" title="">Close</Link></li>
-                            <li onClick={() => toggleAction(!show)}><Link to="/" title="">Hide</Link></li>
+                            <li onClick={() => toggleAction(!show)}><Link to="/" >Edit Post</Link></li>
+                            <li onClick={() => toggleAction(!show)}><Link to="/" >Unsaved</Link></li>
+                            <li onClick={() => toggleAction(!show)}><Link to="/" >Unbid</Link></li>
+                            <li onClick={() => toggleAction(!show)}><Link to="/" >Close</Link></li>
+                            <li onClick={() => toggleAction(!show)}><Link to="/" >Hide</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -44,18 +44,18 @@ const Posty = (props) => {
 
                     </ul>
                     <ul className="bk-links">
-                        <li><Link to="/" title=""><i className="la la-bookmark"></i></Link></li>
-                        <li><Link to="/" title=""><i className="la la-envelope"></i></Link></li>
-                        <li><Link to="/" title="" className="bid_now">Bid Now</Link></li>
+                        <li><Link to="/" ><i className="la la-bookmark"></i></Link></li>
+                        <li><Link to="/" ><i className="la la-envelope"></i></Link></li>
+                        <li><Link to="/" className="bid_now">Bid Now</Link></li>
                     </ul>
                 </div>
                 <div className="job_descp">
                     <h3>{props.post.Designation}</h3>
                     <ul className="job-dt">
-                        <li><Link to="/" title="">{props.post.JobType}</Link></li>
+                        <li><Link to="/" >{props.post.JobType}</Link></li>
                         <li><span>{props.post.Rate}</span></li>
                     </ul>
-                    <p>{props.post.PostText}<Link to="/" title="">view more</Link></p>
+                    <p>{props.post.PostText}<Link to="/" >view more</Link></p>
                     <ul className="skill-tags">
                         {
                             props.post.Technology.map((value, index) =>

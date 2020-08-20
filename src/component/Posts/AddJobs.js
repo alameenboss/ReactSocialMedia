@@ -46,13 +46,13 @@ function AddJobs() {
 							<div className="col-lg-12">
 								<ul>
 									<li><button className="active" type="submit" value="post">Post</button></li>
-									<li><Link to="#" title="">Cancel</Link></li>
+									<li><Link to="#" >Cancel</Link></li>
 								</ul>
 							</div>
 						</div>
 					</form>
 				</div>
-				<Link to="#" title=""><i className="la la-times-circle-o"></i></Link>
+				<Link to="#" ><i className="la la-times-circle-o"></i></Link>
 			</div>
 		</div>
     )

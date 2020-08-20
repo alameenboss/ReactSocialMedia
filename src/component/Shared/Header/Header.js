@@ -10,7 +10,7 @@ const Header = () => {
             <div className="container">
                 <div className="header-data">
                     <div className="logo">
-                        <Link to="/reactsocialmedia" title="">
+                        <Link to="/reactsocialmedia" >
                             <img src="/reactsocialmedia/assets/images/logo.png" alt="" />
 
                         </Link>
@@ -23,7 +23,7 @@ const Header = () => {
                     </div>
                     <Menu toggleClassName={show ? 'active' : null} ></Menu>
                     <div className="menu-btn" onClick={() => toggleshow(!show)}>
-                        <Link to="#" title=""><i className="fa fa-bars"></i></Link>
+                        <Link to="#" ><i className="fa fa-bars"></i></Link>
                     </div>
                     <NavUserInfo></NavUserInfo>
                 </div>

@@ -18,13 +18,13 @@ const AppliedCadidatesContainer = () => {
                     </div>
                 </div>
                 <div className="ed-opts">
-                    <Link to="#" title className="ed-opts-open" onClick={()=>toggleAction(!show)}><i className="la la-ellipsis-v" /></Link>
+                    <Link to="#" className="ed-opts-open" onClick={()=>toggleAction(!show)}><i className="la la-ellipsis-v" /></Link>
                     <ul className={`ed-options ${show===true?'active':'' }`}>
-                        <li onClick={() => toggleAction(!show)}><Link to="#" title>Edit Post</Link></li>
-                        <li onClick={() => toggleAction(!show)}><Link to="#" title>Accept</Link></li>
-                        <li onClick={() => toggleAction(!show)}><Link to="#" title>Unbid</Link></li>
-                        <li onClick={() => toggleAction(!show)}><Link to="#" title>Close</Link></li>
-                        <li onClick={() => toggleAction(!show)}><Link to="#" title>Hide</Link></li>
+                        <li onClick={() => toggleAction(!show)}><Link to="#">Edit Post</Link></li>
+                        <li onClick={() => toggleAction(!show)}><Link to="#">Accept</Link></li>
+                        <li onClick={() => toggleAction(!show)}><Link to="#">Unbid</Link></li>
+                        <li onClick={() => toggleAction(!show)}><Link to="#">Close</Link></li>
+                        <li onClick={() => toggleAction(!show)}><Link to="#">Hide</Link></li>
                     </ul>
                 </div>
                 <div className="job_descp noborder">
@@ -35,7 +35,7 @@ const AppliedCadidatesContainer = () => {
                             <li><i className="fa fa-star" /></li>
                             <li><i className="fa fa-star" /></li>
                             <li><i className="fa fa-star-half-o" /></li>
-                            <Link to="#" title>5.0 of 5 Reviews</Link>
+                            <Link to="#">5.0 of 5 Reviews</Link>
                         </ul>
                     </div>
                     <div className="devepbtn appliedinfo noreply">

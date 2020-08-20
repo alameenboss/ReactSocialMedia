@@ -23,17 +23,17 @@ const Messages = (props) => {
     const messages = useSelector(state => state.messages);
     // const dispatch = useDispatch();
    
-
+//
     return (
-        <div className="notification-box msg" style={{ display: props.showmessage ? 'block' : 'none' }}>
+        <div className="notification-box msg" style={{ display: props.showmessage ? 'block' : 'none' }} >
             <div className="nt-title">
                 <h4>Setting</h4>
-                <Link to="/" title="">Clear all</Link>
+                <Link to="/" >Clear all</Link>
             </div>
             <div className="nott-list">
                 {fnRenderMessageList(messages)}
                 <div className="view-all-nots">
-                    <Link to="/" title="">{props.title}</Link>
+                    <Link to="/" >{props.title}</Link>
                 </div>
             </div>
         </div >

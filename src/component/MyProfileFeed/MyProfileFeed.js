@@ -51,7 +51,7 @@ export default function MyProfileFeed() {
                               <li key={index} data-tab="feed-dd"
                                 className={section === value.name ? 'active' : ''}
                                 onClick={() => toggleSection(value.name)}>
-                                <Link to="#" title="">
+                                <Link to="#" >
                                   <img src={value.icon} alt="" />
                                   <span>{value.name}</span>
                                 </Link>
@@ -75,40 +75,40 @@ export default function MyProfileFeed() {
 
                     <div className={section === 'Info' ? 'product-feed-tab current' : 'product-feed-tab'} id="info-dd">
                       <div className="user-profile-ov">
-                        <h3><Link to="#" title className="overview-open">Overview</Link> <Link to="#" title className="overview-open"><i className="fa fa-pencil" /></Link></h3>
+                        <h3><Link to="#"  className="overview-open">Overview</Link> <Link to="#"  className="overview-open"><i className="fa fa-pencil" /></Link></h3>
                         <p>The content should be relevant to your product and users. When people are able to read the content, they will give you feedback about the copy and how they feel about it. This will push you to reflect on the type of messages you communicate and the tone of voice that makes people trust your platform.</p>
                       </div>
                       <div className="user-profile-ov st2">
-                        <h3><Link to="#" title className="exp-bx-open">Experience </Link><Link to="#" title className="exp-bx-open"><i className="fa fa-pencil" /></Link> <Link to="#" title className="exp-bx-open"><i className="fa fa-plus-square" /></Link></h3>
-                        <h4>Web designer <Link to="#" title><i className="fa fa-pencil" /></Link></h4>
+                        <h3><Link to="#"  className="exp-bx-open">Experience </Link><Link to="#"  className="exp-bx-open"><i className="fa fa-pencil" /></Link> <Link to="#"  className="exp-bx-open"><i className="fa fa-plus-square" /></Link></h3>
+                        <h4>Web designer <Link to="#" ><i className="fa fa-pencil" /></Link></h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor aliquam felis, nec condimentum ipsum commodo id. Vivamus sit amet augue nec urna efficitur tincidunt. Vivamus consectetur aliquam lectus commodo viverra. </p>
-                        <h4>UI / UX Designer <Link to="#" title><i className="fa fa-pencil" /></Link></h4>
+                        <h4>UI / UX Designer <Link to="#" ><i className="fa fa-pencil" /></Link></h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor aliquam felis, nec condimentum ipsum commodo id.</p>
-                        <h4>PHP developer <Link to="#" title><i className="fa fa-pencil" /></Link></h4>
+                        <h4>PHP developer <Link to="#" ><i className="fa fa-pencil" /></Link></h4>
                         <p className="no-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor aliquam felis, nec condimentum ipsum commodo id. Vivamus sit amet augue nec urna efficitur tincidunt. Vivamus consectetur aliquam lectus commodo viverra. </p>
                       </div>
                       <div className="user-profile-ov">
-                        <h3><Link to="#" title className="ed-box-open">Education</Link> <Link to="#" title className="ed-box-open"><i className="fa fa-pencil" /></Link> <Link to="#" title><i className="fa fa-plus-square" /></Link></h3>
+                        <h3><Link to="#"  className="ed-box-open">Education</Link> <Link to="#"  className="ed-box-open"><i className="fa fa-pencil" /></Link> <Link to="#" ><i className="fa fa-plus-square" /></Link></h3>
                         <h4>Master of Computer Science</h4>
                         <span>2015 - 2018</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor aliquam felis, nec condimentum ipsum commodo id. Vivamus sit amet augue nec urna efficitur tincidunt. Vivamus consectetur aliquam lectus commodo viverra. </p>
                       </div>
                       <div className="user-profile-ov">
-                        <h3><Link to="#" title className="lct-box-open">Location</Link> <Link to="#" title className="lct-box-open"><i className="fa fa-pencil" /></Link> <Link to="#" title><i className="fa fa-plus-square" /></Link></h3>
+                        <h3><Link to="#"  className="lct-box-open">Location</Link> <Link to="#"  className="lct-box-open"><i className="fa fa-pencil" /></Link> <Link to="#" ><i className="fa fa-plus-square" /></Link></h3>
                         <h4>India</h4>
                         <p>151/4 BT Chownk, Delhi </p>
                       </div>
                       <div className="user-profile-ov">
-                        <h3><Link to="#" title className="skills-open">Skills</Link> <Link to="#" title className="skills-open"><i className="fa fa-pencil" /></Link> <Link to="#"><i className="fa fa-plus-square" /></Link></h3>
+                        <h3><Link to="#"  className="skills-open">Skills</Link> <Link to="#"  className="skills-open"><i className="fa fa-pencil" /></Link> <Link to="#"><i className="fa fa-plus-square" /></Link></h3>
                         <ul>
-                          <li><Link to="#" title>HTML</Link></li>
-                          <li><Link to="#" title>PHP</Link></li>
-                          <li><Link to="#" title>CSS</Link></li>
-                          <li><Link to="#" title>Javascript</Link></li>
-                          <li><Link to="#" title>Wordpress</Link></li>
-                          <li><Link to="#" title>Photoshop</Link></li>
-                          <li><Link to="#" title>Illustrator</Link></li>
-                          <li><Link to="#" title>Corel Draw</Link></li>
+                          <li><Link to="#" >HTML</Link></li>
+                          <li><Link to="#" >PHP</Link></li>
+                          <li><Link to="#" >CSS</Link></li>
+                          <li><Link to="#" >Javascript</Link></li>
+                          <li><Link to="#" >Wordpress</Link></li>
+                          <li><Link to="#" >Photoshop</Link></li>
+                          <li><Link to="#" >Illustrator</Link></li>
+                          <li><Link to="#" >Corel Draw</Link></li>
                         </ul>
                       </div>
                     </div>
@@ -126,8 +126,8 @@ export default function MyProfileFeed() {
                 <div className="col-lg-3">
                   <div className="right-sidebar">
                     <div className="message-btn">
-                      <Link to="#" title=""><i className="fa fa-envelope"></i> Message</Link>
-                      <Link to="#" title=""><i className="fas fa-cog" /> Setting</Link>
+                      <Link to="#" ><i className="fa fa-envelope"></i> Message</Link>
+                      <Link to="#" ><i className="fas fa-cog" /> Setting</Link>
                     </div>
                     <div className="widget widget-portfolio">
                       <div className="wd-heady">
@@ -139,7 +139,7 @@ export default function MyProfileFeed() {
                           {
                             company.gallery.map((value, index) =>
                               <li key={index}>
-                                <Link to="#" title="">
+                                <Link to="#" >
                                   <img src={value} alt="" />
                                 </Link>
                               </li>)

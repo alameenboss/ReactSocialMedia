@@ -18,7 +18,7 @@ const PostyComments = () => {
                                 <h3>John Doe</h3>
                                 <span><img src="reactsocialmedia/assets/images/clock.png" alt="" /> 3 min ago</span>
                                 <p>Lorem ipsum dolor sit amet, </p>
-                                <Link to="/" title="" className="active"><i className="fa fa-reply-all"></i>Reply</Link>
+                                <Link to="/" className="active"><i className="fa fa-reply-all"></i>Reply</Link>
                             </div>
                         </div>
                         <ul>
@@ -31,7 +31,7 @@ const PostyComments = () => {
                                         <h3>John Doe</h3>
                                         <span><img src="reactsocialmedia/assets/images/clock.png" alt="" /> 3 min ago</span>
                                         <p>Hi John </p>
-                                        <Link to="/" title=""><i className="fa fa-reply-all"></i>Reply</Link>
+                                        <Link to="/" ><i className="fa fa-reply-all"></i>Reply</Link>
                                     </div>
                                 </div>
                             </li>
@@ -46,7 +46,7 @@ const PostyComments = () => {
                                 <h3>John Doe</h3>
                                 <span><img src="reactsocialmedia/assets/images/clock.png" alt="" /> 3 min ago</span>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at.</p>
-                                <Link to="/" title=""><i className="fa fa-reply-all"></i>Reply</Link>
+                                <Link to="/" ><i className="fa fa-reply-all"></i>Reply</Link>
                             </div>
                         </div>
                     </li>

@@ -14,8 +14,8 @@ function CompanyData({ img, following, followers, sociallinks }) {
             </div>
             <div className="user_pro_status">
                 <ul className="flw-hr">
-                    <li><Link to="#" title="" className="flww"><i className="la la-plus"></i> Follow</Link></li>
-                    <li><Link to="#" title className="hre">Hire</Link></li>
+                    <li><Link to="#" className="flww"><i className="la la-plus"></i> Follow</Link></li>
+                    <li><Link to="#" className="hre">Hire</Link></li>
                 </ul>
                 <ul className="flw-status">
                     <li>
@@ -30,7 +30,7 @@ function CompanyData({ img, following, followers, sociallinks }) {
             </div>
             <ul className="social_links">
                 {
-                    sociallinks.map((value, index) => <li key={index}><Link to="#" title=""><i className={value.Icon}></i>{value.website}</Link></li>)
+                    sociallinks.map((value, index) => <li key={index}><Link to="#" ><i className={value.Icon}></i>{value.website}</Link></li>)
                 }
             </ul>
         </div>

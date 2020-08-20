@@ -47,7 +47,7 @@ export default function UserProfile() {
                                                             <li key={index} data-tab="feed-dd"
                                                                 className={section === value.name ? 'active' : ''}
                                                                 onClick={() => toggleSection(value.name)}>
-                                                                <Link to="#" title="">
+                                                                <Link to="#" >
                                                                     <img src={value.icon} alt="" />
                                                                     <span>{value.name}</span>
                                                                 </Link>
@@ -78,8 +78,8 @@ export default function UserProfile() {
                                 <div className="col-lg-3">
                                     <div className="right-sidebar">
                                         <div className="message-btn">
-                                            <Link to="#" title=""><i className="fa fa-envelope"></i> Message</Link>
-                                            <Link to="#" title=""><i className="fas fa-cog" /> Setting</Link>
+                                            <Link to="#" ><i className="fa fa-envelope"></i> Message</Link>
+                                            <Link to="#" ><i className="fas fa-cog" /> Setting</Link>
                                         </div>
                                         <div className="widget widget-portfolio">
                                             <div className="wd-heady">
@@ -91,7 +91,7 @@ export default function UserProfile() {
                                                     {
                                                         company.gallery.map((value, index) =>
                                                             <li key={index}>
-                                                                <Link to="#" title="">
+                                                                <Link to="#" >
                                                                     <img src={value} alt="" />
                                                                 </Link>
                                                             </li>)

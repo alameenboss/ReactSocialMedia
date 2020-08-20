@@ -37,8 +37,8 @@ const UserBidsSection = ({ section }) => {
                   <p>$500 - $600</p>
                 </li>
                 <ul className="bk-links bklink">
-                  <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
-                  <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                  <li><Link to="#" ><i className="la la-bookmark" /></Link></li>
+                  <li><Link to="#" ><i className="la la-envelope" /></Link></li>
                 </ul>
               </ul>
               <br />
@@ -75,8 +75,8 @@ const UserBidsSection = ({ section }) => {
                   <p>$500 - $600</p>
                 </li>
                 <ul className="bk-links bklink">
-                  <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
-                  <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                  <li><Link to="#" ><i className="la la-bookmark" /></Link></li>
+                  <li><Link to="#" ><i className="la la-envelope" /></Link></li>
                 </ul>
               </ul>
               <br />
@@ -113,8 +113,8 @@ const UserBidsSection = ({ section }) => {
                   <p>$500 - $600</p>
                 </li>
                 <ul className="bk-links bklink">
-                  <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
-                  <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                  <li><Link to="#" ><i className="la la-bookmark" /></Link></li>
+                  <li><Link to="#" ><i className="la la-envelope" /></Link></li>
                 </ul>
               </ul>
               <br />
@@ -226,13 +226,13 @@ const UserBidsSection = ({ section }) => {
                 </div>
               </div>
               <div className="ed-opts">
-                <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
+                <Link to="#"  className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                 <ul className="ed-options">
-                  <li><Link to="#" title>Edit Post</Link></li>
-                  <li><Link to="#" title>Unsaved</Link></li>
-                  <li><Link to="#" title>Unbid</Link></li>
-                  <li><Link to="#" title>Close</Link></li>
-                  <li><Link to="#" title>Hide</Link></li>
+                  <li><Link to="#" >Edit Post</Link></li>
+                  <li><Link to="#" >Unsaved</Link></li>
+                  <li><Link to="#" >Unbid</Link></li>
+                  <li><Link to="#" >Close</Link></li>
+                  <li><Link to="#" >Hide</Link></li>
                 </ul>
               </div>
             </div>
@@ -272,13 +272,13 @@ const UserBidsSection = ({ section }) => {
                 </div>
               </div>
               <div className="ed-opts">
-                <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
+                <Link to="#"  className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                 <ul className="ed-options">
-                  <li><Link to="#" title>Edit Post</Link></li>
-                  <li><Link to="#" title>Unsaved</Link></li>
-                  <li><Link to="#" title>Unbid</Link></li>
-                  <li><Link to="#" title>Close</Link></li>
-                  <li><Link to="#" title>Hide</Link></li>
+                  <li><Link to="#" >Edit Post</Link></li>
+                  <li><Link to="#" >Unsaved</Link></li>
+                  <li><Link to="#" >Unbid</Link></li>
+                  <li><Link to="#" >Close</Link></li>
+                  <li><Link to="#" >Hide</Link></li>
                 </ul>
               </div>
             </div>
@@ -318,13 +318,13 @@ const UserBidsSection = ({ section }) => {
                 </div>
               </div>
               <div className="ed-opts">
-                <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
+                <Link to="#"  className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                 <ul className="ed-options">
-                  <li><Link to="#" title>Edit Post</Link></li>
-                  <li><Link to="#" title>Unsaved</Link></li>
-                  <li><Link to="#" title>Unbid</Link></li>
-                  <li><Link to="#" title>Close</Link></li>
-                  <li><Link to="#" title>Hide</Link></li>
+                  <li><Link to="#" >Edit Post</Link></li>
+                  <li><Link to="#" >Unsaved</Link></li>
+                  <li><Link to="#" >Unbid</Link></li>
+                  <li><Link to="#" >Close</Link></li>
+                  <li><Link to="#" >Hide</Link></li>
                 </ul>
               </div>
             </div>
@@ -371,13 +371,13 @@ const UserBidsSection = ({ section }) => {
                 </div>
               </div>
               <div className="ed-opts">
-                <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
+                <Link to="#"  className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                 <ul className="ed-options">
-                  <li><Link to="#" title>Edit Post</Link></li>
-                  <li><Link to="#" title>Accept</Link></li>
-                  <li><Link to="#" title>Unbid</Link></li>
-                  <li><Link to="#" title>Close</Link></li>
-                  <li><Link to="#" title>Hide</Link></li>
+                  <li><Link to="#" >Edit Post</Link></li>
+                  <li><Link to="#" >Accept</Link></li>
+                  <li><Link to="#" >Unbid</Link></li>
+                  <li><Link to="#" >Close</Link></li>
+                  <li><Link to="#" >Hide</Link></li>
                 </ul>
               </div>
               <div className="job_descp noborder">
@@ -388,7 +388,7 @@ const UserBidsSection = ({ section }) => {
                     <li><i className="fa fa-star" /></li>
                     <li><i className="fa fa-star" /></li>
                     <li><i className="fa fa-star-half-o" /></li>
-                    <Link to="#" title>5.0 of 5 Reviews</Link>
+                    <Link to="#" >5.0 of 5 Reviews</Link>
                   </ul>
                 </div>
                 <ul className="savedjob-info biddersinfo">
@@ -427,13 +427,13 @@ const UserBidsSection = ({ section }) => {
                 </div>
               </div>
               <div className="ed-opts">
-                <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
+                <Link to="#"  className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                 <ul className="ed-options">
-                  <li><Link to="#" title>Edit Post</Link></li>
-                  <li><Link to="#" title>Accept</Link></li>
-                  <li><Link to="#" title>Unbid</Link></li>
-                  <li><Link to="#" title>Close</Link></li>
-                  <li><Link to="#" title>Hide</Link></li>
+                  <li><Link to="#" >Edit Post</Link></li>
+                  <li><Link to="#" >Accept</Link></li>
+                  <li><Link to="#" >Unbid</Link></li>
+                  <li><Link to="#" >Close</Link></li>
+                  <li><Link to="#" >Hide</Link></li>
                 </ul>
               </div>
               <div className="job_descp noborder">
@@ -444,7 +444,7 @@ const UserBidsSection = ({ section }) => {
                     <li><i className="fa fa-star" /></li>
                     <li><i className="fa fa-star" /></li>
                     <li><i className="fa fa-star-half-o" /></li>
-                    <Link to="#" title>5.0 of 5 Reviews</Link>
+                    <Link to="#" >5.0 of 5 Reviews</Link>
                   </ul>
                 </div>
                 <ul className="savedjob-info biddersinfo">
@@ -483,13 +483,13 @@ const UserBidsSection = ({ section }) => {
                 </div>
               </div>
               <div className="ed-opts">
-                <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
+                <Link to="#"  className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
                 <ul className="ed-options">
-                  <li><Link to="#" title>Edit Post</Link></li>
-                  <li><Link to="#" title>Accept</Link></li>
-                  <li><Link to="#" title>Unbid</Link></li>
-                  <li><Link to="#" title>Close</Link></li>
-                  <li><Link to="#" title>Hide</Link></li>
+                  <li><Link to="#" >Edit Post</Link></li>
+                  <li><Link to="#" >Accept</Link></li>
+                  <li><Link to="#" >Unbid</Link></li>
+                  <li><Link to="#" >Close</Link></li>
+                  <li><Link to="#" >Hide</Link></li>
                 </ul>
               </div>
               <div className="job_descp noborder">
@@ -500,7 +500,7 @@ const UserBidsSection = ({ section }) => {
                     <li><i className="fa fa-star" /></li>
                     <li><i className="fa fa-star" /></li>
                     <li><i className="fa fa-star-half-o" /></li>
-                    <Link to="#" title>5.0 of 5 Reviews</Link>
+                    <Link to="#" >5.0 of 5 Reviews</Link>
                   </ul>
                 </div>
                 <ul className="savedjob-info biddersinfo">

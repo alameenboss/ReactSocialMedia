@@ -6,13 +6,13 @@ const Section1 = () => {
       <div className="filter-secs">
         <div className="filter-heading">
           <h3>Filters</h3>
-          <Link to="#" title>Clear all filters</Link>
+          <Link to="#" >Clear all filters</Link>
         </div>{/*filter-heading end*/}
         <div className="paddy">
           <div className="filter-dd">
             <div className="filter-ttl">
               <h3>Skills</h3>
-              <Link to="#" title>Clear</Link>
+              <Link to="#" >Clear</Link>
             </div>
             <form>
               <input type="text" name="search-skills" placeholder="Search skills" />
@@ -21,7 +21,7 @@ const Section1 = () => {
           <div className="filter-dd">
             <div className="filter-ttl">
               <h3>Availabilty</h3>
-              <Link to="#" title>Clear</Link>
+              <Link to="#" >Clear</Link>
             </div>
             <ul className="avail-checks">
               <li>
@@ -50,7 +50,7 @@ const Section1 = () => {
           <div className="filter-dd">
             <div className="filter-ttl">
               <h3>Job Type</h3>
-              <Link to="#" title>Clear</Link>
+              <Link to="#" >Clear</Link>
             </div>
             <form className="job-tp">
               <select>
@@ -65,7 +65,7 @@ const Section1 = () => {
           <div className="filter-dd">
             <div className="filter-ttl">
               <h3>Pay Rate / Hr ($)</h3>
-              <Link to="#" title>Clear</Link>
+              <Link to="#" >Clear</Link>
             </div>
             <div className="rg-slider">
               <input className="rn-slider slider-input" type="hidden" defaultValue="5,50" style={{ display: 'none' }} /><div className="slider-container theme-green" style={{ width: '300px' }}>			<div className="back-bar">                <div className="selected-bar" style={{ width: '93px', left: '10.5px' }} />                <div className="pointer low" style={{ left: '4px' }} /><div className="pointer-label low" style={{ left: '0px' }}>5</div>                <div className="pointer high" style={{ left: '97px' }} /><div className="pointer-label high" style={{ left: '78px' }}>50</div>                <div className="clickable-dummy" />          </div>            <div className="scale" />		</div>
@@ -78,7 +78,7 @@ const Section1 = () => {
           <div className="filter-dd">
             <div className="filter-ttl">
               <h3>Experience Level</h3>
-              <Link to="#" title>Clear</Link>
+              <Link to="#" >Clear</Link>
             </div>
             <form className="job-tp">
               <select>
@@ -93,7 +93,7 @@ const Section1 = () => {
           <div className="filter-dd">
             <div className="filter-ttl">
               <h3>Countries</h3>
-              <Link to="#" title>Clear</Link>
+              <Link to="#" >Clear</Link>
             </div>
             <form className="job-tp">
               <select>

@@ -32,7 +32,7 @@ const UserReviewsSection = ({ section }) => {
                 <li><i className="fa fa-star" /></li>
                 <li><i className="fa fa-star-half-o" /></li>
               </ul>
-              <Link to="#" title>5.0 of 5 Reviews</Link>
+              <Link to="#" >5.0 of 5 Reviews</Link>
             </div>
             <div className="reviewtext">
               <p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla luctus mi et porttitor ultrices</p>
@@ -75,13 +75,13 @@ const UserReviewsSection = ({ section }) => {
               </div>
             </div>
             <div className="ed-opts">
-              <Link to="#" title className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
+              <Link to="#"  className="ed-opts-open"><i className="la la-ellipsis-v" /></Link>
               <ul className="ed-options">
-                <li><Link to="#" title>Edit Post</Link></li>
-                <li><Link to="#" title>Unsaved</Link></li>
-                <li><Link to="#" title>Unbid</Link></li>
-                <li><Link to="#" title>Close</Link></li>
-                <li><Link to="#" title>Hide</Link></li>
+                <li><Link to="#" >Edit Post</Link></li>
+                <li><Link to="#" >Unsaved</Link></li>
+                <li><Link to="#" >Unbid</Link></li>
+                <li><Link to="#" >Close</Link></li>
+                <li><Link to="#" >Hide</Link></li>
               </ul>
             </div>
           </div>
@@ -94,7 +94,7 @@ const UserReviewsSection = ({ section }) => {
                 <li><i className="fa fa-star" /></li>
                 <li><i className="fa fa-star-half-o" /></li>
               </ul>
-              <Link to="#" title>5.0 of 5 Reviews</Link><br /><br />
+              <Link to="#" >5.0 of 5 Reviews</Link><br /><br />
               <p>Awesome Work, Thanks John!</p>
               <hr />
             </div>

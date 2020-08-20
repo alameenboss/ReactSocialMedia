@@ -9,7 +9,7 @@ const NavUserInfo = () => {
         <div className="user-account">
             <div className="user-info" onClick={() => toggleshow(!show)}>
                 <img src={myInfo.img2} alt="" />
-                <Link to="/"  title="">{myInfo.firstName}</Link>
+                <Link to="/"  >{myInfo.firstName}</Link>
                 <i className="la la-sort-down"></i>
             </div>
             <div className="user-account-settingss" id="users" style={{ display: show ? 'block' : 'none' }}>
@@ -44,12 +44,12 @@ const NavUserInfo = () => {
 
                 <h3>Setting</h3>
                 <ul className="us-links">
-                    <li><Link to="/AccountSetting" title="">Account Setting</Link></li>
-                    <li><Link to="/Privacy" title="">Privacy</Link></li>
-                    <li><Link to="/Faqs" title="">Faqs</Link></li>
-                    <li><Link to="/Terms" title="">Terms & Conditions</Link></li>
+                    <li><Link to="/AccountSetting" >Account Setting</Link></li>
+                    <li><Link to="/Privacy" >Privacy</Link></li>
+                    <li><Link to="/Faqs" >Faqs</Link></li>
+                    <li><Link to="/Terms" >Terms & Conditions</Link></li>
                 </ul>
-                <h3 className="tc"><Link to="/Logout" title="">Logout</Link></h3>
+                <h3 className="tc"><Link to="/Logout" >Logout</Link></h3>
             </div>
 
         </div>

@@ -1,4 +1,10 @@
-/* .ed-opts-open:focus + .ed-options {
+.ed-opts-open:focus + .ed-options,
+.ed-opts-open:hover + .ed-options {
     opacity: 1;
     visibility: visible;
+    z-index: 10;
+}
+
+/* nav > ul > li :hover + .notification-box {
+    display: block;
 } */

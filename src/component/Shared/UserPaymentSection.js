@@ -1,18 +1,17 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 const UserPaymentSection = ({ section }) => {
-  const [tab, updateTab] = useState('Feed');
   return (
     <div className={section === 'Payment' ? 'product-feed-tab current' : 'product-feed-tab'} id="payment-dd">
       <div className="billing-method">
         <ul>
           <li>
             <h3>Add Billing Method</h3>
-            <Link to="#" title><i className="fa fa-plus-circle" /></Link>
+            <Link to="#" ><i className="fa fa-plus-circle" /></Link>
           </li>
           <li>
             <h3>See Activity</h3>
-            <Link to="#" title>View All</Link>
+            <Link to="#" >View All</Link>
           </li>
           <li>
             <h3>Total Money</h3>
@@ -22,7 +21,7 @@ const UserPaymentSection = ({ section }) => {
         <div className="lt-sec">
           <img src="/reactsocialmedia/assets/images/lt-icon.png" alt="" />
           <h4>All your transactions are saved here</h4>
-          <Link to="#" title>Click Here</Link>
+          <Link to="#" >Click Here</Link>
         </div>
       </div>
       <div className="add-billing-method">
@@ -43,7 +42,7 @@ const UserPaymentSection = ({ section }) => {
                   </ul>
                 </div>
                 <div className="inpt-field pd-moree">
-                  <input type="text" name="cc-number" placeholder />
+                  <input type="text" name="cc-number" placeholder="CC Number" />
                   <i className="fa fa-credit-card" />
                 </div>
               </div>
@@ -52,7 +51,7 @@ const UserPaymentSection = ({ section }) => {
                   <h5>First Name</h5>
                 </div>
                 <div className="inpt-field">
-                  <input type="text" name="f-name" placeholder />
+                  <input type="text" name="f-name" placeholder="First Name"/>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -60,7 +59,7 @@ const UserPaymentSection = ({ section }) => {
                   <h5>Last Name</h5>
                 </div>
                 <div className="inpt-field">
-                  <input type="text" name="l-name" placeholder />
+                  <input type="text" name="l-name" placeholder="Last Name"/>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -71,12 +70,12 @@ const UserPaymentSection = ({ section }) => {
                   <div className="row">
                     <div className="col-lg-6 pd-left-none no-pd">
                       <div className="inpt-field">
-                        <input type="text" name="f-name" placeholder />
+                        <input type="text" name="f-name" placeholder="First Name"/>
                       </div>
                     </div>
                     <div className="col-lg-6 pd-right-none no-pd">
                       <div className="inpt-field">
-                        <input type="text" name="f-name" placeholder />
+                        <input type="text" name="f-name" placeholder="Last Name"/>
                       </div>
                     </div>
                   </div>
@@ -87,7 +86,7 @@ const UserPaymentSection = ({ section }) => {
                   <h5>Cvv (Security Code) <i className="fa fa-question-circle" /></h5>
                 </div>
                 <div className="inpt-field">
-                  <input type="text" name="l-name" placeholder />
+                  <input type="text" name="l-name" placeholder="Last Name"/>
                 </div>
               </div>
               <div className="col-lg-12">

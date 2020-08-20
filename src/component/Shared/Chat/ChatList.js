@@ -8,7 +8,7 @@ const ChatList = () => {
     return (
         <div className="chatbox">
             <div className="chat-mg bx" onClick={() => toggleshow(!show)}>
-                <Link to="#" title="" >
+                <Link to="#" >
                     <img src="reactsocialmedia/assets/images/chat.png" alt="" />
                 </Link>
                 <span>2</span>
@@ -16,7 +16,7 @@ const ChatList = () => {
             <div className={show ? 'conversation-box active' : 'conversation-box'}>
                 <div className="con-title">
                     <h3>Messages</h3>
-                    <Link to="#" title="" className="close-chat" onClick={() => toggleshow(!show)}>
+                    <Link to="#" className="close-chat" onClick={() => toggleshow(!show)}>
                         <i className="la la-minus-square"></i>
                     </Link>
                 </div>

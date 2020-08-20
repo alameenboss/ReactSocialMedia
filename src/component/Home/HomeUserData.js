@@ -27,7 +27,7 @@ const HomeUserData = () => {
                     <span>{myInfo.followers}</span>
                 </li>
                 <li>
-                    <Link to="/my-profile"  title="">View Profile</Link>
+                    <Link to="/my-profile"  >View Profile</Link>
                 </li>
             </ul>
         </div>

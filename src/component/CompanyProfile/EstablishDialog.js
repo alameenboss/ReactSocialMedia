@@ -13,7 +13,7 @@ function EstablishDialog() {
 					<button type="submit" className="save">Save</button>
 					<button type="submit" className="cancel">Cancel</button>
 				</form>
-				<Link to="#" title="" className="close-box"><i className="la la-close"></i></Link>
+				<Link to="#" className="close-box"><i className="la la-close"></i></Link>
 			</div>
 		</div>
 

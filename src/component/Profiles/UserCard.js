@@ -11,23 +11,23 @@ function UserCard(props) {
     <h4>{props.value.work}</h4>
             <ul>
               <li>
-                <Link to="#" title="" className="follow">
+                <Link to="#" className="follow">
                   Follow
                 </Link>
               </li>
               <li>
-                <Link to="#" title="" className="message-us">
+                <Link to="#" className="message-us">
                   <i className="fa fa-envelope"></i>
                 </Link>
               </li>
               <li>
-                <Link to="#" title="" className="hire-us">
+                <Link to="#" className="hire-us">
                   Hire
                 </Link>
               </li>
             </ul>
           </div>
-          <Link to="user-profile.html" title="" className="view-more-pro">
+          <Link to="user-profile.html" className="view-more-pro">
             View Profile
           </Link>
         </div>

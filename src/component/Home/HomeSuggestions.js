@@ -24,7 +24,7 @@ const HomeSuggestions = () => {
                         img={value.img}/> )
                 }
                 <div className="view-more">
-                    <Link to="/" title="">View More</Link>
+                    <Link to="/" >View More</Link>
                 </div>
             </div>
         </div>

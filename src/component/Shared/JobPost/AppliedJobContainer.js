@@ -13,13 +13,13 @@ const AppliedJobContainer = () => {
                     </div>
                 </div>
                 <div className="ed-opts">
-                <Link to="#" title className="ed-opts-open" onClick={()=>toggleAction(!show)}><i className="la la-ellipsis-v" /></Link>
+                <Link to="#"  className="ed-opts-open" onClick={()=>toggleAction(!show)}><i className="la la-ellipsis-v" /></Link>
                     <ul className={`ed-options ${show===true?'active':'' }`}>
-                        <li onClick={() => toggleAction(!show)}><Link to="#" title>Edit Post</Link></li>
-                        <li onClick={() => toggleAction(!show)}><Link to="#" title>Unsaved</Link></li>
-                        <li onClick={() => toggleAction(!show)}><Link to="#" title>Unbid</Link></li>
-                        <li onClick={() => toggleAction(!show)}><Link to="#" title>Close</Link></li>
-                        <li onClick={() => toggleAction(!show)}><Link to="#" title>Hide</Link></li>
+                        <li onClick={() => toggleAction(!show)}><Link to="#">Edit Post</Link></li>
+                        <li onClick={() => toggleAction(!show)}><Link to="#">Unsaved</Link></li>
+                        <li onClick={() => toggleAction(!show)}><Link to="#">Unbid</Link></li>
+                        <li onClick={() => toggleAction(!show)}><Link to="#">Close</Link></li>
+                        <li onClick={() => toggleAction(!show)}><Link to="#">Hide</Link></li>
                     </ul>
                 </div>
             </div>

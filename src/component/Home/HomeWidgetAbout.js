@@ -8,8 +8,8 @@ const HomeWidgetAbout = () => {
             <h3>Track Time on Workwise</h3>
             <span>Pay only for the Hours worked</span>
             <div className="sign_link">
-                <h3><Link to="/SignIn" title="">Sign up</Link></h3>
-                <Link to="/" title="">Learn More</Link>
+                <h3><Link to="/SignIn" >Sign up</Link></h3>
+                <Link to="/" >Learn More</Link>
             </div>
         </div>
     )

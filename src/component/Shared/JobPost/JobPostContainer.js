@@ -27,8 +27,8 @@ const JobPostContainer = () => {
                     </div>
                     <div className="col-md-6 col-sm-12">
                         <ul className="bk-links bklink">
-                            <li><Link to="#" title><i className="la la-bookmark" /></Link></li>
-                            <li><Link to="#" title><i className="la la-envelope" /></Link></li>
+                            <li><Link to="#" ><i className="la la-bookmark" /></Link></li>
+                            <li><Link to="#" ><i className="la la-envelope" /></Link></li>
                         </ul>
                     </div>
                 </div>

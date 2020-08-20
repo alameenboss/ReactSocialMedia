@@ -7,7 +7,7 @@ const CompanyPortfolio = ({ portfolio }) => {
             <h3>Portfolio</h3>
             {
                 true && <div className="portfolio-btn">
-                <Link to="#" title><i className="fas fa-plus-square" /> Add Portfolio</Link>
+                <Link to="#" ><i className="fas fa-plus-square" /> Add Portfolio</Link>
               </div>
             }
             <div className="gallery_pf">
@@ -16,7 +16,7 @@ const CompanyPortfolio = ({ portfolio }) => {
                         <div key={index} className="col-lg-4 col-md-4 col-sm-4 col-6">
                             <div className="gallery_pt">
                                 <img src={value.img} alt="" />
-                                <Link to="#" title=""><img src="reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
+                                <Link to="#"><img src="reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
                             </div>
                         </div>
                     )}
