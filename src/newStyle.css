@@ -8,3 +8,26 @@
 /* nav > ul > li :hover + .notification-box {
     display: block;
 } */
+
+@media (max-width: 410px) {
+
+    .post-bar{
+        border-top: 4px solid #e44d3a;
+        background-color: #343a40;
+        color: #fff;
+        }
+        .post-bar p,
+        .post-bar h3,
+        .company-up-info h3,
+        .company-up-info h4,
+        .company-up-info p,
+        .view-more-pro
+        {
+            color: #fff !important; 
+        }
+        main,.post-topbar,.companies-info,.company-title h3,.company_profile_info,.company-up-info
+        .main-section{
+            background-color: #343a40;
+            color: #fff; 
+        }
+}
