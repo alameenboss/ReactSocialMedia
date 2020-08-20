@@ -6,6 +6,7 @@ import 'line-awesome/dist/line-awesome/css/line-awesome.min.css';
 import 'line-awesome/dist/font-awesome-line-awesome/css/all.min.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 import './index.css';
+import './newStyle.css';
 import './responsive.css';
 import App from './App';
 

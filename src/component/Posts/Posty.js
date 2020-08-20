@@ -7,6 +7,7 @@ const Posty = (props) => {
 
     const [showComment, toggleComment] = useState(false);
     const [liked, toggleLike] = useState(false);
+    const [show, toggleAction] = useState(false);
 
     return (
         <div className="posty" style={{ marginBottom: '20px' }} >
@@ -20,13 +21,13 @@ const Posty = (props) => {
                         </div>
                     </div>
                     <div className="ed-opts">
-                        <Link to="/" title="" className="ed-opts-open"><i className="la la-ellipsis-v"></i></Link>
-                        <ul className="ed-options">
-                            <li><Link to="/" title="">Edit Post</Link></li>
-                            <li><Link to="/" title="">Unsaved</Link></li>
-                            <li><Link to="/" title="">Unbid</Link></li>
-                            <li><Link to="/" title="">Close</Link></li>
-                            <li><Link to="/" title="">Hide</Link></li>
+                        <Link to="#" title className="ed-opts-open" onClick={() => toggleAction(!show)}><i className="la la-ellipsis-v" /></Link>
+                        <ul className={`ed-options ${show === true ? 'active' : ''}`}>
+                            <li onClick={() => toggleAction(!show)}><Link to="/" title="">Edit Post</Link></li>
+                            <li onClick={() => toggleAction(!show)}><Link to="/" title="">Unsaved</Link></li>
+                            <li onClick={() => toggleAction(!show)}><Link to="/" title="">Unbid</Link></li>
+                            <li onClick={() => toggleAction(!show)}><Link to="/" title="">Close</Link></li>
+                            <li onClick={() => toggleAction(!show)}><Link to="/" title="">Hide</Link></li>
                         </ul>
                     </div>
                 </div>
