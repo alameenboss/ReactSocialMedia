@@ -15,9 +15,13 @@ const Menu = (props) => {
             toggleMsg(!showMsg) 
             toggleNot(false)
         }
-        if(name === "Notification"){
+        else if(name === "Notification"){
             toggleMsg(false)
             toggleNot(!showNot)
+        }
+        else{
+            toggleMsg(false)
+            toggleNot(false)
         }
     }
     return (
@@ -28,7 +32,7 @@ const Menu = (props) => {
                         <li key={value.name}>
                             {value.name === "Messages" || value.name === "Notification" ?
                                 <div onClick={() => handleMsg(value.name)}>
-                                    <Link to={value.navigateTo}>
+                                    <Link to={value.navigateTo} >
                                         <span>
                                             <img src={value.imageurl} alt="" />
                                             <span className="badge badge-pill badge-light">3</span>
@@ -37,7 +41,7 @@ const Menu = (props) => {
                                     </Link>
                                 </div>
                                 :
-                                <div>
+                                <div onClick={() => handleMsg(value.name)}>
                                     <Link to={value.navigateTo} title={value.name}>
                                         <span>
                                             <img src={value.imageurl} alt="" />
@@ -51,7 +55,7 @@ const Menu = (props) => {
                                 value.submenu !== undefined ?
                                     <ul> {
                                         value.submenu.map((value) =>
-                                            <li key={value.name}>
+                                            <li key={value.name} onClick={() => handleMsg(value.name)}>
                                                 <Link to={value.navigateTo}>
                                                     {value.name}
                                                 </Link>
