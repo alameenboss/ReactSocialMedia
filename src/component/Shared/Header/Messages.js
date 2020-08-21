@@ -21,9 +21,6 @@ const fnRenderMessageList = function (messages) {
 
 const Messages = (props) => {
     const messages = useSelector(state => state.messages);
-    // const dispatch = useDispatch();
-   
-//
     return (
         <div className="notification-box msg" style={{ display: props.showmessage ? 'block' : 'none' }} >
             <div className="nt-title">

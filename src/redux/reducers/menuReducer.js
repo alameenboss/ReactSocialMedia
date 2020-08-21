@@ -64,11 +64,7 @@ const menu = [{
   }]
 
   const menuReducer = (state = menu, action) => {
-    switch (action.type) {
-      case 'MENU_CLICKED':
-          state = [...state];
-          state[state.indexOf(action.payload)].showmessage  = !action.payload.showmessage;
-          return state;      
+    switch (action.type) {   
       default:
           return state;
   }

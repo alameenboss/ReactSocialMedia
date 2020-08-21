@@ -2,7 +2,6 @@ import React from 'react';
 
 import Header from './component/Shared/Header/Header';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-//import { Link } from "react-router-dom";
 import Home from './component/Home/Home';
 import Companies from './component/Companies/Companies';
 import CompanyProfile from './component/CompanyProfile/CompanyProfile';
@@ -11,7 +10,6 @@ import Profiles from './component/Profiles/Profiles';
 import UserProfile from './component/UserProfile/UserProfile';
 import MyProfileFeed from './component/MyProfileFeed/MyProfileFeed';
 import Jobs from './component/Jobs/Jobs';
-import Example from './component/Example/Example';
 import ChatFooter from './component/Shared/ChatFooter';
 import AddProject from './component/Posts/AddProject';
 import AddJobs from './component/Posts/AddJobs';
@@ -32,7 +30,6 @@ function App() {
               <Route exact path="/UserProfile" component={UserProfile}></Route>
               <Route exact path="/MyProfileFeed" component={MyProfileFeed}></Route>
               <Route exact path="/Jobs" component={Jobs}></Route>
-              <Route exact path="/Example" component={Example}></Route>
               <Route exact path="/" component={Home}></Route>
           </Switch>
           <ChatFooter></ChatFooter>

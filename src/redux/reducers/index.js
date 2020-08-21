@@ -1,6 +1,3 @@
-import counterReducer from  './counter';
-import loggedReducer from './isLogged';
-import movieReducer from './movie';
 import menuReducer from './menuReducer';
 import {combineReducers} from 'redux';
 import messageReducer from './messageReducer';
@@ -14,9 +11,6 @@ import allUsersReducer from './allUsersReducer';
 import companyProfileReducer from './companyProfileReducer';
 
 const allReducer = combineReducers({
-    counter: counterReducer,
-    islogged : loggedReducer,
-    movie: movieReducer,
     menu: menuReducer,
     messages : messageReducer,
     notifications : notificationReducer,
