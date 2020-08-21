@@ -12,7 +12,7 @@
 @media (max-width: 410px) {
 
     .post-bar{
-        border-top: 4px solid #e44d3a;
+        border-top: 4px solid var(--primary-color);
         background-color: #343a40;
         color: #fff;
         }
