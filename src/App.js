@@ -13,6 +13,7 @@ import Jobs from './component/Jobs/Jobs';
 import ChatFooter from './component/Shared/ChatFooter';
 import AddProject from './component/Posts/AddProject';
 import AddJobs from './component/Posts/AddJobs';
+import Login from './component/Auth/Login';
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
         <Header></Header>
         <div className="App">
           <Switch>
-              <Route exact path="/Home" component={Home}></Route>
+              <Route path="/Home" component={Home}></Route>
               <Route exact path="/Companies" component={Companies}></Route>
               <Route exact path="/CompanyProfile" component={CompanyProfile}></Route>
               <Route exact path="/Project" component={Project}></Route>
@@ -30,7 +31,7 @@ function App() {
               <Route exact path="/UserProfile" component={UserProfile}></Route>
               <Route exact path="/MyProfileFeed" component={MyProfileFeed}></Route>
               <Route exact path="/Jobs" component={Jobs}></Route>
-              <Route exact path="/" component={Home}></Route>
+              <Route path="/reactsocialmedia" component={Login}></Route>
           </Switch>
           <ChatFooter></ChatFooter>
         </div>
