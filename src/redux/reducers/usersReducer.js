@@ -5,7 +5,7 @@ const users = [
     img: "reactsocialmedia/assets/images/resources/s1.png"
   },
   {
-    name: "John Doe",
+    name: "Alameen Shaik Dawood",
     work: "PHP Developer",
     img: "reactsocialmedia/assets/images/resources/s2.png"
   },
@@ -25,7 +25,7 @@ const users = [
     img: "reactsocialmedia/assets/images/resources/s5.png"
   },
   {
-    name: "John Doe",
+    name: "Alameen Shaik Dawood",
     work: "PHP Developer",
     img: "reactsocialmedia/assets/images/resources/s6.png"
   }]

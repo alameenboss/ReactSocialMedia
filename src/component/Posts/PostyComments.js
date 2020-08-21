@@ -15,7 +15,7 @@ const PostyComments = () => {
                                 <img src="reactsocialmedia/assets/images/resources/bg-img1.png" alt="" />
                             </div>
                             <div className="comment">
-                                <h3>John Doe</h3>
+                                <h3>Alameen Shaik Dawood</h3>
                                 <span><img src="reactsocialmedia/assets/images/clock.png" alt="" /> 3 min ago</span>
                                 <p>Lorem ipsum dolor sit amet, </p>
                                 <Link to="/" className="active"><i className="fa fa-reply-all"></i>Reply</Link>
@@ -28,9 +28,9 @@ const PostyComments = () => {
                                         <img src="reactsocialmedia/assets/images/resources/bg-img2.png" alt="" />
                                     </div>
                                     <div className="comment">
-                                        <h3>John Doe</h3>
+                                        <h3>Alameen Shaik Dawood</h3>
                                         <span><img src="reactsocialmedia/assets/images/clock.png" alt="" /> 3 min ago</span>
-                                        <p>Hi John </p>
+                                        <p>Hi Alameen Shaik Dawood </p>
                                         <Link to="/" ><i className="fa fa-reply-all"></i>Reply</Link>
                                     </div>
                                 </div>
@@ -43,7 +43,7 @@ const PostyComments = () => {
                                 <img src="reactsocialmedia/assets/images/resources/bg-img3.png" alt="" />
                             </div>
                             <div className="comment">
-                                <h3>John Doe</h3>
+                                <h3>Alameen Shaik Dawood</h3>
                                 <span><img src="reactsocialmedia/assets/images/clock.png" alt="" /> 3 min ago</span>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus hendrerit metus, ut ullamcorper quam finibus at.</p>
                                 <Link to="/" ><i className="fa fa-reply-all"></i>Reply</Link>

@@ -8,7 +8,7 @@ const AppliedCadidatesContainer = () => {
                 <div className="usy-dt">
                     <img src="/reactsocialmedia/assets/images/resources/us-pic.png" alt="" />
                     <div className="usy-name">
-                        <h3>John Doe</h3>
+                        <h3>Alameen Shaik Dawood</h3>
                         <div className="epi-sec epi2">
                             <ul className="descp descptab bklink">
                                 <li><img src="/reactsocialmedia/assets/images/icon8.png" alt="" /><span>Epic Coder</span></li>

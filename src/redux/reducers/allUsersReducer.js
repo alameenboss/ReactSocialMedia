@@ -5,7 +5,7 @@ const users = [
     img: "reactsocialmedia/assets/images/resources/pf-icon1.png"
   },
   {
-    name: "John Doe",
+    name: "Alameen Shaik Dawood",
     work: "PHP Developer",
     img: "reactsocialmedia/assets/images/resources/pf-icon2.png"
   },
@@ -25,7 +25,7 @@ const users = [
     img: "reactsocialmedia/assets/images/resources/pf-icon5.png"
   },
   {
-    name: "John Doe",
+    name: "Alameen Shaik Dawood",
     work: "PHP Developer",
     img: "reactsocialmedia/assets/images/resources/pf-icon6.png"
   },
@@ -35,7 +35,7 @@ const users = [
     img: "reactsocialmedia/assets/images/resources/pf-icon7.png"
   },
   {
-    name: "John Doe",
+    name: "Alameen Shaik Dawood",
     work: "PHP Developer",
     img: "reactsocialmedia/assets/images/resources/pf-icon8.png"
   },
@@ -55,7 +55,7 @@ const users = [
     img: "reactsocialmedia/assets/images/resources/pf-icon11.png"
   },
   {
-    name: "John Doe",
+    name: "Alameen Shaik Dawood",
     work: "PHP Developer",
     img: "reactsocialmedia/assets/images/resources/pf-icon12.png"
   }]

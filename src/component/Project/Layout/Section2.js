@@ -6,7 +6,7 @@ const Section2 = () => {
         <div className="col-lg-6">
             <div className="main-ws-sec">
                 <div className="posts-section">
-                    <PostyList name="John Deo"
+                    <PostyList name="Alameen Shaik Dawood"
                         img="reactsocialmedia/assets/images/resources/us-pic.png" />
                     <LoadingIndicator />
                 </div>

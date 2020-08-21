@@ -5,8 +5,8 @@ const company =
   establish: "Established Since 2009",
   img: "reactsocialmedia/assets/images/resources/company-profile.png",
   dpimg: "reactsocialmedia/assets/images/resources/company-pic.png",
-  following: 34,
-  followers: 155,
+  following: '2.5k',
+  followers: '2M',
   sociallinks: [
     { company: 'Website', Icon: 'la la-globe', website: 'www.example.com' },
     { company: 'Facebook', Icon: 'la la-facebook-square', website: 'Http://www.facebook.com/john' },

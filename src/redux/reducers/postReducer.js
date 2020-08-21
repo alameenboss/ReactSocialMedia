@@ -1,6 +1,6 @@
 const posts = [{
   ImageUrl: 'reactsocialmedia/assets/images/resources/us-pic.png',
-  Name: 'John Doe',
+  Name: 'Alameen Shaik Dawood',
   PostedTime: '3 min ago',
   Tags: [{ Icon: 'reactsocialmedia/assets/images/icon8.png', Text: 'Epic Coder' },
   { Icon: 'reactsocialmedia/assets/images/icon9.png', Text: 'India' }],
@@ -12,7 +12,7 @@ const posts = [{
 },
 {
   ImageUrl: 'reactsocialmedia/assets/images/resources/us-pic.png',
-  Name: 'John Deo',
+  Name: 'Alameen Shaik Dawood',
   PostedTime: '3 min ago',
   Tags: [{ Icon: 'reactsocialmedia/assets/images/icon8.png', Text: 'Epic Coder' },
   { Icon: 'reactsocialmedia/assets/images/icon9.png', Text: 'India' }],
@@ -24,7 +24,7 @@ const posts = [{
 },
 {
   ImageUrl: 'reactsocialmedia/assets/images/resources/us-pic.png',
-  Name: 'John Deo',
+  Name: 'Alameen Shaik Dawood',
   PostedTime: '5 min ago',
   Tags: [{ Icon: 'reactsocialmedia/assets/images/icon8.png', Text: 'Epic Coder' },
   { Icon: 'reactsocialmedia/assets/images/icon9.png', Text: 'India' }],

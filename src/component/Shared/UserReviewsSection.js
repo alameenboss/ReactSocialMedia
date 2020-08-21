@@ -42,7 +42,7 @@ const UserReviewsSection = ({ section }) => {
               <div className="usy-dt">
                 <img src="/reactsocialmedia/assets/images/resources/bg-img4.png" alt="" />
                 <div className="usy-name">
-                  <h3>John Doe</h3>
+                  <h3>Alameen Shaik Dawood</h3>
                   <div className="epi-sec epi2">
                     <p><i className="la la-clock-o" />3 min ago</p>
                     <p className="tahnks">Thanks :)</p>
@@ -95,7 +95,7 @@ const UserReviewsSection = ({ section }) => {
                 <li><i className="fa fa-star-half-o" /></li>
               </ul>
               <Link to="#" >5.0 of 5 Reviews</Link><br /><br />
-              <p>Awesome Work, Thanks John!</p>
+              <p>Awesome Work, Thanks Alameen Shaik Dawood!</p>
               <hr />
             </div>
             <div className="post_topbar rep-post">

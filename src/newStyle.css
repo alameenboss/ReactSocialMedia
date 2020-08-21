@@ -10,7 +10,8 @@
 } */
 
 @media (max-width: 410px) {
-
+    
+    
     .post-bar{
         border-top: 4px solid var(--primary-color);
         background-color: #343a40;

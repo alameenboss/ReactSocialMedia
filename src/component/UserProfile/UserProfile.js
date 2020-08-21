@@ -35,7 +35,7 @@ export default function UserProfile() {
                                 <div className="col-lg-6">
                                     <div className="main-ws-sec">
                                         <div className="user-tab-sec">
-                                            <h3>John Doe</h3>
+                                            <h3>Alameen Shaik Dawood</h3>
                                             <div className="star-descp">
                                                 <span>Graphic Designer at Self Employed</span>
                                                 <Rating />
@@ -62,7 +62,7 @@ export default function UserProfile() {
                                         </div>
                                         <div className={section === 'Feed' ? 'product-feed-tab current' : 'product-feed-tab'} id="feed-dd">
                                             <div className="posts-section">
-                                                <PostyList name="John Doe" img={company.dpimg} />
+                                                <PostyList name="Alameen Shaik Dawood" img={company.dpimg} />
                                                 <LoadingIndicator />
                                             </div>
                                         </div>

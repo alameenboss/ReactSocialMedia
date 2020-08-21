@@ -43,7 +43,7 @@ const Login = () => {
                                                     <div className="checky-sec">
                                                         <div className="fgt-sec">
                                                             <input type="checkbox" name="cc" id="c1" />
-                                                            <label for="c1">
+                                                            <label htmlFor="c1">
                                                                 <span></span>
                                                             </label>
                                                             <small>Remember me</small>
@@ -117,7 +117,7 @@ const Login = () => {
                                                         <div className="checky-sec st2">
                                                             <div className="fgt-sec">
                                                                 <input type="checkbox" name="cc" id="c2" />
-                                                                <label for="c2">
+                                                                <label htmlFor="c2">
                                                                     <span></span>
                                                                 </label>
                                                                 <small>Yes, I understand and agree to the workwise Terms &amp; Conditions.</small>
@@ -161,7 +161,7 @@ const Login = () => {
                                                         <div className="checky-sec st2">
                                                             <div className="fgt-sec">
                                                                 <input type="checkbox" name="cc" id="c3" />
-                                                                <label for="c3">
+                                                                <label htmlFor="c3">
                                                                     <span></span>
                                                                 </label>
                                                                 <small>Yes, I understand and agree to the workwise Terms &amp; Conditions.</small>
