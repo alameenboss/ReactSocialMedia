@@ -1,5 +1,5 @@
 import menuReducer from './menuReducer';
-import {combineReducers} from 'redux';
+import { combineReducers } from 'redux';
 import messageReducer from './messageReducer';
 import notificationReducer from './notificationReducer';
 import postReducer from './postReducer';
@@ -12,14 +12,14 @@ import companyProfileReducer from './companyProfileReducer';
 
 const allReducer = combineReducers({
     menu: menuReducer,
-    messages : messageReducer,
-    notifications : notificationReducer,
-    posts : postReducer,
-    users : usersReducer,
+    messages: messageReducer,
+    notifications: notificationReducer,
+    posts: postReducer,
+    users: usersReducer,
     allUsers: allUsersReducer,
-    jobs : jobsReducer,
-    myInfo : myInfoReducer,
-    companies : companiesReducer,
+    jobs: jobsReducer,
+    myInfo: myInfoReducer,
+    companies: companiesReducer,
     company: companyProfileReducer
 })
 

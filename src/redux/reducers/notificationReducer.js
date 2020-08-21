@@ -17,11 +17,11 @@ const notifications = [{
   time: '2 min ago'
 }]
 
-  const notificationReducer = (state = notifications, action) => {
-    switch (action.type) {   
-        default:
-            return state;
-    }
+const notificationReducer = (state = notifications, action) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
 }
 
 export default notificationReducer;

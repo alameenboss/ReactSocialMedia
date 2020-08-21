@@ -17,11 +17,11 @@ const messages = [{
   time: '2 min ago'
 }]
 
-  const messageReducer = (state = messages, action) => {
-    switch (action.type) {   
-        default:
-            return state;
-    }
+const messageReducer = (state = messages, action) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
 }
 
 export default messageReducer;
