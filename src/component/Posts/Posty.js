@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useRef } from 'react'
 import { Link } from 'react-router-dom';
 
 import PostyComments from './PostyComments'
@@ -8,6 +8,16 @@ const Posty = (props) => {
     const [showComment, toggleComment] = useState(false);
     const [liked, toggleLike] = useState(false);
     const [show, toggleAction] = useState(false);
+    const bookmark = useRef(null);
+    const handleClick = (e,action) => {
+        e.preventDefault();
+        if (action === 'Bookmark') {
+          if (bookmark.current.className === 'la la-bookmark')
+            bookmark.current.className = 'fa fa-bookmark'
+          else
+            bookmark.current.className = 'la la-bookmark'
+        }
+      }
 
     return (
         <div className="posty" style={{ marginBottom: '20px' }} >
@@ -44,8 +54,12 @@ const Posty = (props) => {
 
                     </ul>
                     <ul className="bk-links">
-                        <li><Link to="/" ><i className="la la-bookmark"></i></Link></li>
-                        <li><Link to="/" ><i className="la la-envelope"></i></Link></li>
+                        <li>
+                            <Link to="#" onClick={(e) => handleClick(e,'Bookmark')} >
+                                <i ref={bookmark} className="la la-bookmark"></i>
+                            </Link>
+                        </li>
+                        <li><Link to={'/Message?user-id=1'} ><i className="la la-envelope"></i></Link></li>
                         <li><Link to="/" className="bid_now">Bid Now</Link></li>
                     </ul>
                 </div>
