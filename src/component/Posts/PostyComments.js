@@ -15,7 +15,7 @@ const PostyComments = () => {
                                 <img src="reactsocialmedia/assets/images/resources/bg-img1.png" alt="" />
                             </div>
                             <div className="comment">
-                                <h3>Alameen Shaik Dawood</h3>
+                                <h3>Jessica William</h3>
                                 <span><img src="reactsocialmedia/assets/images/clock.png" alt="" /> 3 min ago</span>
                                 <p>Lorem ipsum dolor sit amet, </p>
                                 <Link to="/" className="active"><i className="fa fa-reply-all"></i>Reply</Link>

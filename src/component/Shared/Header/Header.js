@@ -4,7 +4,7 @@ import NavUserInfo from './NavUserInfo'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
-    const [show = false, toggleshow] = useState(0);
+    const [show, toggleshow] = useState(false);
     return (
         <header className="sticky-top">
             <div className="container">

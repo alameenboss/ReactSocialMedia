@@ -1,10 +1,24 @@
-import React,{ useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 const NavUserInfo = () => {
     const myInfo = useSelector(state => state.myInfo);
-    const [show=false, toggleshow] = useState(0);
+    const [show, toggleshow] = useState(false);
+    const [dark, toggleDarkMode] = useState(false);
+    const handleDarkMode = () => {
+        toggleDarkMode(!dark);
+        let root = document.documentElement;
+        if (dark) {
+            root.style.setProperty('--primary-color', '#e44d3a')
+            root.style.setProperty('--primary-bg-color', '#fff')
+            root.style.setProperty('--primary-fg-color', '#000000')
+        } else {
+            root.style.setProperty('--primary-color', '#000000')
+            root.style.setProperty('--primary-bg-color', '#000000')
+            root.style.setProperty('--primary-fg-color', '#fff')
+        }
+    }
     return (
         <div className="user-account">
             <div className="user-info" onClick={() => toggleshow(!show)}>
@@ -44,6 +58,11 @@ const NavUserInfo = () => {
 
                 <h3>Setting</h3>
                 <ul className="us-links">
+                    <li>
+                        <Link to="#" onClick={() => handleDarkMode()}>Theme : &nbsp;
+                        <button className="theme-name">{dark ? 'Dark' : 'Light'}</button>
+                        </Link>
+                    </li>
                     <li><Link to="/AccountSetting" >Account Setting</Link></li>
                     <li><Link to="/Privacy" >Privacy</Link></li>
                     <li><Link to="/Faqs" >Faqs</Link></li>

@@ -1,11 +1,29 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import SuggestedUser from './SuggestedUser'
 import { useSelector } from 'react-redux';
 
 const HomeSuggestions = () => {
 
-    const suggestedUserList = useSelector(state => state.users);
+    const [users, setUsers] = useState([]);
+    const [isLoaded, setIsLoaded] = useState(false);
+    useEffect(() => {
+        fetch("https://randomuser.me/api/?results=5")
+            .then(res => res.json())
+            .then(
+                (result) => {
+                    console.log(result.results)
+                    setUsers(result.results);
+                    setIsLoaded(true);
+                },
+                (error) => {
+                    setIsLoaded(true);
+                    //setError(error);
+                }
+            )
+    }, []);
+
+    //const suggestedUserList = useSelector(state => state.users);
 
     return (
         <div className="suggestions full-width">
@@ -16,12 +34,12 @@ const HomeSuggestions = () => {
             <div className="suggestions-list">
 
                 {
-                suggestedUserList.map((value, index) => 
-                    <SuggestedUser 
-                        key={index}
-                        name={value.name}
-                        work={value.work}
-                        img={value.img}/> )
+                    isLoaded && users.map((user, index) =>
+                        <SuggestedUser
+                            key={index}
+                            name={user.name.last}
+                            work={user.location.state}
+                            img={user.picture.thumbnail} />)
                 }
                 <div className="view-more">
                     <Link to="/" >View More</Link>

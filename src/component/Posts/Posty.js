@@ -1,4 +1,4 @@
-import React, { useState,useRef } from 'react'
+import React, { useState, useRef } from 'react'
 import { Link } from 'react-router-dom';
 
 import PostyComments from './PostyComments'
@@ -9,15 +9,15 @@ const Posty = (props) => {
     const [liked, toggleLike] = useState(false);
     const [show, toggleAction] = useState(false);
     const bookmark = useRef(null);
-    const handleClick = (e,action) => {
+    const handleClick = (e, action) => {
         e.preventDefault();
         if (action === 'Bookmark') {
-          if (bookmark.current.className === 'la la-bookmark')
-            bookmark.current.className = 'fa fa-bookmark'
-          else
-            bookmark.current.className = 'la la-bookmark'
+            if (bookmark.current.className === 'la la-bookmark')
+                bookmark.current.className = 'fa fa-bookmark'
+            else
+                bookmark.current.className = 'la la-bookmark'
         }
-      }
+    }
 
     return (
         <div className="posty" style={{ marginBottom: '20px' }} >
@@ -55,7 +55,7 @@ const Posty = (props) => {
                     </ul>
                     <ul className="bk-links">
                         <li>
-                            <Link to="#" onClick={(e) => handleClick(e,'Bookmark')} >
+                            <Link to="#" onClick={(e) => handleClick(e, 'Bookmark')} >
                                 <i ref={bookmark} className="la la-bookmark"></i>
                             </Link>
                         </li>
@@ -83,15 +83,15 @@ const Posty = (props) => {
                 <div className="job-status-bar">
                     <ul className="like-com">
                         <li onClick={() => toggleLike(!liked)}>
-                            <Link to="/" className={liked ? "liked" : ""} ><i className="fas fa-heart"></i>Like</Link>
+                            <Link to="#" className={liked ? "liked" : ""} ><i className="fas fa-heart"></i>Like</Link>
                             <img src="reactsocialmedia/assets/images/liked-img.png" alt="" />
                             <span>{liked ? 26 : 25}</span>
                         </li>
                         <li>
-                            <Link to="/" className="com" onClick={() => toggleComment(!showComment)}><i className="fas fa-comment-alt"></i> Comment 15</Link>
+                            <Link to="#" className="com" onClick={() => toggleComment(!showComment)}><i className="fas fa-comment-alt"></i> Comment 15</Link>
                         </li>
                     </ul>
-                    <Link to="/"><i className="fas fa-eye"></i>Views 50</Link>
+                    <Link to="#"><i className="fas fa-eye"></i>Views 50</Link>
                 </div>
             </div>
             {
