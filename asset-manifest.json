@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/reactsocialmedia/static/css/main.a59475b8.chunk.css",
-    "main.js": "/reactsocialmedia/static/js/main.77e96799.chunk.js",
-    "main.js.map": "/reactsocialmedia/static/js/main.77e96799.chunk.js.map",
+    "main.css": "/reactsocialmedia/static/css/main.1bef713b.chunk.css",
+    "main.js": "/reactsocialmedia/static/js/main.15c77b52.chunk.js",
+    "main.js.map": "/reactsocialmedia/static/js/main.15c77b52.chunk.js.map",
     "runtime-main.js": "/reactsocialmedia/static/js/runtime-main.cd7ab45c.js",
     "runtime-main.js.map": "/reactsocialmedia/static/js/runtime-main.cd7ab45c.js.map",
     "static/css/2.564c7cba.chunk.css": "/reactsocialmedia/static/css/2.564c7cba.chunk.css",
-    "static/js/2.5ac27b4c.chunk.js": "/reactsocialmedia/static/js/2.5ac27b4c.chunk.js",
-    "static/js/2.5ac27b4c.chunk.js.map": "/reactsocialmedia/static/js/2.5ac27b4c.chunk.js.map",
+    "static/js/2.b47121b0.chunk.js": "/reactsocialmedia/static/js/2.b47121b0.chunk.js",
+    "static/js/2.b47121b0.chunk.js.map": "/reactsocialmedia/static/js/2.b47121b0.chunk.js.map",
     "index.html": "/reactsocialmedia/index.html",
-    "precache-manifest.a393311bbe79d5f16c2561d1eb6d0f5b.js": "/reactsocialmedia/precache-manifest.a393311bbe79d5f16c2561d1eb6d0f5b.js",
+    "precache-manifest.5d052f170e8590a2cc3a49212d34dc66.js": "/reactsocialmedia/precache-manifest.5d052f170e8590a2cc3a49212d34dc66.js",
     "service-worker.js": "/reactsocialmedia/service-worker.js",
     "static/css/2.564c7cba.chunk.css.map": "/reactsocialmedia/static/css/2.564c7cba.chunk.css.map",
-    "static/css/main.a59475b8.chunk.css.map": "/reactsocialmedia/static/css/main.a59475b8.chunk.css.map",
-    "static/js/2.5ac27b4c.chunk.js.LICENSE.txt": "/reactsocialmedia/static/js/2.5ac27b4c.chunk.js.LICENSE.txt",
+    "static/css/main.1bef713b.chunk.css.map": "/reactsocialmedia/static/css/main.1bef713b.chunk.css.map",
+    "static/js/2.b47121b0.chunk.js.LICENSE.txt": "/reactsocialmedia/static/js/2.b47121b0.chunk.js.LICENSE.txt",
     "static/media/all.css": "/reactsocialmedia/static/media/fa-solid-900.ee09ad75.woff",
     "static/media/all.min.css": "/reactsocialmedia/static/media/fa-solid-900.e944d257.eot",
     "static/media/line-awesome.min.css": "/reactsocialmedia/static/media/la-solid-900.bb49393b.ttf"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.cd7ab45c.js",
     "static/css/2.564c7cba.chunk.css",
-    "static/js/2.5ac27b4c.chunk.js",
-    "static/css/main.a59475b8.chunk.css",
-    "static/js/main.77e96799.chunk.js"
+    "static/js/2.b47121b0.chunk.js",
+    "static/css/main.1bef713b.chunk.css",
+    "static/js/main.15c77b52.chunk.js"
   ]
 }
