@@ -1,12 +1,12 @@
 const menu = [{
   name: "Home",
-  imageurl: "reactsocialmedia/assets/images/icon1.png",
+  imageurl: "assets/images/icon1.png",
   navigateTo: '/Home',
   showmessage: false
 },
 {
   name: "Companies",
-  imageurl: "reactsocialmedia/assets/images/icon2.png",
+  imageurl: "assets/images/icon2.png",
   navigateTo: '/companies',
   showmessage: false,
   submenu: [
@@ -22,13 +22,13 @@ const menu = [{
 },
 {
   name: "Projects",
-  imageurl: "reactsocialmedia/assets/images/icon3.png",
+  imageurl: "assets/images/icon3.png",
   navigateTo: '/Project',
   showmessage: false
 },
 {
   name: "Profiles",
-  imageurl: "reactsocialmedia/assets/images/icon4.png",
+  imageurl: "assets/images/icon4.png",
   navigateTo: '/Profiles',
   showmessage: false,
   submenu: [
@@ -45,19 +45,19 @@ const menu = [{
 {
   name: "Jobs",
   showmessage: false,
-  imageurl: "reactsocialmedia/assets/images/icon5.png",
+  imageurl: "assets/images/icon5.png",
   navigateTo: '/Jobs'
 },
 {
   name: "Messages",
-  imageurl: "reactsocialmedia/assets/images/icon6.png",
+  imageurl: "assets/images/icon6.png",
   showmessage: false,
   navigateTo: '#',
   title: 'View All Messsages'
 },
 {
   name: "Notification",
-  imageurl: "reactsocialmedia/assets/images/icon7.png",
+  imageurl: "assets/images/icon7.png",
   showmessage: false,
   navigateTo: '#',
   title: 'View All Notification'

@@ -16,7 +16,7 @@ export default function UserProfile() {
     const [section, toggleSection] = useState('Feed');
     return (
         <>
-            <Cover coverImg='/reactsocialmedia/assets/images/resources/cover-img.jpg' />
+            <Cover coverImg='/assets/images/resources/cover-img.jpg' />
             <main>
                 <div className="main-section">
                     <div className="container">
@@ -24,7 +24,7 @@ export default function UserProfile() {
                             <div className="row">
                                 <div className="col-lg-3">
                                     <div className="main-left-sidebar">
-                                        <CompanyData img="/reactsocialmedia/assets/images/resources/user-pro-img.png"
+                                        <CompanyData img="/assets/images/resources/user-pro-img.png"
                                             following={company.following}
                                             followers={company.followers}
                                             sociallinks={company.sociallinks}
@@ -84,7 +84,7 @@ export default function UserProfile() {
                                         <div className="widget widget-portfolio">
                                             <div className="wd-heady">
                                                 <h3>Portfolio</h3>
-                                                <img src="reactsocialmedia/assets/images/photo-icon.png" alt="" />
+                                                <img src="assets/images/photo-icon.png" alt="" />
                                             </div>
                                             <div className="pf-gallery">
                                                 <ul>

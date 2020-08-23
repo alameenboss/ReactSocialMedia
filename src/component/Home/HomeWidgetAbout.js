@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const HomeWidgetAbout = () => {
     return (
         <div className="widget widget-about">
-            <img src="reactsocialmedia/assets/images/wd-logo.png" alt="" />
+            <img src="assets/images/wd-logo.png" alt="" />
             <h3>Track Time on Workwise</h3>
             <span>Pay only for the Hours worked</span>
             <div className="sign_link">

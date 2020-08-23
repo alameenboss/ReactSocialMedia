@@ -91,7 +91,7 @@ export default function CompanyProfile() {
                                         <div className="widget widget-portfolio">
                                             <div className="wd-heady">
                                                 <h3>Portfolio</h3>
-                                                <img src="reactsocialmedia/assets/images/photo-icon.png" alt="" />
+                                                <img src="assets/images/photo-icon.png" alt="" />
                                             </div>
                                             <div className="pf-gallery">
                                                 <ul>

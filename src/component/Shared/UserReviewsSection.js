@@ -11,13 +11,13 @@ const UserReviewsSection = ({ section }) => {
         <div className="post-bar ">
           <div className="post_topbar">
             <div className="usy-dt">
-              <img src="/reactsocialmedia/assets/images/resources/bg-img3.png" alt="" />
+              <img src="/assets/images/resources/bg-img3.png" alt="" />
               <div className="usy-name">
                 <h3>Rock William</h3>
                 <div className="epi-sec epi2">
                   <ul className="descp review-lt">
-                    <li><img src="/reactsocialmedia/assets/images/icon8.png" alt="" /><span>Epic Coder</span></li>
-                    <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
+                    <li><img src="/assets/images/icon8.png" alt="" /><span>Epic Coder</span></li>
+                    <li><img src="/assets/images/icon9.png" alt="" /><span>India</span></li>
                   </ul>
                 </div>
               </div>
@@ -40,7 +40,7 @@ const UserReviewsSection = ({ section }) => {
             </div>
             <div className="post_topbar post-reply">
               <div className="usy-dt">
-                <img src="/reactsocialmedia/assets/images/resources/bg-img4.png" alt="" />
+                <img src="/assets/images/resources/bg-img4.png" alt="" />
                 <div className="usy-name">
                   <h3>Alameen Shaik Dawood</h3>
                   <div className="epi-sec epi2">
@@ -53,7 +53,7 @@ const UserReviewsSection = ({ section }) => {
             <div className="post_topbar rep-post rep-thanks">
               <hr />
               <div className="usy-dt">
-                <img src="/reactsocialmedia/assets/images/resources/bg-img4.png" alt="" />
+                <img src="/assets/images/resources/bg-img4.png" alt="" />
                 <input className="reply" type="text" placeholder="Reply" />
                 <Link className="replybtn" to="#">Send</Link>
               </div>
@@ -63,13 +63,13 @@ const UserReviewsSection = ({ section }) => {
         <div className="post-bar post-thanks">
           <div className="post_topbar">
             <div className="usy-dt">
-              <img src="/reactsocialmedia/assets/images/resources/bg-img1.png" alt="" />
+              <img src="/assets/images/resources/bg-img1.png" alt="" />
               <div className="usy-name">
                 <h3>Jassica William</h3>
                 <div className="epi-sec epi2">
                   <ul className="descp review-lt">
-                    <li><img src="/reactsocialmedia/assets/images/icon8.png" alt="" /><span>Epic Coder</span></li>
-                    <li><img src="/reactsocialmedia/assets/images/icon9.png" alt="" /><span>India</span></li>
+                    <li><img src="/assets/images/icon8.png" alt="" /><span>Epic Coder</span></li>
+                    <li><img src="/assets/images/icon9.png" alt="" /><span>India</span></li>
                   </ul>
                 </div>
               </div>
@@ -100,7 +100,7 @@ const UserReviewsSection = ({ section }) => {
             </div>
             <div className="post_topbar rep-post">
               <div className="usy-dt">
-                <img src="/reactsocialmedia/assets/images/resources/bg-img4.png" alt="" />
+                <img src="/assets/images/resources/bg-img4.png" alt="" />
                 <input className="reply" type="text" placeholder="Reply" />
                 <Link className="replybtn" to="#">Send</Link>
               </div>

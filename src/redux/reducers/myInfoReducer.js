@@ -3,8 +3,8 @@ const myInfo = {
   work: "Sr. Software Engineer at Ortech Systems",
   following: 34,
   followers: 155,
-  img: "reactsocialmedia/assets/images/resources/user-pic.png",
-  img2: "reactsocialmedia/assets/images/resources/user.png",
+  img: "assets/images/resources/user-pic.png",
+  img2: "assets/images/resources/user.png",
   firstName: "Alameen Shaik Dawood"
 }
 

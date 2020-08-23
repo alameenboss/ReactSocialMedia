@@ -16,7 +16,7 @@ const CompanyPortfolio = ({ portfolio }) => {
                         <div key={index} className="col-lg-4 col-md-4 col-sm-4 col-6">
                             <div className="gallery_pt">
                                 <img src={value.img} alt="" />
-                                <Link to="#"><img src="reactsocialmedia/assets/images/all-out.png" alt="" /></Link>
+                                <Link to="#"><img src="assets/images/all-out.png" alt="" /></Link>
                             </div>
                         </div>
                     )}

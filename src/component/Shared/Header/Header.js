@@ -11,7 +11,7 @@ const Header = () => {
                 <div className="header-data">
                     <div className="logo">
                         <Link to="/reactsocialmedia" >
-                            <img src="/reactsocialmedia/assets/images/logo.png" alt="" />
+                            <img src="/assets/images/logo.png" alt="" />
 
                         </Link>
                     </div>

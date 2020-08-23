@@ -10,10 +10,10 @@ const Login = () => {
                             <div className="col-lg-6">
                                 <div className="cmp-info">
                                     <div className="cm-logo">
-                                        <img src="reactsocialmedia/assets/images/cm-logo.png" alt="" />
+                                        <img src="assets/images/cm-logo.png" alt="" />
                                         <p>Workwise,  is a global freelancing platform and social networking where businesses and independent professionals connect and collaborate remotely</p>
                                     </div>
-                                    <img src="reactsocialmedia/assets/images/cm-main-img.png" alt="" />
+                                    <img src="assets/images/cm-main-img.png" alt="" />
                                 </div>
                             </div>
                             <div className="col-lg-6">
@@ -193,7 +193,7 @@ const Login = () => {
                             <li><Link to="#" >Language</Link></li>
                             <li><Link to="#" >Copyright Policy</Link></li>
                         </ul>
-                        <p><img src="reactsocialmedia/assets/images/copy-icon.png" alt="" />Copyright 2019</p>
+                        <p><img src="assets/images/copy-icon.png" alt="" />Copyright 2019</p>
                     </div>
                 </div>
             </div>

@@ -19,14 +19,14 @@ const UserPaymentSection = ({ section }) => {
           </li>
         </ul>
         <div className="lt-sec">
-          <img src="/reactsocialmedia/assets/images/lt-icon.png" alt="" />
+          <img src="/assets/images/lt-icon.png" alt="" />
           <h4>All your transactions are saved here</h4>
           <Link to="#" >Click Here</Link>
         </div>
       </div>
       <div className="add-billing-method">
         <h3>Add Billing Method</h3>
-        <h4><img src="/reactsocialmedia/assets/images/dlr-icon.png" alt="" /><span>With workwise payment protection , only pay for work delivered.</span></h4>
+        <h4><img src="/assets/images/dlr-icon.png" alt="" /><span>With workwise payment protection , only pay for work delivered.</span></h4>
         <div className="payment_methods">
           <h4>Credit or Debit Cards</h4>
           <form>
@@ -35,10 +35,10 @@ const UserPaymentSection = ({ section }) => {
                 <div className="cc-head">
                   <h5>Card Number</h5>
                   <ul>
-                    <li><img src="/reactsocialmedia/assets/images/cc-icon1.png" alt="" /></li>
-                    <li><img src="/reactsocialmedia/assets/images/cc-icon2.png" alt="" /></li>
-                    <li><img src="/reactsocialmedia/assets/images/cc-icon3.png" alt="" /></li>
-                    <li><img src="/reactsocialmedia/assets/images/cc-icon4.png" alt="" /></li>
+                    <li><img src="/assets/images/cc-icon1.png" alt="" /></li>
+                    <li><img src="/assets/images/cc-icon2.png" alt="" /></li>
+                    <li><img src="/assets/images/cc-icon3.png" alt="" /></li>
+                    <li><img src="/assets/images/cc-icon4.png" alt="" /></li>
                   </ul>
                 </div>
                 <div className="inpt-field pd-moree">

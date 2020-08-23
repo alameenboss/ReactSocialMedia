@@ -15,8 +15,8 @@ const HomeTagSection = () => {
                 <li><Link to="/">Copyright Policy</Link></li>
             </ul>
             <div className="cp-sec">
-                <img src="reactsocialmedia/assets/images/logo2.png" alt="" />
-                <p><img src="reactsocialmedia/assets/images/cp.png" alt="" />Copyright 2019</p>
+                <img src="assets/images/logo2.png" alt="" />
+                <p><img src="assets/images/cp.png" alt="" />Copyright 2019</p>
             </div>
         </div>
     )

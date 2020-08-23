@@ -19,7 +19,7 @@ export default function MyProfileFeed() {
   return (
     <>
 
-      <Cover coverImg="/reactsocialmedia/assets/images/resources/cover-img.jpg" />
+      <Cover coverImg="/assets/images/resources/cover-img.jpg" />
 
       <main>
         <div className="main-section">
@@ -28,7 +28,7 @@ export default function MyProfileFeed() {
               <div className="row">
                 <div className="col-lg-3">
                   <div className="main-left-sidebar">
-                    <CompanyData img="/reactsocialmedia/assets/images/resources/user-pro-img.png"
+                    <CompanyData img="/assets/images/resources/user-pro-img.png"
                       following="34"
                       followers="155"
                       sociallinks={company.sociallinks}
@@ -132,7 +132,7 @@ export default function MyProfileFeed() {
                     <div className="widget widget-portfolio">
                       <div className="wd-heady">
                         <h3>Portfolio</h3>
-                        <img src="/reactsocialmedia/assets/images/photo-icon.png" alt="" />
+                        <img src="/assets/images/photo-icon.png" alt="" />
                       </div>
                       <div className="pf-gallery">
                         <ul>

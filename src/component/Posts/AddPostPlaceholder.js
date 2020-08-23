@@ -11,7 +11,7 @@ const AddPostPlaceholder = () => {
     return (
         <div className="post-topbar" style={postTopbarStyle}> 
             <div className="user-picy">
-                <img src="reactsocialmedia/assets/images/resources/user-pic.png" alt="" />
+                <img src="assets/images/resources/user-pic.png" alt="" />
             </div>
             <div style={{textAlign:'center'}}>What is in your mind?</div>
             <div className="post-st">

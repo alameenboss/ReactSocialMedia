@@ -31,7 +31,7 @@ function App() {
               <Route exact path="/UserProfile" component={UserProfile}></Route>
               <Route exact path="/MyProfileFeed" component={MyProfileFeed}></Route>
               <Route exact path="/Jobs" component={Jobs}></Route>
-              <Route path="/reactsocialmedia" component={Login}></Route>
+              <Route path="/" component={Login}></Route>
           </Switch>
           <ChatFooter></ChatFooter>
         </div>
