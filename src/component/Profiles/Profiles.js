@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import UserCard from "./UserCard";
-import { useSelector } from 'react-redux';
+//import { useSelector } from 'react-redux';
 import LoadingIndicator from './../Shared/LoadingIndicator';
 
 export default function Profiles() {
