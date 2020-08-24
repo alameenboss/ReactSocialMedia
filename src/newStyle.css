@@ -20,3 +20,18 @@
     color: #fff;
     border-radius: 5px;
 }
+
+.user-info img{
+    width: 32px;
+}
+.usy-dt > img {
+    width: 50px;
+}
+.user-picy > img{
+    border-radius: 50%;
+}
+
+.user-pro-img img {
+    width: 100%;
+    border-radius: 50%;
+}

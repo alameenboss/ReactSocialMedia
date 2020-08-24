@@ -33,7 +33,7 @@ export default function CompanyCard(props) {
                         </li>
                     </ul>
                 </div>
-                <Link to={'/companyprofile?company-id=' + props.company.id} className="view-more-pro">View Profile</Link>
+                <Link to={'/app/companyprofile?company-id=' + props.company.id} className="view-more-pro">View Profile</Link>
             </div>
         </div>
 

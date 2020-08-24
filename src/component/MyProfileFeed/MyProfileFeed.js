@@ -28,7 +28,7 @@ export default function MyProfileFeed() {
               <div className="row">
                 <div className="col-lg-3">
                   <div className="main-left-sidebar">
-                    <CompanyData img="/assets/images/resources/user-pro-img.png"
+                    <CompanyData img="/assets/user/alameen.jpg"
                       following="34"
                       followers="155"
                       sociallinks={company.sociallinks}

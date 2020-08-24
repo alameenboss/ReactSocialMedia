@@ -42,7 +42,7 @@ const HomeSuggestions = () => {
                             img={user.picture.thumbnail} />)
                 }
                 <div className="view-more">
-                    <Link to="/" >View More</Link>
+                    <Link to="/app/Home" >View More</Link>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@ const Section2 = () => {
             <div className="main-ws-sec">
                 <div className="posts-section">
                     <PostyList name="Alameen Shaik Dawood"
-                        img="assets/images/resources/us-pic.png" />
+                        img="/assets/user/alameen.jpg" />
                     <LoadingIndicator />
                 </div>
             </div>

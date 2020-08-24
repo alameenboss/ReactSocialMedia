@@ -9,7 +9,7 @@ const ChatList = () => {
         <div className="chatbox">
             <div className="chat-mg bx" onClick={() => toggleshow(!show)}>
                 <Link to="#" >
-                    <img src="assets/images/chat.png" alt="" />
+                    <img src="/assets/images/chat.png" alt="" />
                 </Link>
                 <span>2</span>
             </div>
@@ -31,7 +31,7 @@ const ChatList = () => {
                         <div className="usy-info">
                             <h3>{value.name} </h3>
                             <span>
-                                Lorem ipsum dolor <img src="assets/images/smley.png" alt="" />
+                                Lorem ipsum dolor <img src="/assets/images/smley.png" alt="" />
                             </span>
                         </div>
                         <div className="ct-time">

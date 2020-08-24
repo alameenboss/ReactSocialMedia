@@ -27,17 +27,17 @@ const Posty = (props) => {
                         <img src={props.img} alt="" />
                         <div className="usy-name">
                             <h3>{props.name}</h3>
-                            <span><img src="assets/images/clock.png" alt="" />{props.post.PostedTime}</span>
+                            <span><img src="/assets/images/clock.png" alt="" />{props.post.PostedTime}</span>
                         </div>
                     </div>
                     <div className="ed-opts">
                         <Link to="#" className="ed-opts-open" onClick={() => toggleAction(!show)}><i className="la la-ellipsis-v" /></Link>
                         <ul className={`ed-options ${show === true ? 'active' : ''}`}>
-                            <li onClick={() => toggleAction(!show)}><Link to="/" >Edit Post</Link></li>
-                            <li onClick={() => toggleAction(!show)}><Link to="/" >Unsaved</Link></li>
-                            <li onClick={() => toggleAction(!show)}><Link to="/" >Unbid</Link></li>
-                            <li onClick={() => toggleAction(!show)}><Link to="/" >Close</Link></li>
-                            <li onClick={() => toggleAction(!show)}><Link to="/" >Hide</Link></li>
+                            <li onClick={() => toggleAction(!show)}><Link to="/app/Home" >Edit Post</Link></li>
+                            <li onClick={() => toggleAction(!show)}><Link to="/app/Home" >Unsaved</Link></li>
+                            <li onClick={() => toggleAction(!show)}><Link to="/app/Home" >Unbid</Link></li>
+                            <li onClick={() => toggleAction(!show)}><Link to="/app/Home" >Close</Link></li>
+                            <li onClick={() => toggleAction(!show)}><Link to="/app/Home" >Hide</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -60,21 +60,21 @@ const Posty = (props) => {
                             </Link>
                         </li>
                         <li><Link to={'/Message?user-id=1'} ><i className="la la-envelope"></i></Link></li>
-                        <li><Link to="/" className="bid_now">Bid Now</Link></li>
+                        <li><Link to="/app/Home" className="bid_now">Bid Now</Link></li>
                     </ul>
                 </div>
                 <div className="job_descp">
                     <h3>{props.post.Designation}</h3>
                     <ul className="job-dt">
-                        <li><Link to="/" >{props.post.JobType}</Link></li>
+                        <li><Link to="/app/Home" >{props.post.JobType}</Link></li>
                         <li><span>{props.post.Rate}</span></li>
                     </ul>
-                    <p>{props.post.PostText}<Link to="/" >view more</Link></p>
+                    <p>{props.post.PostText}<Link to="/app/Home" >view more</Link></p>
                     <ul className="skill-tags">
                         {
                             props.post.Technology.map((value, index) =>
                                 <li key={index}>
-                                    <Link to="/" title={value}>{value}</Link>
+                                    <Link to="/app/Home" title={value}>{value}</Link>
                                 </li>
                             )
                         }
@@ -84,7 +84,7 @@ const Posty = (props) => {
                     <ul className="like-com">
                         <li onClick={() => toggleLike(!liked)}>
                             <Link to="#" className={liked ? "liked" : ""} ><i className="fas fa-heart"></i>Like</Link>
-                            <img src="assets/images/liked-img.png" alt="" />
+                            <img src="/assets/images/liked-img.png" alt="" />
                             <span>{liked ? 26 : 25}</span>
                         </li>
                         <li>

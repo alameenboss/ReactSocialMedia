@@ -1,63 +1,63 @@
 const menu = [{
   name: "Home",
-  imageurl: "assets/images/icon1.png",
-  navigateTo: '/Home',
+  imageurl: "/assets/images/icon1.png",
+  navigateTo: '/app/Home',
   showmessage: false
 },
 {
   name: "Companies",
-  imageurl: "assets/images/icon2.png",
-  navigateTo: '/companies',
+  imageurl: "/assets/images/icon2.png",
+  navigateTo: '/app/companies',
   showmessage: false,
   submenu: [
     {
       name: "Companies",
-      navigateTo: '/companies'
+      navigateTo: '/app/companies'
     },
     {
       name: "Company Profile",
-      navigateTo: '/companyprofile'
+      navigateTo: '/app/companyprofile'
     }
   ]
 },
 {
   name: "Projects",
-  imageurl: "assets/images/icon3.png",
-  navigateTo: '/Project',
+  imageurl: "/assets/images/icon3.png",
+  navigateTo: '/app/Project',
   showmessage: false
 },
 {
   name: "Profiles",
-  imageurl: "assets/images/icon4.png",
-  navigateTo: '/Profiles',
+  imageurl: "/assets/images/icon4.png",
+  navigateTo: '/app/Profiles',
   showmessage: false,
   submenu: [
     {
       name: "User Profile",
-      navigateTo: '/UserProfile'
+      navigateTo: '/app/UserProfile'
     },
     {
       name: "My Profile Feed",
-      navigateTo: '/MyProfileFeed'
+      navigateTo: '/app/MyProfileFeed'
     }
   ]
 },
 {
   name: "Jobs",
   showmessage: false,
-  imageurl: "assets/images/icon5.png",
-  navigateTo: '/Jobs'
+  imageurl: "/assets/images/icon5.png",
+  navigateTo: '/app/Jobs'
 },
 {
   name: "Messages",
-  imageurl: "assets/images/icon6.png",
+  imageurl: "/assets/images/icon6.png",
   showmessage: false,
   navigateTo: '#',
   title: 'View All Messsages'
 },
 {
   name: "Notification",
-  imageurl: "assets/images/icon7.png",
+  imageurl: "/assets/images/icon7.png",
   showmessage: false,
   navigateTo: '#',
   title: 'View All Notification'

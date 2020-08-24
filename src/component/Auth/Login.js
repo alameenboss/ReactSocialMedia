@@ -10,10 +10,10 @@ const Login = () => {
                             <div className="col-lg-6">
                                 <div className="cmp-info">
                                     <div className="cm-logo">
-                                        <img src="assets/images/cm-logo.png" alt="" />
+                                        <img src="/assets/images/cm-logo.png" alt="" />
                                         <p>Workwise,  is a global freelancing platform and social networking where businesses and independent professionals connect and collaborate remotely</p>
                                     </div>
-                                    <img src="assets/images/cm-main-img.png" alt="" />
+                                    <img src="/assets/images/cm-main-img.png" alt="" />
                                 </div>
                             </div>
                             <div className="col-lg-6">
@@ -52,15 +52,17 @@ const Login = () => {
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-12 no-pdd">
-                                                    <button type="submit" value="submit">Sign in</button>
+                                                    <Link to="/app/Home">
+                                                        <button type="button" value="submit">Sign in</button>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         </form>
                                         <div className="login-resources">
                                             <h4>Login Via Social Account</h4>
                                             <ul>
-                                                <li><Link to="#" className="fb"><i className="fa fa-facebook"></i>Login Via Facebook</Link></li>
-                                                <li><Link to="#" className="tw"><i className="fa fa-twitter"></i>Login Via Twitter</Link></li>
+                                                <li><Link to="/app/Home" className="fb"><i className="fa fa-facebook"></i>Login Via Facebook</Link></li>
+                                                <li><Link to="/app/Home" className="tw"><i className="fa fa-twitter"></i>Login Via Twitter</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -193,10 +195,12 @@ const Login = () => {
                             <li><Link to="#" >Language</Link></li>
                             <li><Link to="#" >Copyright Policy</Link></li>
                         </ul>
-                        <p><img src="assets/images/copy-icon.png" alt="" />Copyright 2019</p>
+                        <p><img src="/assets/images/copy-icon.png" alt="" />Copyright 2019</p>
                     </div>
                 </div>
             </div>
+
+
         </div>
     )
 }

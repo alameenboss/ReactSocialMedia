@@ -10,7 +10,7 @@ const fnRenderMessageList = function (messages) {
                 <img src={msg.userimageurl} alt="" />
             </div>
             <div className="notification-info">
-                <h3><Link to="/">{msg.username}</Link> </h3>
+                <h3><Link to="/app/Home">{msg.username}</Link> </h3>
                 <p>{msg.message}</p>
                 <span>{msg.time}</span>
             </div>
@@ -25,12 +25,12 @@ const Messages = (props) => {
         <div className="notification-box msg" style={{ display: props.showmessage ? 'block' : 'none' }} >
             <div className="nt-title">
                 <h4>Setting</h4>
-                <Link to="/" >Clear all</Link>
+                <Link to="/app/Home" >Clear all</Link>
             </div>
             <div className="nott-list">
                 {fnRenderMessageList(messages)}
                 <div className="view-all-nots">
-                    <Link to="/" >{props.title}</Link>
+                    <Link to="/app/Home" >{props.title}</Link>
                 </div>
             </div>
         </div >

@@ -359,7 +359,7 @@ const UserBidsSection = ({ section }) => {
           <div className="post-bar">
             <div className="post_topbar post-bid">
               <div className="usy-dt">
-                <img src="/assets/images/resources/us-pic.png" alt="" />
+                <img src="/assets/user/alameen.jpg" alt="" />
                 <div className="usy-name">
                   <h3>Alameen Shaik Dawood</h3>
                   <div className="epi-sec epi2">

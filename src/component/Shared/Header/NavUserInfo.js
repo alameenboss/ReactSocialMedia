@@ -26,7 +26,7 @@ const NavUserInfo = () => {
                 <i className="la la-sort-down"></i>
             </div>
             <div className="user-account-settingss" id="users" style={{ display: show ? 'block' : 'none' }}>
-                <h3><Link to="/"  >{myInfo.firstName}</Link></h3>
+                <h3><Link to="/app/Home"  >{myInfo.firstName}</Link></h3>
                 <h3>Online Status</h3>
                 <ul className="on-off-status">
                     <li>
