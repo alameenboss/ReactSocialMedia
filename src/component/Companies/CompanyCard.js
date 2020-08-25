@@ -1,8 +1,10 @@
 import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
+import { motion } from "framer-motion"
+
 export default function CompanyCard(props) {
     const follow = useRef(null);
-
+    const variants = {hidden: { opacity: 0 },visible: { opacity: 1 }}
     const handleClick = (action, id) => {
         if (action === 'Follow') {
             if(follow.current.innerHTML === 'Following')
@@ -14,7 +16,7 @@ export default function CompanyCard(props) {
     }
 
     return (
-        <div className="col-lg-3 col-md-4 col-sm-6">
+        <motion.div initial="hidden" animate="visible" transition={{ duration: 0.5 }} variants={variants}  className="col-lg-3 col-md-4 col-sm-6">
             <div className="company_profile_info">
                 <div className="company-up-info">
                     <img src={props.company.img} alt="" />
@@ -35,7 +37,7 @@ export default function CompanyCard(props) {
                 </div>
                 <Link to={'/app/companyprofile?company-id=' + props.company.id} className="view-more-pro">View Profile</Link>
             </div>
-        </div>
+        </motion.div>
 
     )
 }
