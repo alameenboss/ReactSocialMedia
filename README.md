@@ -1,4 +1,40 @@
-![CI/CD](https://github.com/alameenboss/ReactSocialMedia/workflows/CI/CD/badge.svg)
+# About
+
+This is a social media project built with React.
+
+## Tech Stack 
+
+- React
+- Bootstrap
+- Font awesome
+- Line Awesome
+- Framer Motion for animation
+
+## Firebase
+
+- Firebase RTDB
+- Firebase deployment
+- Firebase Authetication
+
+## Demo
+
+[Click Here](https://alameenreactsocailmedia.web.app/)
+
+## Features
+
+- Authentication 
+- Dark Mode
+- Home Page
+- Responsive
+- Real time chat system
+- Post with media (images/video)
+- Edit Profile
+- View Friends profile
+- Accept/ Reject Friend Request
+
+----------------
+
+# More About React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 

@@ -1,6 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import { Link } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+//import { useSelector } from 'react-redux';
+import firebase from '../../firebase'
+import { useLocation } from "react-router";
 
 import LoadingIndicator from './../Shared/LoadingIndicator'
 import PostyList from './../Posts/PostyList'
@@ -20,14 +22,33 @@ import OverviewDialog from './OverviewDialog';
 import SkillsDialog from './SkillsDialog';
 import TotalEmployeesDialog from './TotalEmployeesDialog';
 
+function useQuery() {
+    return new URLSearchParams(useLocation().search);
+}
 
 export default function CompanyProfile() {
-    const company = useSelector(state => state.company);
+    //const company = useSelector(state => state.company);
+    let query = useQuery();
+    const [company,setCompany]=useState(null);
+	useEffect(() => {
+        
+		const familyTreeMembersRef = firebase.database().ref('Company');
+		familyTreeMembersRef.on('value',(snapshot) => {
+            let data = snapshot.val();
+            let id =  query.get("companyid")
+            let _company = data.find(x=>x.id === id );
+            console.log(id)
+            setCompany(_company);
+		});
+	}, [])
     const [section, toggleSection] = useState('Feed');
     return (
         <>
-            <Cover coverImg={company.cover} />
-            <main>
+            {
+                company != null &&
+            <>
+             <Cover coverImg={company.cover} />
+             <main>
                 <div className="main-section">
                     <div className="container">
                         <div className="main-section-data">
@@ -123,6 +144,8 @@ export default function CompanyProfile() {
             <EstablishDialog />
             <EducationDialog />
             <CreatePortfolioDialog />
+            </>
+        }
         </>
     )
 }

@@ -12,7 +12,6 @@ const HomeSuggestions = () => {
             .then(res => res.json())
             .then(
                 (result) => {
-                    console.log(result.results)
                     setUsers(result.results);
                     setIsLoaded(true);
                 },

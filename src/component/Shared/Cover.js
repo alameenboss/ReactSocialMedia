@@ -4,7 +4,6 @@ function Cover({ coverImg }) {
     return (
         <section className="cover-sec">
             <img src={coverImg} alt="" />
-
             {
                 true && <div className="add-pic-box">
                     <div className="container">

@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from "framer-motion"
 
-export default function CompanyCard(props) {
+export default function CompanyCardNew(props) {
     const follow = useRef(null);
     const variants = {hidden: { opacity: 0 },visible: { opacity: 1 }}
     const handleClick = (action, id) => {
@@ -19,9 +19,9 @@ export default function CompanyCard(props) {
         <motion.div initial="hidden" animate="visible" transition={{ duration: 0.5 }} variants={variants}  className="col-lg-3 col-md-4 col-sm-6">
             <div className="company_profile_info">
                 <div className="company-up-info">
-                    <img src={props.company.img} alt="" />
+                    <img src="/assets/images/resources/cmp-icon1.png" alt="" />
                     <h3>{props.company.name}</h3>
-                    <h4>{props.company.establish}</h4>
+                    <h4>{props.company.country}{','}{props.company.postalCode}</h4>
                     <ul>
                         <li>
                             <Link to="#" ref={follow} onClick={() => handleClick('Follow', props.company.id)} className="follow">
